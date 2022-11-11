@@ -22,6 +22,90 @@
    inkscape:export-ydpi="300">
   <defs
      id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2922"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2920"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2888"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2886"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2860"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2858"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2838"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2836"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2561"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2558"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient1203">
@@ -309,9 +393,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.47757293"
-     inkscape:cx="737.57611"
-     inkscape:cy="39936.519"
+     inkscape:zoom="0.23878647"
+     inkscape:cx="569.21602"
+     inkscape:cy="40334.487"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -12612,5 +12696,210 @@
          x="-37.228672"
          y="-9665.4795"
          style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332">TESTING VIDEO</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.13221994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2508"
+       width="338.53445"
+       height="190.36778"
+       x="-205.96106"
+       y="-10008.083"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2512"
+       width="326.09634"
+       height="177.92969"
+       x="-200.10345"
+       y="-10001.009"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2514"
+       width="326.0834"
+       height="41.656311"
+       x="-200.09052"
+       y="-9864.7354"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       y="-9864.7354"
+       x="-89.341728"
+       height="41.656448"
+       width="215.33473"
+       id="rect2516"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99980104;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       id="g2536"
+       transform="translate(0,-5447.2178)">
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect2518"
+         width="100"
+         height="31.999998"
+         x="-195.61267"
+         y="-4413.0796"
+         ry="5"
+         rx="5" />
+      <text
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:19.7555542px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="-192.13663"
+         y="-4391.6797"
+         id="text2522"><tspan
+           sodipodi:role="line"
+           id="tspan2520"
+           x="-192.13663"
+           y="-4391.6797"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">miniPCB</tspan></text>
+      <circle
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         inkscape:transform-center-y="-4.0224066"
+         inkscape:transform-center-x="-3.5546849"
+         r="3.4999995"
+         cy="-4404.6982"
+         cx="-167.84778"
+         id="circle2524"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <circle
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="circle2526"
+         cx="-147.01218"
+         cy="-4404.6982"
+         r="3.4999995"
+         inkscape:transform-center-x="-3.5546849"
+         inkscape:transform-center-y="-4.0224066" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path2528"
+         d="m -190.47946,-4387.6969 h 18.42162 l 4.65951,-5.1488"
+         style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -100.86449,-4387.6969 h -41.93646 l -4.65952,-5.1488"
+         id="path2530"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         y="-4389.4326"
+         x="-109.36974"
+         height="3.4719992"
+         width="8.6411581"
+         id="rect2532"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fffff1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect2534"
+         width="8.6411581"
+         height="3.4719992"
+         x="-190.49677"
+         y="-4389.4326" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-85.643242"
+       y="-9834.6797"
+       id="text2540"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan2538"
+         x="-85.643242"
+         y="-9834.6797"
+         style="font-weight:bold;fill:#000000;stroke-width:0.26458332">10NOV2022</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.02209187;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2542"
+       width="36.342491"
+       height="41.634159"
+       x="89.639351"
+       y="-9864.7246"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       id="text2546"
+       y="-9834.6494"
+       x="98.347542"
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-weight:bold;fill:#000000;stroke-width:0.26458332"
+         y="-9834.6494"
+         x="98.347542"
+         id="tspan2544"
+         sodipodi:role="line">1</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2548"
+       width="326.08334"
+       height="136.27338"
+       x="-200.09052"
+       y="-10001.009"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       id="text2556"
+       y="-9955.3887"
+       x="-37.228672"
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\projects\ENGDOC\Graphics\thumbnails\20221110-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         id="tspan2550"
+         style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+         y="-9955.3887"
+         x="-37.228672"
+         sodipodi:role="line">EAGLE 9.6.2</tspan><tspan
+         style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+         y="-9923.6387"
+         x="-37.228672"
+         sodipodi:role="line"
+         id="tspan2552" /><tspan
+         style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+         y="-9891.8887"
+         x="-37.228672"
+         sodipodi:role="line"
+         id="tspan2554">GitHub Setup</tspan></text>
   </g>
 </svg>
