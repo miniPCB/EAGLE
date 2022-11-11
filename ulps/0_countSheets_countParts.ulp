@@ -1,0 +1,20 @@
+string Names,result;
+int Number=0,Sh_Number=0;
+schematic(S)
+        {
+            S.sheets(Sh)
+            {
+                Sh_Number++;    
+                Sh.parts(P)
+                {
+                    Number++;
+                    Names+=P.name;
+                    Names+=",";
+                    
+                }
+                sprintf(result,"Sheet #%d with %d Parts, Names:%s",Sh_Number,Number,Names);
+                dlgMessageBox(result,"+OK");
+                Number=0;
+                Names="";
+            }    
+        }

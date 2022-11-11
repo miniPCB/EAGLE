@@ -1,0 +1,22 @@
+Partlist
+
+Exported from 02A-007 Input Switch.sch at 9/18/2021 11:59:24 AM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device        Package  Library  Sheet
+
+C1       1u             C-EU20%_C0805 C0805    nolan    1
+C2       100n           C-EU10%_C0805 C0805    nolan    1
+D1                      DIODE-SOD80C  SOD80C   nolan    1
+D2                      DIODE-SOD80C  SOD80C   nolan    1
+P1.                     MINIPCB_4INCH PCB_5    nolan    1
+Q1                      BJT_NPNBEC    SOT23    nolan    1
+Q2                      BJT_PNPBEC    SOT23    nolan    1
+R1                      R-EU_1%_R0805 R0805    nolan    1
+R3                      R-EU_1%_R0805 R0805    nolan    1
+R4                      R-EU_1%_R0805 R0805    nolan    1
+R5                      R-EU__R0805   R0805    nolan    1
+R6                      R-EU_1%_R0805 R0805    nolan    1

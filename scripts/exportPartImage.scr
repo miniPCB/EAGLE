@@ -1,0 +1,20 @@
+# Export Board Image
+# Nolan Manteufel
+# 11NOV2021
+# 25AUG2022
+
+drc load minipcb.dru;
+set palette white;
+display none;
+display 21 29 39 48 125 209;
+
+export image components_top.png monochrome 600;
+
+display none;
+display 22 30 40 48 126 209;
+
+export image components_bottom.png monochrome 600;
+
+display all;
+set palette black;
+window fit;

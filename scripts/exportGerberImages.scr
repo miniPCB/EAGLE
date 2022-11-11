@@ -1,0 +1,57 @@
+# Export Board Image
+# Nolan Manteufel
+# 25AUG2022
+# 30AUG2022
+
+# RUN FROM PANEL BOARD
+
+drc load minipcb.dru;
+set palette white;
+
+display none;
+display 1 17 18 199 210 211;
+export image Gerber_TOPCOPPER_GLTX.png monochrome 600;
+
+display none;
+display 31 199 210 212;
+export image Gerber_TOPCREAM_GCTX.png monochrome 600;
+
+display none;
+display 32 199 210 213;
+export image Gerber_BOTTOMCREAM_GCBX.png monochrome 600;
+
+display none;
+display 16 17 18 199 210 214;
+export image Gerber_BOTTOMCOPPER_GLBX.png monochrome 600;
+
+display none;
+display 21 125 199 210 215;
+export image Gerber_TOPSILKSCREEN_GOTX.png monochrome 600;
+
+display none;
+display 22 126 199 210 216;
+export image Gerber_BOTSILKSCREEN_GOBX.png monochrome 600;
+
+display none;
+display 29 199 210 225;
+export image Gerber_TOPSOLDERMASK_GSTX.png monochrome 600;
+
+display none;
+display 30 199 210 226;
+export image Gerber_BOTTOMSOLDERMASK_GSBX.png monochrome 600;
+
+display none;
+display 20 199 210 227;
+export image Gerber_EDGE_GM1.png monochrome 600;
+
+display none;
+display 102 199 210 228;
+export image Gerber_VSCORE_GM2.png monochrome 600;
+
+display none;
+display 46 199 210 255;
+export image Gerber_MILLING_GM3.png monochrome 600;
+
+display all;
+set palette black;
+window fit;

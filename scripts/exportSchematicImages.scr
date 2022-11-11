@@ -1,0 +1,10 @@
+# Export Schematic Image
+# Nolan Manteufel
+# 31AUG2022
+
+display none;
+display 91 92 94 95 96 97;
+
+export image schematic_01.png monochrome 600;
+
+window fit;

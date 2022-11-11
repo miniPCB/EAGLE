@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.3">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="91.44" y2="0" width="0" layer="20"/>
+<wire x1="91.44" y1="0" x2="91.44" y2="91.44" width="0" layer="20"/>
+<wire x1="91.44" y1="91.44" x2="0" y2="91.44" width="0" layer="20"/>
+<wire x1="0" y1="91.44" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="10.16" x2="91.44" y2="10.16" width="0" layer="102"/>
+<wire x1="0" y1="20.32" x2="91.44" y2="20.32" width="0" layer="102"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="91.44" width="0" layer="102"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="91.44" width="0" layer="102"/>
+<wire x1="30.48" y1="0" x2="30.48" y2="91.44" width="0" layer="102"/>
+<wire x1="40.64" y1="0" x2="40.64" y2="91.44" width="0" layer="102"/>
+<wire x1="50.8" y1="0" x2="50.8" y2="91.44" width="0" layer="102"/>
+<wire x1="60.96" y1="0" x2="60.96" y2="91.44" width="0" layer="102"/>
+<wire x1="71.12" y1="0" x2="71.12" y2="91.44" width="0" layer="102"/>
+<wire x1="81.28" y1="0" x2="81.28" y2="91.44" width="0" layer="102"/>
+<rectangle x1="1.524" y1="26.924" x2="8.636" y2="28.448" layer="1"/>
+<rectangle x1="11.684" y1="26.924" x2="18.796" y2="28.448" layer="1"/>
+<rectangle x1="21.844" y1="26.924" x2="28.956" y2="28.448" layer="1"/>
+<rectangle x1="32.004" y1="26.924" x2="39.116" y2="28.448" layer="1"/>
+<rectangle x1="42.164" y1="26.924" x2="49.276" y2="28.448" layer="1"/>
+<rectangle x1="52.324" y1="26.924" x2="59.436" y2="28.448" layer="1"/>
+<rectangle x1="62.484" y1="26.924" x2="69.596" y2="28.448" layer="1"/>
+<rectangle x1="72.644" y1="26.924" x2="79.756" y2="28.448" layer="1"/>
+<rectangle x1="82.804" y1="26.924" x2="89.916" y2="28.448" layer="1"/>
+<wire x1="0" y1="30.48" x2="91.44" y2="30.48" width="0" layer="102"/>
+<rectangle x1="1.524" y1="37.084" x2="8.636" y2="38.608" layer="1"/>
+<rectangle x1="11.684" y1="37.084" x2="18.796" y2="38.608" layer="1"/>
+<rectangle x1="21.844" y1="37.084" x2="28.956" y2="38.608" layer="1"/>
+<rectangle x1="32.004" y1="37.084" x2="39.116" y2="38.608" layer="1"/>
+<rectangle x1="42.164" y1="37.084" x2="49.276" y2="38.608" layer="1"/>
+<rectangle x1="52.324" y1="37.084" x2="59.436" y2="38.608" layer="1"/>
+<rectangle x1="62.484" y1="37.084" x2="69.596" y2="38.608" layer="1"/>
+<rectangle x1="72.644" y1="37.084" x2="79.756" y2="38.608" layer="1"/>
+<rectangle x1="82.804" y1="37.084" x2="89.916" y2="38.608" layer="1"/>
+<wire x1="0" y1="40.64" x2="91.44" y2="40.64" width="0" layer="102"/>
+<rectangle x1="1.524" y1="47.244" x2="8.636" y2="48.768" layer="1"/>
+<rectangle x1="11.684" y1="47.244" x2="18.796" y2="48.768" layer="1"/>
+<rectangle x1="21.844" y1="47.244" x2="28.956" y2="48.768" layer="1"/>
+<rectangle x1="32.004" y1="47.244" x2="39.116" y2="48.768" layer="1"/>
+<rectangle x1="42.164" y1="47.244" x2="49.276" y2="48.768" layer="1"/>
+<rectangle x1="52.324" y1="47.244" x2="59.436" y2="48.768" layer="1"/>
+<rectangle x1="62.484" y1="47.244" x2="69.596" y2="48.768" layer="1"/>
+<rectangle x1="72.644" y1="47.244" x2="79.756" y2="48.768" layer="1"/>
+<rectangle x1="82.804" y1="47.244" x2="89.916" y2="48.768" layer="1"/>
+<wire x1="0" y1="50.8" x2="91.44" y2="50.8" width="0" layer="102"/>
+<rectangle x1="1.524" y1="57.404" x2="8.636" y2="58.928" layer="1"/>
+<rectangle x1="11.684" y1="57.404" x2="18.796" y2="58.928" layer="1"/>
+<rectangle x1="21.844" y1="57.404" x2="28.956" y2="58.928" layer="1"/>
+<rectangle x1="32.004" y1="57.404" x2="39.116" y2="58.928" layer="1"/>
+<rectangle x1="42.164" y1="57.404" x2="49.276" y2="58.928" layer="1"/>
+<rectangle x1="52.324" y1="57.404" x2="59.436" y2="58.928" layer="1"/>
+<rectangle x1="62.484" y1="57.404" x2="69.596" y2="58.928" layer="1"/>
+<rectangle x1="72.644" y1="57.404" x2="79.756" y2="58.928" layer="1"/>
+<rectangle x1="82.804" y1="57.404" x2="89.916" y2="58.928" layer="1"/>
+<wire x1="0" y1="60.96" x2="91.44" y2="60.96" width="0" layer="102"/>
+<rectangle x1="1.524" y1="67.564" x2="8.636" y2="69.088" layer="1"/>
+<rectangle x1="11.684" y1="67.564" x2="18.796" y2="69.088" layer="1"/>
+<rectangle x1="21.844" y1="67.564" x2="28.956" y2="69.088" layer="1"/>
+<rectangle x1="32.004" y1="67.564" x2="39.116" y2="69.088" layer="1"/>
+<rectangle x1="42.164" y1="67.564" x2="49.276" y2="69.088" layer="1"/>
+<rectangle x1="52.324" y1="67.564" x2="59.436" y2="69.088" layer="1"/>
+<rectangle x1="62.484" y1="67.564" x2="69.596" y2="69.088" layer="1"/>
+<rectangle x1="72.644" y1="67.564" x2="79.756" y2="69.088" layer="1"/>
+<rectangle x1="82.804" y1="67.564" x2="89.916" y2="69.088" layer="1"/>
+<wire x1="0" y1="71.12" x2="91.44" y2="71.12" width="0" layer="102"/>
+<rectangle x1="1.524" y1="77.724" x2="8.636" y2="79.248" layer="1"/>
+<rectangle x1="11.684" y1="77.724" x2="18.796" y2="79.248" layer="1"/>
+<rectangle x1="21.844" y1="77.724" x2="28.956" y2="79.248" layer="1"/>
+<rectangle x1="32.004" y1="77.724" x2="39.116" y2="79.248" layer="1"/>
+<rectangle x1="42.164" y1="77.724" x2="49.276" y2="79.248" layer="1"/>
+<rectangle x1="52.324" y1="77.724" x2="59.436" y2="79.248" layer="1"/>
+<rectangle x1="62.484" y1="77.724" x2="69.596" y2="79.248" layer="1"/>
+<rectangle x1="72.644" y1="77.724" x2="79.756" y2="79.248" layer="1"/>
+<rectangle x1="82.804" y1="77.724" x2="89.916" y2="79.248" layer="1"/>
+<wire x1="0" y1="81.28" x2="91.44" y2="81.28" width="0" layer="102"/>
+<rectangle x1="1.524" y1="87.884" x2="8.636" y2="89.408" layer="1"/>
+<rectangle x1="11.684" y1="87.884" x2="18.796" y2="89.408" layer="1"/>
+<rectangle x1="21.844" y1="87.884" x2="28.956" y2="89.408" layer="1"/>
+<rectangle x1="32.004" y1="87.884" x2="39.116" y2="89.408" layer="1"/>
+<rectangle x1="42.164" y1="87.884" x2="49.276" y2="89.408" layer="1"/>
+<rectangle x1="52.324" y1="87.884" x2="59.436" y2="89.408" layer="1"/>
+<rectangle x1="62.484" y1="87.884" x2="69.596" y2="89.408" layer="1"/>
+<rectangle x1="72.644" y1="87.884" x2="79.756" y2="89.408" layer="1"/>
+<rectangle x1="82.804" y1="87.884" x2="89.916" y2="89.408" layer="1"/>
+<wire x1="0" y1="10.16" x2="91.44" y2="10.16" width="1.778" layer="21"/>
+<wire x1="0" y1="20.32" x2="91.44" y2="20.32" width="1.778" layer="21"/>
+<wire x1="0" y1="30.48" x2="91.44" y2="30.48" width="1.778" layer="21"/>
+<wire x1="0" y1="40.64" x2="91.44" y2="40.64" width="1.778" layer="21"/>
+<wire x1="0" y1="50.8" x2="91.44" y2="50.8" width="1.778" layer="21"/>
+<wire x1="0" y1="60.96" x2="91.44" y2="60.96" width="1.778" layer="21"/>
+<wire x1="0" y1="71.12" x2="91.44" y2="71.12" width="1.778" layer="21"/>
+<wire x1="0" y1="81.28" x2="91.44" y2="81.28" width="1.778" layer="21"/>
+<wire x1="10.16" y1="91.44" x2="10.16" y2="0" width="1.778" layer="21"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="91.44" width="1.778" layer="21"/>
+<wire x1="30.48" y1="91.44" x2="30.48" y2="0" width="1.778" layer="21"/>
+<wire x1="40.64" y1="91.44" x2="40.64" y2="0" width="1.778" layer="21"/>
+<wire x1="50.8" y1="0" x2="50.8" y2="91.44" width="1.778" layer="21"/>
+<wire x1="60.96" y1="91.44" x2="60.96" y2="0" width="1.778" layer="21"/>
+<wire x1="71.12" y1="0" x2="71.12" y2="91.44" width="1.778" layer="21"/>
+<wire x1="81.28" y1="91.44" x2="81.28" y2="0" width="1.778" layer="21"/>
+</plain>
+<libraries>
+<library name="nolan-utsa">
+<packages>
+<package name="R0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.6" y="1" size="0.8128" layer="25" font="vector" ratio="13">&gt;NAME</text>
+<text x="-1.6" y="0" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="-"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="E$1" library="nolan-utsa" package="R0805" value="" x="3.81" y="5.08" smashed="yes">
+<attribute name="VALUE" x="2.21" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$2" library="nolan-utsa" package="R0805" value="" x="6.35" y="5.08" smashed="yes">
+<attribute name="VALUE" x="4.75" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$3" library="nolan-utsa" package="R0805" value="" x="13.97" y="5.08" smashed="yes">
+<attribute name="VALUE" x="12.37" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$4" library="nolan-utsa" package="R0805" value="" x="16.51" y="5.08" smashed="yes">
+<attribute name="VALUE" x="14.91" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$5" library="nolan-utsa" package="R0805" value="" x="24.13" y="5.08" smashed="yes">
+<attribute name="VALUE" x="22.53" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$6" library="nolan-utsa" package="R0805" value="" x="26.67" y="5.08" smashed="yes">
+<attribute name="VALUE" x="25.07" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$7" library="nolan-utsa" package="R0805" value="" x="34.29" y="5.08" smashed="yes">
+<attribute name="VALUE" x="32.69" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$8" library="nolan-utsa" package="R0805" value="" x="36.83" y="5.08" smashed="yes">
+<attribute name="VALUE" x="35.23" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$9" library="nolan-utsa" package="R0805" value="" x="44.45" y="5.08" smashed="yes">
+<attribute name="VALUE" x="42.85" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$10" library="nolan-utsa" package="R0805" value="" x="46.99" y="5.08" smashed="yes">
+<attribute name="VALUE" x="45.39" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$11" library="nolan-utsa" package="R0805" value="" x="54.61" y="5.08" smashed="yes">
+<attribute name="VALUE" x="53.01" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$12" library="nolan-utsa" package="R0805" value="" x="57.15" y="5.08" smashed="yes">
+<attribute name="VALUE" x="55.55" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$13" library="nolan-utsa" package="R0805" value="" x="64.77" y="5.08" smashed="yes">
+<attribute name="VALUE" x="63.17" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$14" library="nolan-utsa" package="R0805" value="" x="67.31" y="5.08" smashed="yes">
+<attribute name="VALUE" x="65.71" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$15" library="nolan-utsa" package="R0805" value="" x="74.93" y="5.08" smashed="yes">
+<attribute name="VALUE" x="73.33" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$16" library="nolan-utsa" package="R0805" value="" x="77.47" y="5.08" smashed="yes">
+<attribute name="VALUE" x="75.87" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$17" library="nolan-utsa" package="R0805" value="" x="85.09" y="5.08" smashed="yes">
+<attribute name="VALUE" x="83.49" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$18" library="nolan-utsa" package="R0805" value="" x="87.63" y="5.08" smashed="yes">
+<attribute name="VALUE" x="86.03" y="5.08" size="0.8128" layer="27"/>
+</element>
+<element name="E$19" library="nolan-utsa" package="R0805" value="" x="3.81" y="15.24" smashed="yes">
+<attribute name="VALUE" x="2.21" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$20" library="nolan-utsa" package="R0805" value="" x="6.35" y="15.24" smashed="yes">
+<attribute name="VALUE" x="4.75" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$21" library="nolan-utsa" package="R0805" value="" x="13.97" y="15.24" smashed="yes">
+<attribute name="VALUE" x="12.37" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$22" library="nolan-utsa" package="R0805" value="" x="16.51" y="15.24" smashed="yes">
+<attribute name="VALUE" x="14.91" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$23" library="nolan-utsa" package="R0805" value="" x="24.13" y="15.24" smashed="yes">
+<attribute name="VALUE" x="22.53" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$24" library="nolan-utsa" package="R0805" value="" x="26.67" y="15.24" smashed="yes">
+<attribute name="VALUE" x="25.07" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$25" library="nolan-utsa" package="R0805" value="" x="34.29" y="15.24" smashed="yes">
+<attribute name="VALUE" x="32.69" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$26" library="nolan-utsa" package="R0805" value="" x="36.83" y="15.24" smashed="yes">
+<attribute name="VALUE" x="35.23" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$27" library="nolan-utsa" package="R0805" value="" x="44.45" y="15.24" smashed="yes">
+<attribute name="VALUE" x="42.85" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$28" library="nolan-utsa" package="R0805" value="" x="46.99" y="15.24" smashed="yes">
+<attribute name="VALUE" x="45.39" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$29" library="nolan-utsa" package="R0805" value="" x="54.61" y="15.24" smashed="yes">
+<attribute name="VALUE" x="53.01" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$30" library="nolan-utsa" package="R0805" value="" x="57.15" y="15.24" smashed="yes">
+<attribute name="VALUE" x="55.55" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$31" library="nolan-utsa" package="R0805" value="" x="64.77" y="15.24" smashed="yes">
+<attribute name="VALUE" x="63.17" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$32" library="nolan-utsa" package="R0805" value="" x="67.31" y="15.24" smashed="yes">
+<attribute name="VALUE" x="65.71" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$33" library="nolan-utsa" package="R0805" value="" x="74.93" y="15.24" smashed="yes">
+<attribute name="VALUE" x="73.33" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$34" library="nolan-utsa" package="R0805" value="" x="77.47" y="15.24" smashed="yes">
+<attribute name="VALUE" x="75.87" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$35" library="nolan-utsa" package="R0805" value="" x="85.09" y="15.24" smashed="yes">
+<attribute name="VALUE" x="83.49" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$36" library="nolan-utsa" package="R0805" value="" x="87.63" y="15.24" smashed="yes">
+<attribute name="VALUE" x="86.03" y="15.24" size="0.8128" layer="27"/>
+</element>
+<element name="E$37" library="nolan-utsa" package="R0805" value="" x="6.35" y="7.62" smashed="yes">
+<attribute name="VALUE" x="4.75" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$38" library="nolan-utsa" package="R0805" value="" x="16.51" y="7.62" smashed="yes">
+<attribute name="VALUE" x="14.91" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$39" library="nolan-utsa" package="R0805" value="" x="26.67" y="7.62" smashed="yes">
+<attribute name="VALUE" x="25.07" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$40" library="nolan-utsa" package="R0805" value="" x="36.83" y="7.62" smashed="yes">
+<attribute name="VALUE" x="35.23" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$41" library="nolan-utsa" package="R0805" value="" x="46.99" y="7.62" smashed="yes">
+<attribute name="VALUE" x="45.39" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$42" library="nolan-utsa" package="R0805" value="" x="57.15" y="7.62" smashed="yes">
+<attribute name="VALUE" x="55.55" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$43" library="nolan-utsa" package="R0805" value="" x="67.31" y="7.62" smashed="yes">
+<attribute name="VALUE" x="65.71" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$44" library="nolan-utsa" package="R0805" value="" x="77.47" y="7.62" smashed="yes">
+<attribute name="VALUE" x="75.87" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$45" library="nolan-utsa" package="R0805" value="" x="87.63" y="7.62" smashed="yes">
+<attribute name="VALUE" x="86.03" y="7.62" size="0.8128" layer="27"/>
+</element>
+<element name="E$46" library="nolan-utsa" package="R0805" value="" x="6.35" y="17.78" smashed="yes">
+<attribute name="VALUE" x="4.75" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$47" library="nolan-utsa" package="R0805" value="" x="16.51" y="17.78" smashed="yes">
+<attribute name="VALUE" x="14.91" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$48" library="nolan-utsa" package="R0805" value="" x="26.67" y="17.78" smashed="yes">
+<attribute name="VALUE" x="25.07" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$49" library="nolan-utsa" package="R0805" value="" x="36.83" y="17.78" smashed="yes">
+<attribute name="VALUE" x="35.23" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$50" library="nolan-utsa" package="R0805" value="" x="46.99" y="17.78" smashed="yes">
+<attribute name="VALUE" x="45.39" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$51" library="nolan-utsa" package="R0805" value="" x="57.15" y="17.78" smashed="yes">
+<attribute name="VALUE" x="55.55" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$52" library="nolan-utsa" package="R0805" value="" x="67.31" y="17.78" smashed="yes">
+<attribute name="VALUE" x="65.71" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$53" library="nolan-utsa" package="R0805" value="" x="77.47" y="17.78" smashed="yes">
+<attribute name="VALUE" x="75.87" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$54" library="nolan-utsa" package="R0805" value="" x="87.63" y="17.78" smashed="yes">
+<attribute name="VALUE" x="86.03" y="17.78" size="0.8128" layer="27"/>
+</element>
+<element name="E$55" library="nolan-utsa" package="R0805" value="" x="2.54" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="2.54" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$56" library="nolan-utsa" package="R0805" value="" x="5.08" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="5.08" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$57" library="nolan-utsa" package="R0805" value="" x="7.62" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="7.62" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$58" library="nolan-utsa" package="R0805" value="" x="12.7" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$59" library="nolan-utsa" package="R0805" value="" x="15.24" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="15.24" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$60" library="nolan-utsa" package="R0805" value="" x="17.78" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$61" library="nolan-utsa" package="R0805" value="" x="22.86" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$62" library="nolan-utsa" package="R0805" value="" x="25.4" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="25.4" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$63" library="nolan-utsa" package="R0805" value="" x="27.94" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.94" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$64" library="nolan-utsa" package="R0805" value="" x="33.02" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$65" library="nolan-utsa" package="R0805" value="" x="35.56" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="35.56" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$66" library="nolan-utsa" package="R0805" value="" x="38.1" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="38.1" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$67" library="nolan-utsa" package="R0805" value="" x="43.18" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$68" library="nolan-utsa" package="R0805" value="" x="45.72" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="45.72" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$69" library="nolan-utsa" package="R0805" value="" x="48.26" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$70" library="nolan-utsa" package="R0805" value="" x="53.34" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="53.34" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$71" library="nolan-utsa" package="R0805" value="" x="55.88" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="55.88" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$72" library="nolan-utsa" package="R0805" value="" x="58.42" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="58.42" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$73" library="nolan-utsa" package="R0805" value="" x="63.5" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="63.5" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$74" library="nolan-utsa" package="R0805" value="" x="66.04" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="66.04" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$75" library="nolan-utsa" package="R0805" value="" x="68.58" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$76" library="nolan-utsa" package="R0805" value="" x="73.66" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$77" library="nolan-utsa" package="R0805" value="" x="76.2" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="76.2" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$78" library="nolan-utsa" package="R0805" value="" x="78.74" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$79" library="nolan-utsa" package="R0805" value="" x="83.82" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$80" library="nolan-utsa" package="R0805" value="" x="86.36" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="86.36" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$81" library="nolan-utsa" package="R0805" value="" x="88.9" y="26.67" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.9" y="25.07" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$82" library="nolan-utsa" package="R0805" value="" x="2.54" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="2.54" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$83" library="nolan-utsa" package="R0805" value="" x="5.08" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="5.08" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$84" library="nolan-utsa" package="R0805" value="" x="7.62" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="7.62" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$85" library="nolan-utsa" package="R0805" value="" x="12.7" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$86" library="nolan-utsa" package="R0805" value="" x="15.24" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="15.24" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$87" library="nolan-utsa" package="R0805" value="" x="17.78" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$88" library="nolan-utsa" package="R0805" value="" x="22.86" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$89" library="nolan-utsa" package="R0805" value="" x="25.4" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="25.4" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$90" library="nolan-utsa" package="R0805" value="" x="27.94" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.94" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$91" library="nolan-utsa" package="R0805" value="" x="33.02" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$92" library="nolan-utsa" package="R0805" value="" x="35.56" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="35.56" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$93" library="nolan-utsa" package="R0805" value="" x="38.1" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="38.1" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$94" library="nolan-utsa" package="R0805" value="" x="43.18" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$95" library="nolan-utsa" package="R0805" value="" x="45.72" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="45.72" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$96" library="nolan-utsa" package="R0805" value="" x="48.26" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$97" library="nolan-utsa" package="R0805" value="" x="53.34" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="53.34" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$98" library="nolan-utsa" package="R0805" value="" x="55.88" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="55.88" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$99" library="nolan-utsa" package="R0805" value="" x="58.42" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="58.42" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$100" library="nolan-utsa" package="R0805" value="" x="63.5" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="63.5" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$101" library="nolan-utsa" package="R0805" value="" x="66.04" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="66.04" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$102" library="nolan-utsa" package="R0805" value="" x="68.58" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$103" library="nolan-utsa" package="R0805" value="" x="73.66" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$104" library="nolan-utsa" package="R0805" value="" x="76.2" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="76.2" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$105" library="nolan-utsa" package="R0805" value="" x="78.74" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$106" library="nolan-utsa" package="R0805" value="" x="83.82" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$107" library="nolan-utsa" package="R0805" value="" x="86.36" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="86.36" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$108" library="nolan-utsa" package="R0805" value="" x="88.9" y="36.83" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.9" y="35.23" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$109" library="nolan-utsa" package="R0805" value="" x="2.54" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="2.54" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$110" library="nolan-utsa" package="R0805" value="" x="5.08" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="5.08" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$111" library="nolan-utsa" package="R0805" value="" x="7.62" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="7.62" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$112" library="nolan-utsa" package="R0805" value="" x="12.7" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$113" library="nolan-utsa" package="R0805" value="" x="15.24" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="15.24" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$114" library="nolan-utsa" package="R0805" value="" x="17.78" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$115" library="nolan-utsa" package="R0805" value="" x="22.86" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$116" library="nolan-utsa" package="R0805" value="" x="25.4" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="25.4" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$117" library="nolan-utsa" package="R0805" value="" x="27.94" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.94" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$118" library="nolan-utsa" package="R0805" value="" x="33.02" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$119" library="nolan-utsa" package="R0805" value="" x="35.56" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="35.56" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$120" library="nolan-utsa" package="R0805" value="" x="38.1" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="38.1" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$121" library="nolan-utsa" package="R0805" value="" x="43.18" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$122" library="nolan-utsa" package="R0805" value="" x="45.72" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="45.72" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$123" library="nolan-utsa" package="R0805" value="" x="48.26" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$124" library="nolan-utsa" package="R0805" value="" x="53.34" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="53.34" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$125" library="nolan-utsa" package="R0805" value="" x="55.88" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="55.88" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$126" library="nolan-utsa" package="R0805" value="" x="58.42" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="58.42" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$127" library="nolan-utsa" package="R0805" value="" x="63.5" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="63.5" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$128" library="nolan-utsa" package="R0805" value="" x="66.04" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="66.04" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$129" library="nolan-utsa" package="R0805" value="" x="68.58" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$130" library="nolan-utsa" package="R0805" value="" x="73.66" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$131" library="nolan-utsa" package="R0805" value="" x="76.2" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="76.2" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$132" library="nolan-utsa" package="R0805" value="" x="78.74" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$133" library="nolan-utsa" package="R0805" value="" x="83.82" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$134" library="nolan-utsa" package="R0805" value="" x="86.36" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="86.36" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$135" library="nolan-utsa" package="R0805" value="" x="88.9" y="46.99" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.9" y="45.39" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$136" library="nolan-utsa" package="R0805" value="" x="2.54" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="2.54" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$138" library="nolan-utsa" package="R0805" value="" x="7.62" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="7.62" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$139" library="nolan-utsa" package="R0805" value="" x="12.7" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$141" library="nolan-utsa" package="R0805" value="" x="17.78" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$142" library="nolan-utsa" package="R0805" value="" x="22.86" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$144" library="nolan-utsa" package="R0805" value="" x="27.94" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.94" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$145" library="nolan-utsa" package="R0805" value="" x="33.02" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$147" library="nolan-utsa" package="R0805" value="" x="38.1" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="38.1" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$148" library="nolan-utsa" package="R0805" value="" x="43.18" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$150" library="nolan-utsa" package="R0805" value="" x="48.26" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$151" library="nolan-utsa" package="R0805" value="" x="53.34" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="53.34" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$153" library="nolan-utsa" package="R0805" value="" x="58.42" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="58.42" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$154" library="nolan-utsa" package="R0805" value="" x="63.5" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="63.5" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$156" library="nolan-utsa" package="R0805" value="" x="68.58" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$157" library="nolan-utsa" package="R0805" value="" x="73.66" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$159" library="nolan-utsa" package="R0805" value="" x="78.74" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$160" library="nolan-utsa" package="R0805" value="" x="83.82" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$162" library="nolan-utsa" package="R0805" value="" x="88.9" y="57.15" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.9" y="55.55" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$137" library="nolan-utsa" package="R0805" value="" x="2.54" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="2.54" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$140" library="nolan-utsa" package="R0805" value="" x="7.62" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="7.62" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$143" library="nolan-utsa" package="R0805" value="" x="12.7" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$146" library="nolan-utsa" package="R0805" value="" x="17.78" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$149" library="nolan-utsa" package="R0805" value="" x="22.86" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$152" library="nolan-utsa" package="R0805" value="" x="27.94" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.94" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$155" library="nolan-utsa" package="R0805" value="" x="33.02" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$158" library="nolan-utsa" package="R0805" value="" x="38.1" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="38.1" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$161" library="nolan-utsa" package="R0805" value="" x="43.18" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$163" library="nolan-utsa" package="R0805" value="" x="48.26" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$164" library="nolan-utsa" package="R0805" value="" x="53.34" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="53.34" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$165" library="nolan-utsa" package="R0805" value="" x="58.42" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="58.42" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$166" library="nolan-utsa" package="R0805" value="" x="63.5" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="63.5" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$167" library="nolan-utsa" package="R0805" value="" x="68.58" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$168" library="nolan-utsa" package="R0805" value="" x="73.66" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$169" library="nolan-utsa" package="R0805" value="" x="78.74" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$170" library="nolan-utsa" package="R0805" value="" x="83.82" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$171" library="nolan-utsa" package="R0805" value="" x="88.9" y="67.31" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.9" y="65.71" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$172" library="nolan-utsa" package="R0805" value="" x="2.54" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="2.54" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$173" library="nolan-utsa" package="R0805" value="" x="7.62" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="7.62" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$174" library="nolan-utsa" package="R0805" value="" x="12.7" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$175" library="nolan-utsa" package="R0805" value="" x="17.78" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$176" library="nolan-utsa" package="R0805" value="" x="22.86" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$177" library="nolan-utsa" package="R0805" value="" x="27.94" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.94" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$178" library="nolan-utsa" package="R0805" value="" x="33.02" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$179" library="nolan-utsa" package="R0805" value="" x="38.1" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="38.1" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$180" library="nolan-utsa" package="R0805" value="" x="43.18" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$181" library="nolan-utsa" package="R0805" value="" x="48.26" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$182" library="nolan-utsa" package="R0805" value="" x="53.34" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="53.34" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$183" library="nolan-utsa" package="R0805" value="" x="58.42" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="58.42" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$184" library="nolan-utsa" package="R0805" value="" x="63.5" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="63.5" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$185" library="nolan-utsa" package="R0805" value="" x="68.58" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$186" library="nolan-utsa" package="R0805" value="" x="73.66" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$187" library="nolan-utsa" package="R0805" value="" x="78.74" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$188" library="nolan-utsa" package="R0805" value="" x="83.82" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$189" library="nolan-utsa" package="R0805" value="" x="88.9" y="77.47" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.9" y="75.87" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$190" library="nolan-utsa" package="R0805" value="" x="2.54" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="2.54" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$191" library="nolan-utsa" package="R0805" value="" x="7.62" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="7.62" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$192" library="nolan-utsa" package="R0805" value="" x="12.7" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="12.7" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$193" library="nolan-utsa" package="R0805" value="" x="17.78" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="17.78" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$194" library="nolan-utsa" package="R0805" value="" x="22.86" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="22.86" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$195" library="nolan-utsa" package="R0805" value="" x="27.94" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.94" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$196" library="nolan-utsa" package="R0805" value="" x="33.02" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.02" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$197" library="nolan-utsa" package="R0805" value="" x="38.1" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="38.1" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$198" library="nolan-utsa" package="R0805" value="" x="43.18" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.18" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$199" library="nolan-utsa" package="R0805" value="" x="48.26" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="48.26" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$200" library="nolan-utsa" package="R0805" value="" x="53.34" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="53.34" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$201" library="nolan-utsa" package="R0805" value="" x="58.42" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="58.42" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$202" library="nolan-utsa" package="R0805" value="" x="63.5" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="63.5" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$203" library="nolan-utsa" package="R0805" value="" x="68.58" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="68.58" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$204" library="nolan-utsa" package="R0805" value="" x="73.66" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$205" library="nolan-utsa" package="R0805" value="" x="78.74" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$206" library="nolan-utsa" package="R0805" value="" x="83.82" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="83.82" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="E$207" library="nolan-utsa" package="R0805" value="" x="88.9" y="87.63" smashed="yes" rot="R90">
+<attribute name="VALUE" x="88.9" y="86.03" size="0.8128" layer="27" rot="R90"/>
+</element>
+</elements>
+<signals>
+<signal name="S$1">
+<via x="2.54" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$3">
+<via x="5.08" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$4">
+<via x="7.62" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$61">
+</signal>
+<signal name="S$62">
+</signal>
+<signal name="S$63">
+</signal>
+<signal name="S$64">
+</signal>
+<signal name="S$2">
+<via x="12.7" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$5">
+<via x="15.24" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="2.54" width="1.27" layer="1"/>
+</signal>
+<signal name="S$6">
+<via x="17.78" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$7">
+<via x="22.86" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$8">
+<via x="25.4" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$9">
+<via x="27.94" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="27.94" y1="2.54" x2="27.94" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$10">
+<via x="33.02" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$11">
+<via x="35.56" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="2.54" x2="35.56" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$12">
+<via x="38.1" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="2.54" x2="38.1" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$13">
+<via x="43.18" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="43.18" y1="2.54" x2="43.18" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$14">
+<via x="45.72" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="45.72" y1="2.54" x2="45.72" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$15">
+<via x="48.26" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="48.26" y1="2.54" x2="48.26" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$16">
+<via x="53.34" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="53.34" y1="2.54" x2="53.34" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$17">
+<via x="55.88" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="55.88" y1="2.54" x2="55.88" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$18">
+<via x="58.42" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="58.42" y1="2.54" x2="58.42" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$19">
+<via x="63.5" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="2.54" x2="63.5" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$20">
+<via x="66.04" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="2.54" x2="66.04" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$21">
+<via x="68.58" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="2.54" x2="68.58" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$22">
+<via x="73.66" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="73.66" y1="2.54" x2="73.66" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$23">
+<via x="76.2" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="76.2" y1="2.54" x2="76.2" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$24">
+<via x="78.74" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="78.74" y1="2.54" x2="78.74" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$25">
+<via x="83.82" y="2.54" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="83.82" y1="2.54" x2="83.82" y2="5.08" width="1.27" layer="1"/>
+</signal>
+<signal name="S$26">
+<via x="86.36" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="86.36" y1="2.54" x2="86.36" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$27">
+<via x="88.9" y="2.54" extent="1-16" drill="1.1"/>
+<wire x1="88.9" y1="2.54" x2="88.9" y2="7.62" width="1.27" layer="1"/>
+</signal>
+<signal name="S$28">
+<via x="2.54" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$29">
+<via x="5.08" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$30">
+<via x="7.62" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$31">
+<via x="12.7" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$32">
+<via x="15.24" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$33">
+<via x="17.78" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$34">
+<via x="22.86" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$35">
+<via x="25.4" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$36">
+<via x="27.94" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="27.94" y1="12.7" x2="27.94" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$37">
+<via x="33.02" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="12.7" x2="33.02" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$38">
+<via x="35.56" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="12.7" x2="35.56" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$39">
+<via x="38.1" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="12.7" x2="38.1" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$40">
+<via x="43.18" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="43.18" y1="12.7" x2="43.18" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$41">
+<via x="45.72" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="45.72" y1="12.7" x2="45.72" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$42">
+<via x="48.26" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="48.26" y1="12.7" x2="48.26" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$43">
+<via x="53.34" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="53.34" y1="12.7" x2="53.34" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$44">
+<via x="55.88" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="55.88" y1="12.7" x2="55.88" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$45">
+<via x="58.42" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="58.42" y1="12.7" x2="58.42" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$46">
+<via x="63.5" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="12.7" x2="63.5" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$47">
+<via x="66.04" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="12.7" x2="66.04" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$48">
+<via x="68.58" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="12.7" x2="68.58" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$49">
+<via x="73.66" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="73.66" y1="12.7" x2="73.66" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$50">
+<via x="76.2" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="76.2" y1="12.7" x2="76.2" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$51">
+<via x="78.74" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="78.74" y1="12.7" x2="78.74" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$52">
+<via x="83.82" y="12.7" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="83.82" y1="12.7" x2="83.82" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$53">
+<via x="86.36" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="86.36" y1="12.7" x2="86.36" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$54">
+<via x="88.9" y="12.7" extent="1-16" drill="1.1"/>
+<wire x1="88.9" y1="12.7" x2="88.9" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$55">
+<wire x1="5.08" y1="15.24" x2="5.08" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$56">
+<wire x1="7.62" y1="12.7" x2="7.62" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$57">
+<wire x1="15.24" y1="17.78" x2="15.24" y2="15.24" width="1.27" layer="1"/>
+</signal>
+<signal name="S$58">
+<wire x1="17.78" y1="12.7" x2="17.78" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$59">
+<wire x1="25.4" y1="12.7" x2="25.4" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$60">
+<wire x1="27.94" y1="12.7" x2="27.94" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$65">
+<wire x1="35.56" y1="12.7" x2="35.56" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$66">
+<wire x1="38.1" y1="12.7" x2="38.1" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$67">
+<wire x1="45.72" y1="12.7" x2="45.72" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$68">
+<wire x1="48.26" y1="12.7" x2="48.26" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$69">
+<wire x1="55.88" y1="12.7" x2="55.88" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$70">
+<wire x1="58.42" y1="12.7" x2="58.42" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$71">
+<wire x1="66.04" y1="12.7" x2="66.04" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$72">
+<wire x1="68.58" y1="12.7" x2="68.58" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$73">
+<wire x1="76.2" y1="12.7" x2="76.2" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$74">
+<wire x1="78.74" y1="12.7" x2="78.74" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$75">
+<wire x1="86.36" y1="12.7" x2="86.36" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$76">
+<wire x1="88.9" y1="12.7" x2="88.9" y2="17.78" width="1.27" layer="1"/>
+</signal>
+<signal name="S$77">
+<via x="2.54" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="22.86" x2="2.54" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$78">
+<via x="12.7" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$79">
+<via x="22.86" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$86">
+<via x="5.08" y="22.86" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$87">
+<via x="7.62" y="22.86" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$88">
+<via x="15.24" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$89">
+<via x="17.78" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$90">
+<via x="25.4" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$91">
+<via x="27.94" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$104">
+<wire x1="12.7" y1="22.86" x2="12.7" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$105">
+<wire x1="15.24" y1="22.86" x2="15.24" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$106">
+<wire x1="17.78" y1="22.86" x2="17.78" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$107">
+<wire x1="22.86" y1="22.86" x2="22.86" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$108">
+<wire x1="25.4" y1="22.86" x2="25.4" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$109">
+<wire x1="27.94" y1="22.86" x2="27.94" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$80">
+<via x="33.02" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$81">
+<via x="43.18" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$82">
+<via x="53.34" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$83">
+<via x="35.56" y="22.86" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="22.86" x2="35.56" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$84">
+<via x="38.1" y="22.86" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="22.86" x2="38.1" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$85">
+<via x="45.72" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$92">
+<via x="48.26" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$93">
+<via x="55.88" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$94">
+<via x="58.42" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$95">
+<wire x1="43.18" y1="22.86" x2="43.18" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$96">
+<wire x1="45.72" y1="22.86" x2="45.72" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$97">
+<wire x1="48.26" y1="22.86" x2="48.26" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$98">
+<wire x1="53.34" y1="22.86" x2="53.34" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$99">
+<wire x1="55.88" y1="22.86" x2="55.88" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$100">
+<wire x1="58.42" y1="22.86" x2="58.42" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$101">
+<via x="63.5" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="22.86" x2="63.5" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$102">
+<via x="73.66" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$103">
+<via x="83.82" y="22.86" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$110">
+<via x="66.04" y="22.86" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="22.86" x2="66.04" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$111">
+<via x="68.58" y="22.86" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="22.86" x2="68.58" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$112">
+<via x="76.2" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$113">
+<via x="78.74" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$114">
+<via x="86.36" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$115">
+<via x="88.9" y="22.86" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$116">
+<wire x1="73.66" y1="22.86" x2="73.66" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$117">
+<wire x1="76.2" y1="22.86" x2="76.2" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$118">
+<wire x1="78.74" y1="22.86" x2="78.74" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$119">
+<wire x1="83.82" y1="22.86" x2="83.82" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$120">
+<wire x1="86.36" y1="22.86" x2="86.36" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$121">
+<wire x1="88.9" y1="22.86" x2="88.9" y2="25.4" width="1.27" layer="1"/>
+</signal>
+<signal name="S$122">
+<via x="2.54" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="33.02" x2="2.54" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$123">
+<via x="12.7" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$124">
+<via x="22.86" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$125">
+<via x="5.08" y="33.02" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="33.02" x2="5.08" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$126">
+<via x="7.62" y="33.02" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="33.02" x2="7.62" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$127">
+<via x="15.24" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$128">
+<via x="17.78" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$129">
+<via x="25.4" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$130">
+<via x="27.94" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$131">
+<wire x1="12.7" y1="33.02" x2="12.7" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$132">
+<wire x1="15.24" y1="33.02" x2="15.24" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$133">
+<wire x1="17.78" y1="33.02" x2="17.78" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$134">
+<wire x1="22.86" y1="33.02" x2="22.86" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$135">
+<wire x1="25.4" y1="33.02" x2="25.4" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$136">
+<wire x1="27.94" y1="33.02" x2="27.94" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$137">
+<via x="33.02" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="33.02" x2="33.02" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$138">
+<via x="43.18" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$139">
+<via x="53.34" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$140">
+<via x="35.56" y="33.02" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$141">
+<via x="38.1" y="33.02" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="33.02" x2="38.1" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$142">
+<via x="45.72" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$143">
+<via x="48.26" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$144">
+<via x="55.88" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$145">
+<via x="58.42" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$146">
+<wire x1="43.18" y1="33.02" x2="43.18" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$147">
+<wire x1="45.72" y1="33.02" x2="45.72" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$148">
+<wire x1="48.26" y1="33.02" x2="48.26" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$149">
+<wire x1="53.34" y1="33.02" x2="53.34" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$150">
+<wire x1="55.88" y1="33.02" x2="55.88" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$151">
+<wire x1="58.42" y1="33.02" x2="58.42" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$152">
+<via x="63.5" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="33.02" x2="63.5" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$153">
+<via x="73.66" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$154">
+<via x="83.82" y="33.02" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$155">
+<via x="66.04" y="33.02" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="33.02" x2="66.04" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$156">
+<via x="68.58" y="33.02" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="33.02" x2="68.58" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$157">
+<via x="76.2" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$158">
+<via x="78.74" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$159">
+<via x="86.36" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$160">
+<via x="88.9" y="33.02" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$161">
+<wire x1="73.66" y1="33.02" x2="73.66" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$162">
+<wire x1="76.2" y1="33.02" x2="76.2" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$163">
+<wire x1="78.74" y1="33.02" x2="78.74" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$164">
+<wire x1="83.82" y1="33.02" x2="83.82" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$165">
+<wire x1="86.36" y1="33.02" x2="86.36" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$166">
+<wire x1="88.9" y1="33.02" x2="88.9" y2="35.56" width="1.27" layer="1"/>
+</signal>
+<signal name="S$167">
+<via x="2.54" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="43.18" x2="2.54" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$168">
+<via x="12.7" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$169">
+<via x="22.86" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$170">
+<via x="5.08" y="43.18" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="43.18" x2="5.08" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$171">
+<via x="7.62" y="43.18" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="43.18" x2="7.62" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$172">
+<via x="15.24" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$173">
+<via x="17.78" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$174">
+<via x="25.4" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$175">
+<via x="27.94" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$176">
+<wire x1="12.7" y1="43.18" x2="12.7" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$177">
+<wire x1="15.24" y1="43.18" x2="15.24" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$178">
+<wire x1="17.78" y1="43.18" x2="17.78" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$179">
+<wire x1="22.86" y1="43.18" x2="22.86" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$180">
+<wire x1="25.4" y1="43.18" x2="25.4" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$181">
+<wire x1="27.94" y1="43.18" x2="27.94" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$182">
+<via x="33.02" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$183">
+<via x="43.18" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$184">
+<via x="53.34" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$185">
+<via x="35.56" y="43.18" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$186">
+<via x="38.1" y="43.18" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$187">
+<via x="45.72" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$188">
+<via x="48.26" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$189">
+<via x="55.88" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$190">
+<via x="58.42" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$191">
+<wire x1="43.18" y1="43.18" x2="43.18" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$192">
+<wire x1="45.72" y1="43.18" x2="45.72" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$193">
+<wire x1="48.26" y1="43.18" x2="48.26" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$194">
+<wire x1="53.34" y1="43.18" x2="53.34" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$195">
+<wire x1="55.88" y1="43.18" x2="55.88" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$196">
+<wire x1="58.42" y1="43.18" x2="58.42" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$197">
+<via x="63.5" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="43.18" x2="63.5" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$198">
+<via x="73.66" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$199">
+<via x="83.82" y="43.18" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$200">
+<via x="66.04" y="43.18" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="43.18" x2="66.04" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$201">
+<via x="68.58" y="43.18" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="43.18" x2="68.58" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$202">
+<via x="76.2" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$203">
+<via x="78.74" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$204">
+<via x="86.36" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$205">
+<via x="88.9" y="43.18" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$206">
+<wire x1="73.66" y1="43.18" x2="73.66" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$207">
+<wire x1="76.2" y1="43.18" x2="76.2" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$208">
+<wire x1="78.74" y1="43.18" x2="78.74" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$209">
+<wire x1="83.82" y1="43.18" x2="83.82" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$210">
+<wire x1="86.36" y1="43.18" x2="86.36" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$211">
+<wire x1="88.9" y1="43.18" x2="88.9" y2="45.72" width="1.27" layer="1"/>
+</signal>
+<signal name="S$212">
+<via x="2.54" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="53.34" x2="2.54" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$213">
+<via x="12.7" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$214">
+<via x="22.86" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$215">
+<via x="5.08" y="53.34" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="53.34" x2="5.08" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$216">
+<via x="7.62" y="53.34" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="53.34" x2="7.62" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$217">
+<via x="15.24" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$218">
+<via x="17.78" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$219">
+<via x="25.4" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$220">
+<via x="27.94" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$221">
+<wire x1="12.7" y1="53.34" x2="12.7" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$222">
+<wire x1="15.24" y1="53.34" x2="15.24" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$223">
+<wire x1="17.78" y1="53.34" x2="17.78" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$224">
+<wire x1="22.86" y1="53.34" x2="22.86" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$225">
+<wire x1="25.4" y1="53.34" x2="25.4" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$226">
+<wire x1="27.94" y1="53.34" x2="27.94" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$227">
+<via x="33.02" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="53.34" x2="33.02" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$228">
+<via x="43.18" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$229">
+<via x="53.34" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$230">
+<via x="35.56" y="53.34" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$231">
+<via x="38.1" y="53.34" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="53.34" x2="38.1" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$232">
+<via x="45.72" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$233">
+<via x="48.26" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$234">
+<via x="55.88" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$235">
+<via x="58.42" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$236">
+<wire x1="43.18" y1="53.34" x2="43.18" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$237">
+<wire x1="45.72" y1="53.34" x2="45.72" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$238">
+<wire x1="48.26" y1="53.34" x2="48.26" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$239">
+<wire x1="53.34" y1="53.34" x2="53.34" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$240">
+<wire x1="55.88" y1="53.34" x2="55.88" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$241">
+<wire x1="58.42" y1="53.34" x2="58.42" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$242">
+<via x="63.5" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="53.34" x2="63.5" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$243">
+<via x="73.66" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$244">
+<via x="83.82" y="53.34" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$245">
+<via x="66.04" y="53.34" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="53.34" x2="66.04" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$246">
+<via x="68.58" y="53.34" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="53.34" x2="68.58" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$247">
+<via x="76.2" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$248">
+<via x="78.74" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$249">
+<via x="86.36" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$250">
+<via x="88.9" y="53.34" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$251">
+<wire x1="73.66" y1="53.34" x2="73.66" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$252">
+<wire x1="76.2" y1="53.34" x2="76.2" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$253">
+<wire x1="78.74" y1="53.34" x2="78.74" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$254">
+<wire x1="83.82" y1="53.34" x2="83.82" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$255">
+<wire x1="86.36" y1="53.34" x2="86.36" y2="58.42" width="1.27" layer="1"/>
+</signal>
+<signal name="S$256">
+<wire x1="88.9" y1="53.34" x2="88.9" y2="55.88" width="1.27" layer="1"/>
+</signal>
+<signal name="S$257">
+<via x="2.54" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="63.5" x2="2.54" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$258">
+<via x="12.7" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$259">
+<via x="22.86" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$260">
+<via x="5.08" y="63.5" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="63.5" x2="5.08" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$261">
+<via x="7.62" y="63.5" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="63.5" x2="7.62" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$262">
+<via x="15.24" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$263">
+<via x="17.78" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$264">
+<via x="25.4" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$265">
+<via x="27.94" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$266">
+<wire x1="12.7" y1="63.5" x2="12.7" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$267">
+<wire x1="15.24" y1="63.5" x2="15.24" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$268">
+<wire x1="17.78" y1="63.5" x2="17.78" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$269">
+<wire x1="22.86" y1="63.5" x2="22.86" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$270">
+<wire x1="25.4" y1="63.5" x2="25.4" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$271">
+<wire x1="27.94" y1="63.5" x2="27.94" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$272">
+<via x="33.02" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="63.5" x2="33.02" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$273">
+<via x="43.18" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$274">
+<via x="53.34" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$275">
+<via x="35.56" y="63.5" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="63.5" x2="35.56" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$276">
+<via x="38.1" y="63.5" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="63.5" x2="38.1" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$277">
+<via x="45.72" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$278">
+<via x="48.26" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$279">
+<via x="55.88" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$280">
+<via x="58.42" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$281">
+<wire x1="43.18" y1="63.5" x2="43.18" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$282">
+<wire x1="45.72" y1="63.5" x2="45.72" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$283">
+<wire x1="48.26" y1="63.5" x2="48.26" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$284">
+<wire x1="53.34" y1="63.5" x2="53.34" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$285">
+<wire x1="55.88" y1="63.5" x2="55.88" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$286">
+<wire x1="58.42" y1="63.5" x2="58.42" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$287">
+<via x="63.5" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="63.5" x2="63.5" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$288">
+<via x="73.66" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$289">
+<via x="83.82" y="63.5" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$290">
+<via x="66.04" y="63.5" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="63.5" x2="66.04" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$291">
+<via x="68.58" y="63.5" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$292">
+<via x="76.2" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$293">
+<via x="78.74" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$294">
+<via x="86.36" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$295">
+<via x="88.9" y="63.5" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$296">
+<wire x1="73.66" y1="63.5" x2="73.66" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$297">
+<wire x1="76.2" y1="63.5" x2="76.2" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$298">
+<wire x1="78.74" y1="63.5" x2="78.74" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$299">
+<wire x1="83.82" y1="63.5" x2="83.82" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$300">
+<wire x1="86.36" y1="63.5" x2="86.36" y2="68.58" width="1.27" layer="1"/>
+</signal>
+<signal name="S$301">
+<wire x1="88.9" y1="63.5" x2="88.9" y2="66.04" width="1.27" layer="1"/>
+</signal>
+<signal name="S$302">
+<via x="2.54" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="73.66" x2="2.54" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$303">
+<via x="12.7" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$304">
+<via x="22.86" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$305">
+<via x="5.08" y="73.66" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="73.66" x2="5.08" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$306">
+<via x="7.62" y="73.66" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="73.66" x2="7.62" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$307">
+<via x="15.24" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$308">
+<via x="17.78" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$309">
+<via x="25.4" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$310">
+<via x="27.94" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$311">
+<wire x1="12.7" y1="73.66" x2="12.7" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$312">
+<wire x1="15.24" y1="73.66" x2="15.24" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$313">
+<wire x1="17.78" y1="73.66" x2="17.78" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$314">
+<wire x1="22.86" y1="73.66" x2="22.86" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$315">
+<wire x1="25.4" y1="73.66" x2="25.4" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$316">
+<wire x1="27.94" y1="73.66" x2="27.94" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$317">
+<via x="33.02" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$318">
+<via x="43.18" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$319">
+<via x="53.34" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$320">
+<via x="35.56" y="73.66" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="73.66" x2="35.56" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$321">
+<via x="38.1" y="73.66" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="73.66" x2="38.1" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$322">
+<via x="45.72" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$323">
+<via x="48.26" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$324">
+<via x="55.88" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$325">
+<via x="58.42" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$326">
+<wire x1="43.18" y1="73.66" x2="43.18" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$327">
+<wire x1="45.72" y1="73.66" x2="45.72" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$328">
+<wire x1="48.26" y1="73.66" x2="48.26" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$329">
+<wire x1="53.34" y1="73.66" x2="53.34" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$330">
+<wire x1="55.88" y1="73.66" x2="55.88" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$331">
+<wire x1="58.42" y1="73.66" x2="58.42" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$332">
+<via x="63.5" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="73.66" x2="63.5" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$333">
+<via x="73.66" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$334">
+<via x="83.82" y="73.66" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$335">
+<via x="66.04" y="73.66" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="73.66" x2="66.04" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$336">
+<via x="68.58" y="73.66" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="73.66" x2="68.58" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$337">
+<via x="76.2" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$338">
+<via x="78.74" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$339">
+<via x="86.36" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$340">
+<via x="88.9" y="73.66" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$341">
+<wire x1="73.66" y1="73.66" x2="73.66" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$342">
+<wire x1="76.2" y1="73.66" x2="76.2" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$343">
+<wire x1="78.74" y1="73.66" x2="78.74" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$344">
+<wire x1="83.82" y1="73.66" x2="83.82" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$345">
+<wire x1="86.36" y1="73.66" x2="86.36" y2="78.74" width="1.27" layer="1"/>
+</signal>
+<signal name="S$346">
+<wire x1="88.9" y1="73.66" x2="88.9" y2="76.2" width="1.27" layer="1"/>
+</signal>
+<signal name="S$347">
+<via x="2.54" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="2.54" y1="83.82" x2="2.54" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$348">
+<via x="12.7" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$349">
+<via x="22.86" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$350">
+<via x="5.08" y="83.82" extent="1-16" drill="1.1"/>
+<wire x1="5.08" y1="83.82" x2="5.08" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$351">
+<via x="7.62" y="83.82" extent="1-16" drill="1.1"/>
+<wire x1="7.62" y1="83.82" x2="7.62" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$352">
+<via x="15.24" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$353">
+<via x="17.78" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$354">
+<via x="25.4" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$355">
+<via x="27.94" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$356">
+<wire x1="12.7" y1="83.82" x2="12.7" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$357">
+<wire x1="15.24" y1="83.82" x2="15.24" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$358">
+<wire x1="17.78" y1="83.82" x2="17.78" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$359">
+<wire x1="22.86" y1="83.82" x2="22.86" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$360">
+<wire x1="25.4" y1="83.82" x2="25.4" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$361">
+<wire x1="27.94" y1="83.82" x2="27.94" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$362">
+<via x="33.02" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="33.02" y1="83.82" x2="33.02" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$363">
+<via x="43.18" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$364">
+<via x="53.34" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$365">
+<via x="35.56" y="83.82" extent="1-16" drill="1.1"/>
+<wire x1="35.56" y1="83.82" x2="35.56" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$366">
+<via x="38.1" y="83.82" extent="1-16" drill="1.1"/>
+<wire x1="38.1" y1="83.82" x2="38.1" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$367">
+<via x="45.72" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$368">
+<via x="48.26" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$369">
+<via x="55.88" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$370">
+<via x="58.42" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$371">
+<wire x1="43.18" y1="83.82" x2="43.18" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$372">
+<wire x1="45.72" y1="83.82" x2="45.72" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$373">
+<wire x1="48.26" y1="83.82" x2="48.26" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$374">
+<wire x1="53.34" y1="83.82" x2="53.34" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$375">
+<wire x1="55.88" y1="83.82" x2="55.88" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$376">
+<wire x1="58.42" y1="83.82" x2="58.42" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$377">
+<via x="63.5" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+<wire x1="63.5" y1="83.82" x2="63.5" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$378">
+<via x="73.66" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$379">
+<via x="83.82" y="83.82" extent="1-16" drill="1.1" shape="square"/>
+</signal>
+<signal name="S$380">
+<via x="66.04" y="83.82" extent="1-16" drill="1.1"/>
+<wire x1="66.04" y1="83.82" x2="66.04" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$381">
+<via x="68.58" y="83.82" extent="1-16" drill="1.1"/>
+<wire x1="68.58" y1="83.82" x2="68.58" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$382">
+<via x="76.2" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$383">
+<via x="78.74" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$384">
+<via x="86.36" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$385">
+<via x="88.9" y="83.82" extent="1-16" drill="1.1"/>
+</signal>
+<signal name="S$386">
+<wire x1="73.66" y1="83.82" x2="73.66" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$387">
+<wire x1="76.2" y1="83.82" x2="76.2" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$388">
+<wire x1="78.74" y1="83.82" x2="78.74" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$389">
+<wire x1="83.82" y1="83.82" x2="83.82" y2="86.36" width="1.27" layer="1"/>
+</signal>
+<signal name="S$390">
+<wire x1="86.36" y1="83.82" x2="86.36" y2="88.9" width="1.27" layer="1"/>
+</signal>
+<signal name="S$391">
+<wire x1="88.9" y1="83.82" x2="88.9" y2="86.36" width="1.27" layer="1"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>

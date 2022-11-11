@@ -1,0 +1,13 @@
+string Names,result;
+int Number=0;
+schematic(S)
+        {
+            S.parts(P)
+            {
+                  Number++;
+               Names+=P.name;
+               Names+=",";
+            }
+            sprintf(result,"%d Parts, Names:%s",Number,Names);
+            dlgMessageBox(result,"+OK");
+        }

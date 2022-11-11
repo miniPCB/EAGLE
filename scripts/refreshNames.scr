@@ -1,0 +1,13 @@
+# Delete existing _tNames (125) and _bNames (126),
+# Changes font to vector format,
+# Inserts new _tNames and _bNames content.
+# 
+# Nolan Manteufel
+# 19JUN2020
+
+display none 125 126;
+group all;
+delete (>0 0);
+display all;
+change font vector;
+run panelize.ulp

@@ -1,0 +1,11 @@
+string s;
+
+schematic(S)
+{
+
+//s = path_lbr[0];
+
+s = used_libraries[0];
+
+dlgMessageBox(s);
+}
