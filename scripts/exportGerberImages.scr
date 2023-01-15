@@ -3,9 +3,10 @@
 # 25AUG2022
 # 30AUG2022
 
+# INSERT PICTURE FRAME PRIOR TO RUNNING THIS SCRIPT.
 # RUN FROM PANEL BOARD
 
-drc load minipcb.dru;
+drc load minipcb-THD.dru;
 set palette white;
 
 display none;
