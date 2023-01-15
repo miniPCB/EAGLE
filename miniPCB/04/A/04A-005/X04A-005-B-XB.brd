@@ -171,7 +171,7 @@
 <text x="32.5000125" y="20.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">R6</text>
 <text x="9.50000625" y="7.7700125" size="1.499996875" layer="125" font="vector" ratio="12">TP1</text>
 <text x="17.499990625" y="42.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP2</text>
-<text x="35.00000625" y="42.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
+<text x="35.00000625" y="41.729990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
 <text x="27.99999375" y="6.269990625" size="1.499996875" layer="125" font="vector" ratio="12">TP4</text>
 <text x="37.000003125" y="20.2699875" size="1.499996875" layer="125" font="vector" ratio="12">TP5</text>
 <text x="27.22999375" y="33.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP6</text>
@@ -180,6 +180,7 @@
 <text x="21.73000625" y="33.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP9</text>
 <text x="1.999996875" y="10.77000625" size="1.499996875" layer="125" font="vector" ratio="12">TP10</text>
 <text x="19.5000125" y="21.000009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">U1</text>
+<text x="45" y="44.5" size="1.778" layer="22" font="vector" ratio="12" rot="MR0">INVERTING AMPLIFIER</text>
 <text x="38" y="87.000003125" size="1.499996875" layer="125" font="vector" ratio="13">C1</text>
 <text x="14.499996875" y="76" size="1.499996875" layer="125" font="vector" ratio="13" rot="R90">C2</text>
 <text x="35.00000625" y="62.5" size="1.499996875" layer="125" font="vector" ratio="13" rot="R180">C3</text>
@@ -194,7 +195,7 @@
 <text x="32.5000125" y="70.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">R6</text>
 <text x="9.50000625" y="57.7700125" size="1.499996875" layer="125" font="vector" ratio="12">TP1</text>
 <text x="17.499990625" y="92.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP2</text>
-<text x="35.00000625" y="92.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
+<text x="35.00000625" y="91.729990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
 <text x="27.99999375" y="56.269990625" size="1.499996875" layer="125" font="vector" ratio="12">TP4</text>
 <text x="37.000003125" y="70.2699875" size="1.499996875" layer="125" font="vector" ratio="12">TP5</text>
 <text x="27.22999375" y="83.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP6</text>
@@ -203,6 +204,7 @@
 <text x="21.73000625" y="83.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP9</text>
 <text x="1.999996875" y="60.77000625" size="1.499996875" layer="125" font="vector" ratio="12">TP10</text>
 <text x="19.5000125" y="71.000009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">U1</text>
+<text x="45" y="94.5" size="1.778" layer="22" font="vector" ratio="12" rot="MR0">INVERTING AMPLIFIER</text>
 <text x="88" y="37.000003125" size="1.499996875" layer="125" font="vector" ratio="13">C1</text>
 <text x="64.499996875" y="26" size="1.499996875" layer="125" font="vector" ratio="13" rot="R90">C2</text>
 <text x="85.00000625" y="12.5" size="1.499996875" layer="125" font="vector" ratio="13" rot="R180">C3</text>
@@ -217,7 +219,7 @@
 <text x="82.5000125" y="20.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">R6</text>
 <text x="59.50000625" y="7.7700125" size="1.499996875" layer="125" font="vector" ratio="12">TP1</text>
 <text x="67.499990625" y="42.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP2</text>
-<text x="85.00000625" y="42.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
+<text x="85.00000625" y="41.729990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
 <text x="77.99999375" y="6.269990625" size="1.499996875" layer="125" font="vector" ratio="12">TP4</text>
 <text x="87.000003125" y="20.2699875" size="1.499996875" layer="125" font="vector" ratio="12">TP5</text>
 <text x="77.22999375" y="33.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP6</text>
@@ -226,6 +228,7 @@
 <text x="71.73000625" y="33.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP9</text>
 <text x="51.999996875" y="10.77000625" size="1.499996875" layer="125" font="vector" ratio="12">TP10</text>
 <text x="69.5000125" y="21.000009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">U1</text>
+<text x="95" y="44.5" size="1.778" layer="22" font="vector" ratio="12" rot="MR0">INVERTING AMPLIFIER</text>
 <text x="88" y="87.000003125" size="1.499996875" layer="125" font="vector" ratio="13">C1</text>
 <text x="64.499996875" y="76" size="1.499996875" layer="125" font="vector" ratio="13" rot="R90">C2</text>
 <text x="85.00000625" y="62.5" size="1.499996875" layer="125" font="vector" ratio="13" rot="R180">C3</text>
@@ -240,7 +243,7 @@
 <text x="82.5000125" y="70.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">R6</text>
 <text x="59.50000625" y="57.7700125" size="1.499996875" layer="125" font="vector" ratio="12">TP1</text>
 <text x="67.499990625" y="92.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP2</text>
-<text x="85.00000625" y="92.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
+<text x="85.00000625" y="91.729990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
 <text x="77.99999375" y="56.269990625" size="1.499996875" layer="125" font="vector" ratio="12">TP4</text>
 <text x="87.000003125" y="70.2699875" size="1.499996875" layer="125" font="vector" ratio="12">TP5</text>
 <text x="77.22999375" y="83.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP6</text>
@@ -249,6 +252,7 @@
 <text x="71.73000625" y="83.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP9</text>
 <text x="51.999996875" y="60.77000625" size="1.499996875" layer="125" font="vector" ratio="12">TP10</text>
 <text x="69.5000125" y="71.000009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">U1</text>
+<text x="95" y="94.5" size="1.778" layer="22" font="vector" ratio="12" rot="MR0">INVERTING AMPLIFIER</text>
 <wire x1="0" y1="0" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="100" y2="100" width="0" layer="20"/>
 <wire x1="100" y1="100" x2="100" y2="0" width="0" layer="20"/>
@@ -5083,8 +5087,8 @@ einem neuen Namen ab.</description>
 <element name="TP2" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="16" y="43.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.5" y="42.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="TP3" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="33.5" y="43.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="35" y="42.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
+<element name="TP3" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="33.5" y="43" smashed="yes" rot="R180">
+<attribute name="NAME" x="35" y="41.73" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="TP7" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="38.5" y="29" smashed="yes">
 <attribute name="NAME" x="37" y="30.27" size="1.5" layer="25" font="vector" ratio="12"/>
@@ -5169,8 +5173,8 @@ einem neuen Namen ab.</description>
 <element name="TP17" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="16" y="93.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.5" y="92.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="TP18" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="33.5" y="93.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="35" y="92.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
+<element name="TP18" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="33.5" y="93" smashed="yes" rot="R180">
+<attribute name="NAME" x="35" y="91.73" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="TP19" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="38.5" y="79" smashed="yes">
 <attribute name="NAME" x="37" y="80.27" size="1.5" layer="25" font="vector" ratio="12"/>
@@ -5255,8 +5259,8 @@ einem neuen Namen ab.</description>
 <element name="TP27" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="66" y="43.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.5" y="42.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="TP28" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="83.5" y="43.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="85" y="42.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
+<element name="TP28" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="83.5" y="43" smashed="yes" rot="R180">
+<attribute name="NAME" x="85" y="41.73" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="TP29" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="88.5" y="29" smashed="yes">
 <attribute name="NAME" x="87" y="30.27" size="1.5" layer="25" font="vector" ratio="12"/>
@@ -5341,8 +5345,8 @@ einem neuen Namen ab.</description>
 <element name="TP37" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="66" y="93.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.5" y="92.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="TP38" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="83.5" y="93.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="85" y="92.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
+<element name="TP38" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="83.5" y="93" smashed="yes" rot="R180">
+<attribute name="NAME" x="85" y="91.73" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="TP39" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="88.5" y="79" smashed="yes">
 <attribute name="NAME" x="87" y="80.27" size="1.5" layer="25" font="vector" ratio="12"/>
@@ -5492,12 +5496,8 @@ einem neuen Namen ab.</description>
 <contactref element="R2" pad="1"/>
 <contactref element="R3" pad="2"/>
 <contactref element="TP3" pad="1"/>
-<wire x1="27.5" y1="43" x2="31" y2="43" width="0.5" layer="16"/>
-<wire x1="31" y1="43" x2="31.5" y2="43.5" width="0.5" layer="16"/>
-<wire x1="31.5" y1="43.5" x2="33.5" y2="43.5" width="0.5" layer="16"/>
-<wire x1="33.5" y1="43.5" x2="35" y2="43.5" width="0.5" layer="16"/>
-<wire x1="35" y1="43.5" x2="35.5" y2="43" width="0.5" layer="16"/>
-<wire x1="35.5" y1="43" x2="37" y2="43" width="0.5" layer="16"/>
+<wire x1="27.5" y1="43" x2="33.5" y2="43" width="0.5" layer="16"/>
+<wire x1="33.5" y1="43" x2="37" y2="43" width="0.5" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="2"/>
@@ -5673,12 +5673,8 @@ einem neuen Namen ab.</description>
 <contactref element="R11" pad="1"/>
 <contactref element="R10" pad="2"/>
 <contactref element="TP18" pad="1"/>
-<wire x1="27.5" y1="93" x2="31" y2="93" width="0.5" layer="16"/>
-<wire x1="31" y1="93" x2="31.5" y2="93.5" width="0.5" layer="16"/>
-<wire x1="31.5" y1="93.5" x2="33.5" y2="93.5" width="0.5" layer="16"/>
-<wire x1="33.5" y1="93.5" x2="35" y2="93.5" width="0.5" layer="16"/>
-<wire x1="35" y1="93.5" x2="35.5" y2="93" width="0.5" layer="16"/>
-<wire x1="35.5" y1="93" x2="37" y2="93" width="0.5" layer="16"/>
+<wire x1="27.5" y1="93" x2="33.5" y2="93" width="0.5" layer="16"/>
+<wire x1="33.5" y1="93" x2="37" y2="93" width="0.5" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="R11" pad="2"/>
@@ -5854,12 +5850,8 @@ einem neuen Namen ab.</description>
 <contactref element="R17" pad="1"/>
 <contactref element="R16" pad="2"/>
 <contactref element="TP28" pad="1"/>
-<wire x1="77.5" y1="43" x2="81" y2="43" width="0.5" layer="16"/>
-<wire x1="81" y1="43" x2="81.5" y2="43.5" width="0.5" layer="16"/>
-<wire x1="81.5" y1="43.5" x2="83.5" y2="43.5" width="0.5" layer="16"/>
-<wire x1="83.5" y1="43.5" x2="85" y2="43.5" width="0.5" layer="16"/>
-<wire x1="85" y1="43.5" x2="85.5" y2="43" width="0.5" layer="16"/>
-<wire x1="85.5" y1="43" x2="87" y2="43" width="0.5" layer="16"/>
+<wire x1="77.5" y1="43" x2="83.5" y2="43" width="0.5" layer="16"/>
+<wire x1="83.5" y1="43" x2="87" y2="43" width="0.5" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R17" pad="2"/>
@@ -6035,12 +6027,8 @@ einem neuen Namen ab.</description>
 <contactref element="R23" pad="1"/>
 <contactref element="R22" pad="2"/>
 <contactref element="TP38" pad="1"/>
-<wire x1="77.5" y1="93" x2="81" y2="93" width="0.5" layer="16"/>
-<wire x1="81" y1="93" x2="81.5" y2="93.5" width="0.5" layer="16"/>
-<wire x1="81.5" y1="93.5" x2="83.5" y2="93.5" width="0.5" layer="16"/>
-<wire x1="83.5" y1="93.5" x2="85" y2="93.5" width="0.5" layer="16"/>
-<wire x1="85" y1="93.5" x2="85.5" y2="93" width="0.5" layer="16"/>
-<wire x1="85.5" y1="93" x2="87" y2="93" width="0.5" layer="16"/>
+<wire x1="77.5" y1="93" x2="83.5" y2="93" width="0.5" layer="16"/>
+<wire x1="83.5" y1="93" x2="87" y2="93" width="0.5" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="R23" pad="2"/>

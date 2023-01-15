@@ -171,7 +171,7 @@
 <text x="32.5000125" y="20.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">R6</text>
 <text x="9.50000625" y="7.7700125" size="1.499996875" layer="125" font="vector" ratio="12">TP1</text>
 <text x="17.499990625" y="42.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP2</text>
-<text x="35.00000625" y="42.229990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
+<text x="35.00000625" y="41.729990625" size="1.499996875" layer="125" font="vector" ratio="12" rot="R180">TP3</text>
 <text x="27.99999375" y="6.269990625" size="1.499996875" layer="125" font="vector" ratio="12">TP4</text>
 <text x="37.000003125" y="20.2699875" size="1.499996875" layer="125" font="vector" ratio="12">TP5</text>
 <text x="27.22999375" y="33.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP6</text>
@@ -180,6 +180,7 @@
 <text x="21.73000625" y="33.500009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">TP9</text>
 <text x="1.999996875" y="10.77000625" size="1.499996875" layer="125" font="vector" ratio="12">TP10</text>
 <text x="19.5000125" y="21.000009375" size="1.499996875" layer="125" font="vector" ratio="12" rot="R90">U1</text>
+<text x="45" y="44.5" size="1.778" layer="22" font="vector" ratio="12" rot="MR0">INVERTING AMPLIFIER</text>
 </plain>
 <libraries>
 <library name="minipcb">
@@ -2757,8 +2758,8 @@ einem neuen Namen ab.</description>
 <element name="TP2" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="16" y="43.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.5" y="42.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="TP3" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="33.5" y="43.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="35" y="42.23" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
+<element name="TP3" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="33.5" y="43" smashed="yes" rot="R180">
+<attribute name="NAME" x="35" y="41.73" size="1.5" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="TP7" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="38.5" y="29" smashed="yes">
 <attribute name="NAME" x="37" y="30.27" size="1.5" layer="25" font="vector" ratio="12"/>
@@ -2905,12 +2906,8 @@ einem neuen Namen ab.</description>
 <contactref element="R2" pad="1"/>
 <contactref element="R3" pad="2"/>
 <contactref element="TP3" pad="1"/>
-<wire x1="27.5" y1="43" x2="31" y2="43" width="0.5" layer="16"/>
-<wire x1="31" y1="43" x2="31.5" y2="43.5" width="0.5" layer="16"/>
-<wire x1="31.5" y1="43.5" x2="33.5" y2="43.5" width="0.5" layer="16"/>
-<wire x1="33.5" y1="43.5" x2="35" y2="43.5" width="0.5" layer="16"/>
-<wire x1="35" y1="43.5" x2="35.5" y2="43" width="0.5" layer="16"/>
-<wire x1="35.5" y1="43" x2="37" y2="43" width="0.5" layer="16"/>
+<wire x1="27.5" y1="43" x2="33.5" y2="43" width="0.5" layer="16"/>
+<wire x1="33.5" y1="43" x2="37" y2="43" width="0.5" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="2"/>

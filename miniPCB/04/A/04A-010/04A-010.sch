@@ -25903,7 +25903,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <part name="R6" library="minipcb" deviceset="RESISTOR" device="10MM"/>
 <part name="TP6" library="minipcb" deviceset="TESTPOINT" device="KE5000-SMTEXT"/>
 <part name="P1-" library="minipcb" deviceset="MINIPCB_7P" device="50">
-<attribute name="PART_NUMBER" value="X04A-010-B"/>
+<attribute name="PART_NUMBER" value="X04A-010-B-XB"/>
 <attribute name="REVISION" value="B"/>
 </part>
 <part name="TP12" library="minipcb" deviceset="TESTPOINT" device="KE5000-SMTEXT"/>
