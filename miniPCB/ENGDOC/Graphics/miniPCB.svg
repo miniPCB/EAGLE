@@ -393,9 +393,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.47757293"
-     inkscape:cx="-1678.3523"
-     inkscape:cy="48338.975"
+     inkscape:zoom="0.11939323"
+     inkscape:cx="-755.35602"
+     inkscape:cy="49743.069"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -14966,5 +14966,215 @@
          x="-462.71341"
          y="-12098.733"
          style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332">ECO #1013</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.13221994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2856"
+       width="338.53445"
+       height="190.36778"
+       x="-631.4458"
+       y="-12437.986"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2858"
+       width="326.09634"
+       height="177.92969"
+       x="-625.5882"
+       y="-12430.912"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2860"
+       width="326.0834"
+       height="41.656311"
+       x="-625.57526"
+       y="-12294.641"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       y="-12294.641"
+       x="-514.82648"
+       height="41.656448"
+       width="215.33473"
+       id="rect2862"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.99980104;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       id="g2882"
+       transform="translate(-425.48475,-7877.1221)">
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect2864"
+         width="100"
+         height="31.999998"
+         x="-195.61267"
+         y="-4413.0796"
+         ry="5"
+         rx="5" />
+      <text
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:19.7555542px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="-192.13663"
+         y="-4391.6797"
+         id="text2868"><tspan
+           sodipodi:role="line"
+           id="tspan2866"
+           x="-192.13663"
+           y="-4391.6797"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">miniPCB</tspan></text>
+      <circle
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         inkscape:transform-center-y="-4.0224066"
+         inkscape:transform-center-x="-3.5546849"
+         r="3.4999995"
+         cy="-4404.6982"
+         cx="-167.84778"
+         id="circle2870"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <circle
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="circle2872"
+         cx="-147.01218"
+         cy="-4404.6982"
+         r="3.4999995"
+         inkscape:transform-center-x="-3.5546849"
+         inkscape:transform-center-y="-4.0224066" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path2874"
+         d="m -190.47946,-4387.6969 h 18.42162 l 4.65951,-5.1488"
+         style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -100.86449,-4387.6969 h -41.93646 l -4.65952,-5.1488"
+         id="path2876"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         y="-4389.4326"
+         x="-109.36974"
+         height="3.4719992"
+         width="8.6411581"
+         id="rect2878"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fffff1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="C:\Users\nolan\Videos\Thumbnails\20220823-3.png"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect2880"
+         width="8.6411581"
+         height="3.4719992"
+         x="-190.49677"
+         y="-4389.4326" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-511.12799"
+       y="-12264.583"
+       id="text2886"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan2884"
+         x="-511.12799"
+         y="-12264.583"
+         style="font-weight:bold;fill:#000000;stroke-width:0.26458332">16JAN2023</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.02209187;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2888"
+       width="36.342491"
+       height="41.634159"
+       x="-335.8454"
+       y="-12294.628"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       id="text2892"
+       y="-12264.553"
+       x="-327.13721"
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-weight:bold;fill:#000000;stroke-width:0.26458332"
+         y="-12264.553"
+         x="-327.13721"
+         id="tspan2890"
+         sodipodi:role="line">1</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2894"
+       width="326.08334"
+       height="136.27338"
+       x="-625.57526"
+       y="-12430.912"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       id="text2904"
+       y="-12401.186"
+       x="-462.71341"
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\thumbnails\20230116-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+         y="-12401.186"
+         x="-462.71341"
+         sodipodi:role="line"
+         id="tspan2896">DOCUMENT RELEASE</tspan><tspan
+         id="tspan2898"
+         style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+         y="-12369.436"
+         x="-462.71341"
+         sodipodi:role="line" /><tspan
+         id="tspan2900"
+         style="font-weight:bold;font-size:22.57777786px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+         y="-12337.686"
+         x="-462.71341"
+         sodipodi:role="line">Quality Manual</tspan><tspan
+         style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+         y="-12305.936"
+         x="-462.71341"
+         sodipodi:role="line"
+         id="tspan2902">ECO #1014</tspan></text>
   </g>
 </svg>
