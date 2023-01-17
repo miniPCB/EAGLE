@@ -20176,11 +20176,11 @@ type 0207, grid 10 mm</description>
 </package>
 <package name="DIL08">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="2.821" x2="-5.08" y2="2.821" width="0.3048" layer="21"/>
-<wire x1="-5.08" y1="-2.821" x2="5.08" y2="-2.821" width="0.3048" layer="21"/>
-<wire x1="5.08" y1="2.821" x2="5.08" y2="-2.821" width="0.3048" layer="21"/>
-<wire x1="-5.08" y1="2.821" x2="-5.08" y2="1.016" width="0.3048" layer="21"/>
-<wire x1="-5.08" y1="-2.821" x2="-5.08" y2="-1.016" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="2.321" x2="-5.08" y2="2.321" width="0.3048" layer="21"/>
+<wire x1="-5.08" y1="-2.321" x2="5.08" y2="-2.321" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="2.321" x2="5.08" y2="-2.321" width="0.3048" layer="21"/>
+<wire x1="-5.08" y1="2.321" x2="-5.08" y2="1.016" width="0.3048" layer="21"/>
+<wire x1="-5.08" y1="-2.321" x2="-5.08" y2="-1.016" width="0.3048" layer="21"/>
 <wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.3048" layer="21" curve="-180"/>
 <pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
 <pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
@@ -28106,8 +28106,8 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <instance part="C6" gate="C" x="78.74" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.01" y="129.54" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="C3" gate="C" x="66.04" y="91.44" smashed="yes" rot="MR180">
-<attribute name="NAME" x="68.58" y="90.17" size="1.778" layer="95" rot="MR180"/>
+<instance part="C3" gate="C" x="66.04" y="91.44" smashed="yes" rot="MR0">
+<attribute name="NAME" x="63.5" y="92.71" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="GND8" gate="1" x="66.04" y="83.82" smashed="yes"/>
 <instance part="GND5" gate="1" x="40.64" y="48.26" smashed="yes"/>
@@ -28206,10 +28206,6 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <pinref part="U1" gate="-PWR" pin="V-"/>
 </segment>
 <segment>
-<pinref part="C3" gate="C" pin="+"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="R3" gate="R" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
@@ -28221,6 +28217,10 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="TP10" gate="TP" pin="1"/>
 <wire x1="109.22" y1="167.64" x2="109.22" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="C3" gate="C" pin="-"/>
 </segment>
 </net>
 <net name="NC" class="0">
@@ -28352,20 +28352,6 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <junction x="73.66" y="71.12"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="+IN"/>
-<wire x1="66.04" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R6" gate="R" pin="1"/>
-<wire x1="76.2" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C3" gate="C" pin="-"/>
-<junction x="66.04" y="96.52"/>
-<wire x1="71.12" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="96.52" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="TP5" gate="TP" pin="1"/>
-<junction x="71.12" y="96.52"/>
-</segment>
-</net>
 <net name="IN" class="0">
 <segment>
 <pinref part="R4" gate="R" pin="2"/>
@@ -28374,6 +28360,20 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <pinref part="TP1" gate="TP" pin="1"/>
 <wire x1="35.56" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <junction x="35.56" y="119.38"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R6" gate="R" pin="1"/>
+<wire x1="76.2" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="TP5" gate="TP" pin="1"/>
+<pinref part="U1" gate="A" pin="+IN"/>
+<wire x1="66.04" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="96.52" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<junction x="71.12" y="96.52"/>
+<pinref part="C3" gate="C" pin="+"/>
+<junction x="66.04" y="96.52"/>
 </segment>
 </net>
 </nets>
