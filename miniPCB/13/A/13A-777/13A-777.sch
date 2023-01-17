@@ -8330,7 +8330,6 @@ PEL12T-4xxxF-S1024</description>
 <part name="GND17" library="minipcb" deviceset="GND" device=""/>
 <part name="GND18" library="minipcb" deviceset="GND" device=""/>
 <part name="C9" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
-<part name="GND16" library="minipcb" deviceset="GND" device=""/>
 <part name="LED1" library="minipcb" deviceset="LED" device="CHIP-LED0805"/>
 <part name="R7" library="minipcb" deviceset="RESISTOR" device="SMD" value="149"/>
 <part name="+3V9" library="minipcb" deviceset="+3V3" device=""/>
@@ -8367,7 +8366,7 @@ PEL12T-4xxxF-S1024</description>
 <part name="NC3" library="minipcb" deviceset="NC" device=""/>
 <part name="R21" library="minipcb" deviceset="RESISTOR" device="SMD" value="10K"/>
 <part name="R22" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
-<part name="R23" library="minipcb" deviceset="RESISTOR" device="SMD" value="10k"/>
+<part name="R23" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
 <part name="C16" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
 <part name="C17" library="minipcb" deviceset="CAPACITOR" device="SMD" value="1u"/>
 <part name="C18" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
@@ -8379,31 +8378,28 @@ PEL12T-4xxxF-S1024</description>
 <part name="C19" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
 <part name="GND30" library="minipcb" deviceset="GND" device=""/>
 <part name="C20" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
-<part name="GND31" library="minipcb" deviceset="GND" device=""/>
 <part name="U4" library="minipcb" deviceset="OPAMP_SINGLE" device="SMD"/>
 <part name="R25" library="minipcb" deviceset="RESISTOR" device="SMD" value="10K"/>
 <part name="R26" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
-<part name="R27" library="minipcb" deviceset="RESISTOR" device="SMD" value="10k"/>
+<part name="R27" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
 <part name="C21" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
 <part name="R28" library="minipcb" deviceset="RESISTOR" device="SMD" value="10k"/>
 <part name="C22" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
 <part name="GND32" library="minipcb" deviceset="GND" device=""/>
 <part name="C10" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
-<part name="GND19" library="minipcb" deviceset="GND" device=""/>
 <part name="U5" library="minipcb" deviceset="OPAMP_SINGLE" device="SMD"/>
 <part name="R29" library="minipcb" deviceset="RESISTOR" device="SMD" value="10K"/>
 <part name="R30" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
-<part name="R31" library="minipcb" deviceset="RESISTOR" device="SMD" value="10k"/>
+<part name="R31" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
 <part name="C23" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
 <part name="R32" library="minipcb" deviceset="RESISTOR" device="SMD" value="10k"/>
 <part name="C24" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
 <part name="GND33" library="minipcb" deviceset="GND" device=""/>
 <part name="C12" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
-<part name="GND21" library="minipcb" deviceset="GND" device=""/>
 <part name="U6" library="minipcb" deviceset="OPAMP_SINGLE" device="SMD"/>
 <part name="R33" library="minipcb" deviceset="RESISTOR" device="SMD" value="10K"/>
 <part name="R34" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
-<part name="R35" library="minipcb" deviceset="RESISTOR" device="SMD" value="10k"/>
+<part name="R35" library="minipcb" deviceset="RESISTOR" device="SMD" value="149K"/>
 <part name="C25" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
 <part name="R36" library="minipcb" deviceset="RESISTOR" device="SMD" value="10k"/>
 <part name="C26" library="minipcb" deviceset="CAPACITOR" device="SMD" value="100n"/>
@@ -9223,11 +9219,10 @@ PEL12T-4xxxF-S1024</description>
 </instance>
 <instance part="GND11" gate="1" x="66.04" y="180.34" smashed="yes"/>
 <instance part="GND12" gate="1" x="78.74" y="180.34" smashed="yes"/>
-<instance part="C9" gate="C" x="129.54" y="152.4" smashed="yes">
-<attribute name="NAME" x="132.08" y="153.67" size="1.778" layer="95"/>
-<attribute name="VALUE" x="132.08" y="151.13" size="1.778" layer="96"/>
+<instance part="C9" gate="C" x="137.16" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="135.89" y="149.86" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="138.43" y="149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND16" gate="1" x="129.54" y="144.78" smashed="yes"/>
 <instance part="Q5" gate="Q" x="63.5" y="203.2" smashed="yes">
 <attribute name="NAME" x="71.374" y="204.724" size="1.778" layer="95"/>
 <attribute name="VALUE" x="71.374" y="202.438" size="1.778" layer="96"/>
@@ -9306,11 +9301,10 @@ PEL12T-4xxxF-S1024</description>
 <attribute name="VALUE" x="165.1" y="163.83" size="1.778" layer="96"/>
 </instance>
 <instance part="GND30" gate="1" x="162.56" y="157.48" smashed="yes"/>
-<instance part="C20" gate="C" x="129.54" y="93.98" smashed="yes">
-<attribute name="NAME" x="132.08" y="95.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="132.08" y="92.71" size="1.778" layer="96"/>
+<instance part="C20" gate="C" x="137.16" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="135.89" y="91.44" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="138.43" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND31" gate="1" x="129.54" y="86.36" smashed="yes"/>
 <instance part="U4" gate="A" x="137.16" y="114.3" smashed="yes">
 <attribute name="NAME" x="139.7" y="117.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="139.7" y="109.22" size="1.778" layer="96"/>
@@ -9340,11 +9334,10 @@ PEL12T-4xxxF-S1024</description>
 <attribute name="VALUE" x="165.1" y="105.41" size="1.778" layer="96"/>
 </instance>
 <instance part="GND32" gate="1" x="162.56" y="99.06" smashed="yes"/>
-<instance part="C10" gate="C" x="266.7" y="93.98" smashed="yes">
-<attribute name="NAME" x="269.24" y="95.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="269.24" y="92.71" size="1.778" layer="96"/>
+<instance part="C10" gate="C" x="274.32" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="273.05" y="91.44" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="275.59" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND19" gate="1" x="266.7" y="86.36" smashed="yes"/>
 <instance part="U5" gate="A" x="274.32" y="114.3" smashed="yes">
 <attribute name="NAME" x="276.86" y="117.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="276.86" y="109.22" size="1.778" layer="96"/>
@@ -9374,11 +9367,10 @@ PEL12T-4xxxF-S1024</description>
 <attribute name="VALUE" x="302.26" y="105.41" size="1.778" layer="96"/>
 </instance>
 <instance part="GND33" gate="1" x="299.72" y="99.06" smashed="yes"/>
-<instance part="C12" gate="C" x="266.7" y="152.4" smashed="yes">
-<attribute name="NAME" x="269.24" y="153.67" size="1.778" layer="95"/>
-<attribute name="VALUE" x="269.24" y="151.13" size="1.778" layer="96"/>
+<instance part="C12" gate="C" x="274.32" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="273.05" y="149.86" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="275.59" y="149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND21" gate="1" x="266.7" y="144.78" smashed="yes"/>
 <instance part="U6" gate="A" x="274.32" y="172.72" smashed="yes">
 <attribute name="NAME" x="276.86" y="175.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="276.86" y="167.64" size="1.778" layer="96"/>
@@ -9586,10 +9578,6 @@ PEL12T-4xxxF-S1024</description>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C9" gate="C" pin="-"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="EPAD"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="226.06" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
@@ -9636,24 +9624,12 @@ PEL12T-4xxxF-S1024</description>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C20" gate="C" pin="-"/>
-<pinref part="GND31" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C22" gate="C" pin="-"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C10" gate="C" pin="-"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C24" gate="C" pin="-"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C12" gate="C" pin="-"/>
-<pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C26" gate="C" pin="-"/>
@@ -9929,7 +9905,8 @@ PEL12T-4xxxF-S1024</description>
 <junction x="127" y="160.02"/>
 <pinref part="C9" gate="C" pin="+"/>
 <wire x1="129.54" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="157.48" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="147.32" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
 <junction x="129.54" y="160.02"/>
 <pinref part="C16" gate="C" pin="-"/>
 <wire x1="116.84" y1="162.56" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
@@ -9948,6 +9925,10 @@ PEL12T-4xxxF-S1024</description>
 <wire x1="147.32" y1="172.72" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R24" gate="R" pin="1"/>
 <label x="147.32" y="162.56" size="1.778" layer="95" rot="R90"/>
+<pinref part="C9" gate="C" pin="-"/>
+<wire x1="142.24" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="147.32" x2="147.32" y2="160.02" width="0.1524" layer="91"/>
+<junction x="147.32" y="160.02"/>
 </segment>
 </net>
 <net name="Q1-ADC" class="0">
@@ -9986,7 +9967,8 @@ PEL12T-4xxxF-S1024</description>
 <junction x="127" y="101.6"/>
 <pinref part="C20" gate="C" pin="+"/>
 <wire x1="129.54" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="99.06" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="88.9" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="88.9" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
 <junction x="129.54" y="101.6"/>
 <pinref part="C21" gate="C" pin="-"/>
 <wire x1="116.84" y1="104.14" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
@@ -10005,6 +9987,10 @@ PEL12T-4xxxF-S1024</description>
 <wire x1="147.32" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R28" gate="R" pin="1"/>
 <label x="147.32" y="104.14" size="1.778" layer="95" rot="R90"/>
+<pinref part="C20" gate="C" pin="-"/>
+<wire x1="142.24" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="88.9" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
+<junction x="147.32" y="101.6"/>
 </segment>
 </net>
 <net name="Q2-ADC" class="0">
@@ -10043,7 +10029,8 @@ PEL12T-4xxxF-S1024</description>
 <junction x="264.16" y="101.6"/>
 <pinref part="C10" gate="C" pin="+"/>
 <wire x1="266.7" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="99.06" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="88.9" x2="266.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="88.9" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
 <junction x="266.7" y="101.6"/>
 <pinref part="C23" gate="C" pin="-"/>
 <wire x1="254" y1="104.14" x2="254" y2="101.6" width="0.1524" layer="91"/>
@@ -10062,6 +10049,10 @@ PEL12T-4xxxF-S1024</description>
 <wire x1="284.48" y1="114.3" x2="287.02" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R32" gate="R" pin="1"/>
 <label x="284.48" y="104.14" size="1.778" layer="95" rot="R90"/>
+<pinref part="C10" gate="C" pin="-"/>
+<wire x1="279.4" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="88.9" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
+<junction x="284.48" y="101.6"/>
 </segment>
 </net>
 <net name="Q4-ADC" class="0">
@@ -10100,7 +10091,8 @@ PEL12T-4xxxF-S1024</description>
 <junction x="264.16" y="160.02"/>
 <pinref part="C12" gate="C" pin="+"/>
 <wire x1="266.7" y1="160.02" x2="264.16" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="157.48" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="147.32" x2="266.7" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="147.32" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
 <junction x="266.7" y="160.02"/>
 <pinref part="C25" gate="C" pin="-"/>
 <wire x1="254" y1="162.56" x2="254" y2="160.02" width="0.1524" layer="91"/>
@@ -10119,6 +10111,10 @@ PEL12T-4xxxF-S1024</description>
 <wire x1="284.48" y1="172.72" x2="287.02" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R36" gate="R" pin="1"/>
 <label x="284.48" y="162.56" size="1.778" layer="95" rot="R90"/>
+<pinref part="C12" gate="C" pin="-"/>
+<wire x1="279.4" y1="147.32" x2="284.48" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="147.32" x2="284.48" y2="160.02" width="0.1524" layer="91"/>
+<junction x="284.48" y="160.02"/>
 </segment>
 </net>
 <net name="Q3-ADC" class="0">
