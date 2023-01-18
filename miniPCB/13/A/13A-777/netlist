@@ -1,0 +1,210 @@
+Netlist
+
+Exported from 13A-777.sch at 1/17/2023 9:16 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net                 Part     Pad      Pin        Sheet
+
++3V3                C12      1        +          1
+                    C16      1        +          1
+                    C17      1        +          1
+                    C18      1        +          1
+                    C2       1        +          1
+                    C3       1        +          1
+                    C4       1        +          1
+                    C5       1        +          1
+                    LED1     A        A          1
+                    Q2       3        S          1
+                    Q6       3        S          1
+                    R1       2        2          1
+                    R14      2        2          1
+                    R15      2        2          1
+                    R17      1        1          1
+                    R2       2        2          1
+                    R6       1        1          1
+                    U$1      2        2.VDD      1
+                    U2       1        VDD        1
+                    U3       1        VIN        1
+                    U3       5        VOUT       1
+                    X1       2        VDD        1
+
+B1                  B1       3.B      2          1
+                    B1       4.B      2          1
+                    R2       1        1          1
+                    R43      2        2          1
+
+BUTTON              C6       1        +          1
+                    R43      1        1          1
+                    U1       15       15.RB5     1
+
+DAC1                R21      2        2          1
+                    U1       21       21.RA2     1
+
+DAC1OUT1            U2       6        W          1
+                    X1       3        VO         1
+
+DAC1_OUT1           C11      1        +          1
+                    R21      1        1          1
+                    U1       22       22.RA3     1
+
+ENCODER-VCC         Q6       2        D          1
+                    R8       2        2          1
+                    R9       2        2          1
+                    SW1      5        5.+        1
+
+ENCODER_RESET       R16      2        2          1
+                    U1       2        2.RD4      1
+
+ENC_A               C13      1        +          1
+                    R19      2        2          1
+                    U1       4        4.RD6      1
+
+ENC_B               C14      1        +          1
+                    R18      2        2          1
+                    U1       5        5.RD7      1
+
+ENC_BLUE            R12      1        1          1
+                    U1       25       25.RE0     1
+
+ENC_GREEN           R11      1        1          1
+                    U1       35       35.RC1     1
+
+ENC_RED             R10      1        1          1
+                    U1       36       36.RC2     1
+
+ENC_RESET           Q6       1        G          1
+                    R16      1        1          1
+                    R17      2        2          1
+
+ENC_SW              C15      1        +          1
+                    R13      2        2          1
+                    R20      1        1          1
+                    U1       3        3.RD5      1
+
+GND                 B1       1.A      1          1
+                    B1       2.A      1          1
+                    C1       2        -          1
+                    C10      2        -          1
+                    C11      2        -          1
+                    C12      2        -          1
+                    C13      2        -          1
+                    C14      2        -          1
+                    C15      2        -          1
+                    C16      2        -          1
+                    C17      2        -          1
+                    C18      2        -          1
+                    C2       2        -          1
+                    C3       2        -          1
+                    C4       2        -          1
+                    C5       2        -          1
+                    C6       2        -          1
+                    C8       2        -          1
+                    R13      1        1          1
+                    SW1      C        C          1
+                    U$1      3        3.VSS      1
+                    U1       29       29.VSS     1
+                    U1       6        6.VSS      1
+                    U2       2        VSS        1
+                    U2       5        B          1
+                    U3       2        GND        1
+                    X1       16       K          1
+
+ICSPCLK             U$1      5        5.ICSPCLK/PGC 1
+                    U1       17       17.ICSPDAT 1
+
+ICSPDAT             U$1      4        4.ICSPDAT/PGD 1
+                    U1       16       16.ICSPCLK 1
+
+LCD-D0              U1       8        8.RB0      1
+                    X1       7        DB0        1
+
+LCD-D1              U1       9        9.RB1      1
+                    X1       8        DB1        1
+
+LCD-D2              U1       10       10.RB2     1
+                    X1       9        DB2        1
+
+LCD-D3              U1       11       11.RB3     1
+                    X1       10       DB3        1
+
+LCD-RE              U1       40       40.RD2     1
+                    X1       6        E          1
+
+LCD-RS              U1       38       38.RD0     1
+                    X1       4        RS         1
+
+LCD-RW              U1       39       39.RD1     1
+                    X1       5        RW         1
+
+LCD_BACKLIGHT_RESET R5       2        2          1
+                    U1       41       41.RD3     1
+
+LCD_ENABLE          R3       2        2          1
+                    U1       43       43.RC5     1
+
+LED1                R7       1        1          1
+
+MCLR                C1       1        +          1
+                    R1       1        1          1
+                    R44      1        1          1
+                    U1       18       18.MCLR    1
+
+N$1                 LED1     C        C          1
+                    R7       2        2          1
+
+N$10                C10      1        +          1
+                    Q2       1        G          1
+                    R5       1        1          1
+                    R6       2        2          1
+
+N$11                R3       1        1          1
+                    U3       3        EN         1
+
+N$13                R44      2        2          1
+                    U$1      1        1.MCLR/VPP 1
+
+OPA1IN+             U1       23       23.RA4     1
+
+OPA1IN-             U1       24       24.RA5     1
+
+OPA1OUT             U1       20       20.RA1     1
+
+SCL                 R14      1        1          1
+                    U1       37       37.RC3     1
+                    U2       3        SCL        1
+
+SDA                 R15      1        1          1
+                    U1       42       42.RC4     1
+                    U2       4        SDA        1
+
+SW1.1               R10      2        2          1
+                    SW1      1        1.RED(-)   1
+
+SW1.2               R11      2        2          1
+                    SW1      2        2.GREEN(-) 1
+
+SW1.3               R20      2        2          1
+                    SW1      3        3.SW       1
+
+SW1.4               R12      2        2          1
+                    SW1      4        4.BLUE(-)  1
+
+SW1.A               R19      1        1          1
+                    R8       1        1          1
+                    SW1      A        A          1
+
+SW1.B               R18      1        1          1
+                    R9       1        1          1
+                    SW1      B        B          1
+
+UART_MCU_RX         U1       1        1.RC7      1
+
+UART_MCU_TX         U1       44       44.RC6     1
+
+VDD1                C8       1        +          1
+                    Q2       2        D          1
+                    X1       15       A          1
+
+VSS                 X1       1        VSS        1
+
