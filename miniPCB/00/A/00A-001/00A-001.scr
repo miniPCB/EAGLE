@@ -1,4 +1,4 @@
-# Works for 20x100mm miniPCB on a 100x100mm panel.
+# Works for 20x25mm miniPCB on a 100x100mm panel.
 # The source board file must already be ready with _tNames and _bNames layers.
 # Nolan Manteufel
 # 28JAN2023
