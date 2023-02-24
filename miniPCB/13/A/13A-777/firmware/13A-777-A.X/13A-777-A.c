@@ -43,6 +43,8 @@ void lcd_set_cursor(char a, char b);
 void lcd_init(void);
 void lcd_write_char(char a);
 void lcd_write_string(char *a);
+void lcd_contrast(void);
+void lcd_backlight(void);
 
 void encoder_init(void);
 void encoder_rotation(char steps, char direction);
@@ -51,6 +53,11 @@ void encoder_button(char a);
 
 void power_init(void);
 void power_statemachine(char steps, char direction);
+void power_batteryvoltage(void);
+
+void button_init(void);
+void button_isr(void);
+
 
 void tmr0_delay(char a){
     TMR0IE = 0;
