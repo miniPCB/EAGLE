@@ -35,6 +35,7 @@
 #define D7 RC3
 #define D7_TRIS TRISC3
 
+                                                                // LCD Functions
 void tmr0_delay(char a);
 void lcd_en(char a);
 void lcd_port(char a, char b, char c);
@@ -165,3 +166,42 @@ void lcd_write_string(char *a){
     for(i=0;a[i]!='\0';i++)
     lcd_write_char(a[i]);
 }
+
+// LCD
+void setContrast(char);
+void setBacklight(char);
+void refreshScreen(void);
+
+// Power Management
+void sleepDeep(void);
+void sleepActive(void);
+void activeGame(void);
+void batteryVoltage(void);
+
+// LED
+void setLED(char);
+void clearLED(void);
+void toggleLED(void);
+
+// Button
+void isr_readSelectButton(void);
+
+// Encoder
+void setEncoderRGB(void);
+void readEncoderButton(void);
+void readEncoderRotation(void);
+
+// Timer
+void setTimer(void);
+void getTimer(void);
+void incTimer(void);
+void spareTime(void);
+void timerRatio(void);
+
+// Histogram
+void writeHistogram(void);
+void writeHistogramValue(void);
+void playHistogram(void);
+void readHistorgram(void);
+void readHistogramValue(void);
+
