@@ -36,6 +36,7 @@
 #include <13A-777-A.c>
 
 void main(void) {
+    // INITIALIZATION
     GIE=0;
 
     lcd_init();
@@ -44,7 +45,10 @@ void main(void) {
     lcd_set_cursor(2,0);
     lcd_write_string("Live.Love.Learn.");
     
-    // state-machine with heartbeat of 1 second
+    // FOREVER STATE MACHINE
+    // HEARTBEAT TIMER INCREMENTING THE GAME
+    // WATCHDOG TIMER PROTECTING AGAINST ENVIRONMENT*HARDWARE*PROGRAM FAILURE
+    // GIVEN CATALOG SELECTION PARAMETERS FROM THE GAME VARIABLES, INPUT-BUTTON*CATALOG-SELECTION VISIBILITY
     
     // 
     

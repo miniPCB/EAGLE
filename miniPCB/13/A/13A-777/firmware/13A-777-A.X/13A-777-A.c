@@ -1,5 +1,5 @@
 /*
- * File:   DisplayDriver.c
+ * File:   13A-777-A.c
  * Author: Nolan
  *
  * Created on January 29, 2023, 8:00 PM
@@ -7,7 +7,12 @@
 
 
 #include <xc.h>
+// GAME SELECTION
+#include <LuckyNumberGenerator.h>
+//#include <LuckTracker.h>
+//#include <IChing.h>
 
+// HARDWARE FUNCTIONALITY
 // for LCD commands/settings
 #define CLEAR_DISPLAY 0x01
 #define CURSOR_HOME 0x02
@@ -35,7 +40,7 @@
 #define D7 RC3
 #define D7_TRIS TRISC3
 
-                                                                // LCD Functions
+// LCD Functions
 void tmr0_delay(char a);
 void lcd_en(char a);
 void lcd_port(char a, char b, char c);

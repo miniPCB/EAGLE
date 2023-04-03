@@ -8,4 +8,13 @@
 
 #include <xc.h>
 
+// VARIABLES, GAME (RAM)
+
+// PROGRAM, DEVICE HISTOGRAM (RAM)
+
+// MESSAGES, GAME*DISPLAY (ROM)
+
+// PROGRAM, GAME (ROM)
+
+
 
