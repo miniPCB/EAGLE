@@ -1,0 +1,87 @@
+Netlist
+
+Exported from v5.sch at 10/22/2021 6:54:28 PM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
++3V3     C4       2        +          3
+         U2       2        OUT        3
+         U2       4.TAB    OUT        3
+
++5V      C1       1+       1          3
+         C3       2        +          3
+         L2       1        1          3
+         U2       3        IN         3
+
+B+       B1       +        +          3
+         C6       +        1          3
+         F1       1        1          3
+         SW1.     1        ON         3
+         U3       5        5.BAT      3
+
+B+_FUSED C2       2        +          3
+         C8       1+       1          3
+         F1       2        2          3
+         L1       1        1          3
+
+CHARGE   R2       2        2          3
+         U3       7        7.CHRG     3
+
+DCDC_ENABLE SW1.     2        IN         3
+         U5       6        6.EN       3
+
+DCDC_OUT C9       1+       1          3
+         L2       2        2          3
+         U5       5        5.OUT      3
+
+DCDC_REF C7       2        +          3
+         U5       3        3.REF      3
+
+GND      B1       1        -          3
+         C1       2-       2          3
+         C2       1        -          3
+         C3       1        -          3
+         C4       1        -          3
+         C5       -        2          3
+         C6       -        2          3
+         C7       1        -          3
+         C8       2-       2          3
+         C9       2-       2          3
+         R3       1        1          3
+         SW1.     3        OFF        3
+         U2       1        GND        3
+         U3       1        1.TEMP     3
+         U3       3        3.GND      3
+         U3       THERMAL  3.GND      3
+         U5       1        1.FB       3
+         U5       2        2.GND      3
+
+N$2      LED1     C        C          3
+         R1       1        1          3
+
+N$3      LED2     C        C          3
+         R2       1        1          3
+
+N$7      R3       2        2          3
+         U3       2        2.PROG     3
+
+STANDBY  R1       2        2          3
+         U3       6        6.STDBY    3
+
+SWITCH_NODE L1       2        2          3
+         U5       4        4.LX       3
+
+USB_5V_AT D3       A        A          3
+
+USB_5V_PIC D4       A        A          3
+
+VCC      C5       +        1          3
+         D3       C        C          3
+         D4       C        C          3
+         LED1     A        A          3
+         LED2     A        A          3
+         U3       4        4.VCC      3
+         U3       8        8.ENABLE   3
+

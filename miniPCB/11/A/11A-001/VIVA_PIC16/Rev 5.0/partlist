@@ -1,0 +1,56 @@
+Partlist
+
+Exported from v5.sch at 10/23/2021 8:55:11 PM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value                 Device                Package                Library    Sheet
+
+B1       1043                  BATTERY18650          BATTERY-18650-1        utsa       3
+B201                           PUSHBUTTON6X6MM       6X6MM                  nolan-utsa 4
+C1       10u, 1206             C-EUC1206             C1206                  utsa       3
+C2       10u, 1206             C-EUC1206             C1206                  utsa       3
+C3       1u                    C0805                 C0805                  utsa       3
+C4       47u                   C-EU865080642006      C-WE-5MM               utsa       3
+C5       1u                    C0805                 C0805                  utsa       3
+C6       47u                   C-EU865080642006      C-WE-5MM               utsa       3
+C7       1u                    C0805                 C0805                  utsa       3
+C8       47u                   C-EU865080642006      C-WE-5MM               utsa       3
+C9       1u                    C0805                 C0805                  utsa       3
+C10      1u                    C0805                 C0805                  utsa       3
+C201     4u7                   C0805                 C0805                  nolan-utsa 4
+C202     4u7                   C0805                 C0805                  nolan-utsa 4
+C203     1u                    C0805                 C0805                  nolan-utsa 4
+D1       1N5819                DIODE-SOD80C          SOD80C                 utsa       3
+D2       1N5819                DIODE-SOD80C          SOD80C                 utsa       3
+F1       0805                  FUSE0805              F0805                  utsa       3
+J1       Transmitter           VIVA-HEADER-GPIO-1    VIVA-HEADER-GPIO-RA-1  utsa       2
+J2       Receiver              VIVA-HEADER-RF-RX     VIVA-HEADER-RF-RX      utsa       2
+J202     VIVA-HEADER-ADCNONAME VIVA-HEADER-ADCNONAME VIVA-HEADER-ADC-NONAME nolan-utsa 2
+J203     PICKIT3               PICKIT3               PICKIT3                nolan-viva 2
+J204     PINS_32.54            PINS_32.54            PINS_3                 nolan-utsa 4
+L1       22u                   L5040                 SRN5040                utsa       3
+L2       22u                   L5040                 SRN5040                utsa       3
+LED1     SBY                   LEDCHIPLED_0603       CHIPLED_0603           utsa       3
+LED2     CHG                   LEDCHIPLED_0603       CHIPLED_0603           utsa       3
+LED201   Hello World!          RGB_LED               LED_RGB-5050           nolan-utsa 4
+M101     VIVA_USB-TTL          VIVA_USB-TTL          VIVA_USB_TTL_SUBTEXT   nolan-utsa 4
+PIC      PIC16F1829            PIC16F1829            SOP20-NEW              nolan-utsa 4
+R1       RPROG                 R-EU__R0805           R0805                  utsa       3
+R2       1k                    R-EU__R0805           R0805                  utsa       3
+R3       1k                    R-EU__R0805           R0805                  utsa       3
+R201     150                   R-US_R0805            R0805                  adafruit   4
+R202     150                   R-US_R0805            R0805                  adafruit   4
+R203     150                   R-US_R0805            R0805                  adafruit   4
+R204     2k2                   R-US_R0805            R0805                  adafruit   4
+R205     2k2                   R-US_R0805            R0805                  adafruit   4
+R206     100k                  R-US_R0805            R0805                  adafruit   4
+R207     10k                   R-US_R0805            R0805                  adafruit   4
+SW1.     OS202013MT5QN1        SWITCH_DPDT           OS202013MT5QN1         utsa       3
+U$6      VIVA_PIC16BOARD       VIVA_PIC16BOARD       VIVA_PIC16             utsa       2
+U$7      VIVA_UTSA-KEYPADV5    VIVA_UTSA-KEYPADV5    VIVA_UTSA-KEYPAD-V5    utsa       4
+U1       TP4056                TP4056                SO08-THERMAL           utsa       3
+U2       AP1603                AP1603                SOT23-6                utsa       3
+U3       AMS1117-3.3           REGULATOR_SCHLM1117   SOT223                 utsa       3

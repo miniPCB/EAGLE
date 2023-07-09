@@ -1,0 +1,74 @@
+Partlist
+
+Exported from v5.3.brd at 6/2/2023 4:42:08 PM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Package               Library    Position (mm)         Orientation
+
+A1                          FIDUCIAL              utsa       (86.5 95)             R0
+A2                          FIDUCIAL              utsa       (5 30)                R0
+B1                          6X6MM                 nolan-utsa (20 13)               R0
+B2                          6X6MM                 nolan-utsa (4.5 13)              R0
+B3                          6X6MM                 nolan-utsa (48.5 96.5)           R180
+B4                          6X6MM                 nolan-utsa (37 96.5)             R180
+C1       1u                 C0805                 utsa       (44.5 43)             R270
+C2       1u                 C0805                 utsa       (47 43)               R270
+C3       1u                 C0805                 utsa       (53.5 18.5)           R180
+C4       100n               C0805                 utsa       (25.5 24)             R0
+C5       1u                 C0805                 utsa       (15.5 16.5)           R0
+C6       1u                 C0805                 utsa       (53 53.5)             R0
+C7       15p                C0603                 utsa       (41 64.5)             R45
+C8       15p                C0603                 utsa       (43.5 62)             R45
+C9       1u                 C0805                 utsa       (38.5 86.5)           R270
+C10      2u2                C0805                 utsa       (56.5 81)             R135
+C11      100n               C0805                 utsa       (58 82.5)             R135
+C12      1u                 C0805                 utsa       (42 73.9)             R315
+C13      10u                C0805                 utsa       (40 78.5)             R315
+C14                         C0805                 utsa       (18.5 92.5)           R0
+C15                         C0805                 utsa       (20 86)               R0
+C16                         C0805                 utsa       (20 88.5)             R0
+C17                         C0805                 utsa       (18.5 95)             R0
+C18      100n               C0805                 utsa       (46.5 86.5)           R90
+C19      100n               C0805                 utsa       (32.5 88)             R0
+D1                          DO214AC               utsa       (12.5 94)             R180
+J1       VDD Selector       PINS_3                utsa       (11 44.5)             R180
+J2       A                  PINS_6                utsa       (64 55.16)            R90
+J3                          PINS_4                utsa       (33.5 65.32)          R90
+J4       PICKIT3            PICKIT3               nolan-viva (76 3)                R0
+J5                          VIVA-HEADER-ADC-PIC16 utsa       (96 21.5)             R270
+J6       ICSP               PINS_6-2X3            utsa       (64 74)               R90
+J7                          PJ-102A               utsa       (4.5 86.5)            R90
+J8                          VIVA-HEADER-ADC       utsa       (72.5 96.5)           R0
+J9                          VIVA-HEADER-ADC       utsa       (52 96.5)             R0
+LED1                        0805_RGB              utsa       (50 19)               R0
+LED2                        SML0805               utsa       (67.5 83.5)           R0
+LED3                        SML0805               utsa       (22 44.5)             R180
+R1       150                R0805                 utsa       (49 23.5)             R270
+R2       150                R0805                 utsa       (46 23.5)             R270
+R3       150                R0805                 utsa       (52 23.5)             R270
+R4       10k                R0805                 utsa       (25.5 21)             R0
+R5       2k2                R0805                 utsa       (55 56)               R0
+R6       2k2                R0805                 utsa       (55 58.5)             R0
+R7       10k                R0805                 utsa       (15.5 13.5)           R180
+R8       10k                R0805                 utsa       (15.5 19.5)           R0
+R9       10k                R0805                 utsa       (41.5 86.5)           R90
+R10      10k                R0805                 utsa       (41 82.5)             R135
+R11      1R                 R0805                 utsa       (60.5 86.5)           R270
+R12      1R                 R0805                 utsa       (57.5 87)             R0
+R13      10k                R0805                 utsa       (44 86.5)             R270
+R14      180                R0805                 utsa       (67.5 81)             R0
+R15      1k                 R0805                 utsa       (17 44.5)             R0
+R16      10k                R0805                 utsa       (36 86.5)             R90
+U$3      VIVA_OLEDGND       VIVA_OLED-I2C-ALT     utsa       (11.5 76)             R0
+U1       VIVA_UTSA-KEYPADV5 VIVA_UTSA-KEYPAD-V5   utsa       (50 1.5)              R0
+U2       VIVA_USB-TTL       VIVA_USB_TTL_SUBTEXT  utsa       (19 38)               R0
+U3       PIC16F1829         SOP20-NEW             utsa       (50 33)               R270
+U4       VIVA-HEADER-I2C-RA VIVA-HEADER-I2C-RA    utsa       (96 87.42)            R270
+U5       VIVA_PIC16BOARD    VIVA_PIC16            utsa       (33.5 45)             R0
+U6       ATMEGA328-AU       32A_ATM               utsa       (50 76.5)             R45
+U7       VIVA_USB-TTL       VIVA_USB_TTL_SUBTEXT  utsa       (19 69)               R0
+U8                          SOT223                utsa       (25 91.5)             R180
+XTAL1                       HC49S-SMD             utsa       (45.5 66.5)           R135
