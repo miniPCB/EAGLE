@@ -1,0 +1,17 @@
+GERBER FILE DESCRIPTIONS
+
+GML, Board Shape, Cutouts, Dimension, Milling
+GM2, vScore
+GBP, Gerber bottom paste
+GTP, Gerber top paste
+GBS, Gerber bottom soldermask
+GTS, Gerber top soldermask
+GBO, Gerber bottom silkscreen, bottom overlay
+GTO, Gerber top silkscreen, top overlay
+GBL, Gerber bottom copper
+GTL, Gerber top copper
+
+XLN, Excellon drill file
+TXT, Drill layer
+
+CSV, Pick and place file, (front and back)
