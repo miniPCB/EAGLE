@@ -2255,10 +2255,10 @@ einem neuen Namen ab.</description>
 <element name="U$1" library="minipcb" package="MINIPCB_0P_50X50MM" value="MINIPCB_50X50" x="0" y="0" smashed="yes">
 <attribute name="CIRCUIT_CATEGORY" value="04A, OPERATIONAL AMPLIFIER" x="11" y="46.2" size="1.3" layer="1" font="vector" ratio="12" align="center-left"/>
 <attribute name="CIRCUIT_CATEGORY" value="04A, OPERATIONAL AMPLIFIER" x="11" y="46.2" size="1.3" layer="21" font="vector" ratio="12" align="center-left"/>
-<attribute name="PART_NUMBER" value="04A-005" x="43" y="48" size="1.3" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="PART_NUMBER" value="04A-005" x="43" y="48" size="1.3" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
-<attribute name="REVISION" value="A1-01" x="37" y="46" size="1.3" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
+<attribute name="PART_NUMBER" value="04A-005" x="43" y="48" size="1.3" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="REVISION" value="A1-01" x="37" y="46" size="1.3" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
+<attribute name="REVISION" value="A1-01" x="37" y="46" size="1.3" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="TITLE" value="INVERTING AMPLIFIER" x="11" y="48" size="1.3" layer="1" font="vector" ratio="12" align="center-left"/>
 <attribute name="TITLE" value="INVERTING AMPLIFIER" x="11" y="48" size="1.3" layer="21" font="vector" ratio="12" align="center-left"/>
 </element>

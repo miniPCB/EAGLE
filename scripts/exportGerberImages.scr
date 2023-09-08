@@ -14,6 +14,14 @@ display 1 17 18 199 210 211;
 export image Gerber01_TOPCOPPER_GLT.png monochrome 600;
 
 display none;
+display 2 18 199 210 208;
+export image Gerber01_LAYER2_GL2.png monochrome 600;
+
+display none;
+display 15 18 199 210 209;
+export image Gerber01_LAYER3_GL3.png monochrome 600;
+
+display none;
 display 31 199 210 212;
 export image Gerber02_TOP_PASTE_GTP.png monochrome 600;
 
