@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -26832,7 +26833,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <part name="P1-" library="minipcb" deviceset="MINIPCB_5P" device="50X50">
 <attribute name="PART_NUMBER" value="X04B-005-B"/>
 </part>
-<part name="C2" library="minipcb" deviceset="CAPACITOR" device="THD"/>
+<part name="C2" library="minipcb" deviceset="CAPACITOR" device="THD" override_package3d_urn="urn:adsk.eagle:package:41592839/2" override_package_urn="urn:adsk.eagle:footprint:41592840/1"/>
 <part name="C1" library="minipcb" deviceset="CAPACITOR" device="THD"/>
 <part name="C3" library="minipcb" deviceset="CAPACITOR" device="THD"/>
 <part name="R3" library="minipcb" deviceset="RESISTOR" device="10MM"/>
@@ -26882,54 +26883,160 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <wire x1="30.48" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="GND4" gate="1" x="43.18" y="149.86"/>
-<instance part="GND5" gate="1" x="55.88" y="149.86"/>
-<instance part="GND3" gate="1" x="60.96" y="66.04"/>
-<instance part="GND1" gate="1" x="88.9" y="63.5"/>
-<instance part="P+1" gate="1" x="88.9" y="144.78"/>
-<instance part="P+2" gate="1" x="55.88" y="167.64"/>
-<instance part="GND2" gate="1" x="43.18" y="170.18" rot="R90"/>
-<instance part="U$1" gate="G$1" x="35.56" y="154.94"/>
-<instance part="P1-" gate="4X3" x="30.48" y="63.5"/>
-<instance part="P1-" gate="1" x="30.48" y="170.18"/>
-<instance part="P1-" gate="2" x="30.48" y="162.56"/>
-<instance part="P1-" gate="3" x="30.48" y="154.94"/>
-<instance part="P1-" gate="4" x="30.48" y="101.6"/>
-<instance part="P1-" gate="5" x="132.08" y="109.22" rot="R180"/>
-<instance part="C2" gate="C" x="45.72" y="101.6" rot="R90"/>
-<instance part="C1" gate="C" x="43.18" y="157.48"/>
-<instance part="C3" gate="C" x="55.88" y="157.48"/>
-<instance part="R3" gate="R" x="60.96" y="73.66" rot="R90"/>
-<instance part="R1" gate="R" x="60.96" y="124.46" rot="R90"/>
-<instance part="R4" gate="R" x="88.9" y="124.46" rot="R90"/>
-<instance part="Q1" gate="Q" x="86.36" y="101.6"/>
-<instance part="R6" gate="R" x="88.9" y="71.12" rot="R90"/>
-<instance part="C4" gate="C" x="114.3" y="71.12"/>
-<instance part="GND6" gate="1" x="114.3" y="63.5"/>
-<instance part="P+3" gate="1" x="60.96" y="134.62"/>
-<instance part="R5" gate="R" x="88.9" y="86.36" rot="R90"/>
-<instance part="R2" gate="P" x="60.96" y="88.9"/>
-<instance part="SHEET1" gate="G$1" x="0" y="0"/>
-<instance part="U$2" gate="G$12" x="7.62" y="17.78"/>
-<instance part="R9" gate="P" x="101.6" y="71.12"/>
-<instance part="GND7" gate="1" x="101.6" y="63.5"/>
-<instance part="R8" gate="R" x="101.6" y="116.84" rot="R90"/>
-<instance part="R7" gate="P" x="101.6" y="132.08"/>
-<instance part="TP1" gate="TP" x="35.56" y="104.14" rot="R90"/>
-<instance part="TP2" gate="TP" x="55.88" y="104.14" rot="R90"/>
-<instance part="TP6" gate="TP" x="63.5" y="81.28"/>
-<instance part="TP5" gate="TP" x="63.5" y="116.84"/>
-<instance part="TP10" gate="TP" x="114.3" y="111.76" rot="R90"/>
-<instance part="TP8" gate="TP" x="116.84" y="78.74"/>
-<instance part="TP7" gate="TP" x="91.44" y="93.98"/>
-<instance part="GND8" gate="1" x="71.12" y="149.86"/>
-<instance part="TP4" gate="TP" x="73.66" y="154.94"/>
-<instance part="P+4" gate="1" x="71.12" y="167.64"/>
-<instance part="TP3" gate="TP" x="73.66" y="162.56"/>
-<instance part="TP9" gate="TP" x="104.14" y="124.46"/>
-<instance part="C5" gate="C" x="73.66" y="109.22"/>
-<instance part="R10" gate="R" x="81.28" y="116.84"/>
-<instance part="TP11" gate="TP" x="73.66" y="119.38" rot="R90"/>
+<instance part="GND4" gate="1" x="43.18" y="149.86" smashed="yes"/>
+<instance part="GND5" gate="1" x="55.88" y="149.86" smashed="yes"/>
+<instance part="GND3" gate="1" x="60.96" y="66.04" smashed="yes"/>
+<instance part="GND1" gate="1" x="88.9" y="63.5" smashed="yes"/>
+<instance part="P+1" gate="1" x="88.9" y="144.78" smashed="yes">
+<attribute name="VALUE" x="86.36" y="142.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+2" gate="1" x="55.88" y="167.64" smashed="yes">
+<attribute name="VALUE" x="53.34" y="165.1" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND2" gate="1" x="43.18" y="170.18" smashed="yes" rot="R90"/>
+<instance part="U$1" gate="G$1" x="35.56" y="154.94" smashed="yes"/>
+<instance part="P1-" gate="4X3" x="30.48" y="63.5" smashed="yes"/>
+<instance part="P1-" gate="1" x="30.48" y="170.18" smashed="yes">
+<attribute name="NAME" x="27.432" y="170.18" size="1.778" layer="95" align="center-right"/>
+</instance>
+<instance part="P1-" gate="2" x="30.48" y="162.56" smashed="yes">
+<attribute name="NAME" x="27.432" y="162.56" size="1.778" layer="95" align="center-right"/>
+</instance>
+<instance part="P1-" gate="3" x="30.48" y="154.94" smashed="yes">
+<attribute name="NAME" x="27.432" y="154.94" size="1.778" layer="95" align="center-right"/>
+</instance>
+<instance part="P1-" gate="4" x="30.48" y="101.6" smashed="yes">
+<attribute name="NAME" x="27.432" y="101.6" size="1.778" layer="95" align="center-right"/>
+</instance>
+<instance part="P1-" gate="5" x="132.08" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="135.128" y="109.22" size="1.778" layer="95" rot="R180" align="center-right"/>
+</instance>
+<instance part="C2" gate="C" x="45.72" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.45" y="104.14" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="C1" gate="C" x="43.18" y="157.48" smashed="yes">
+<attribute name="NAME" x="45.72" y="158.75" size="1.778" layer="95"/>
+</instance>
+<instance part="C3" gate="C" x="55.88" y="157.48" smashed="yes">
+<attribute name="NAME" x="58.42" y="158.75" size="1.778" layer="95"/>
+</instance>
+<instance part="R3" gate="R" x="60.96" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.4614" y="69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="62.484" y="76.2" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R1" gate="R" x="60.96" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.4614" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="62.484" y="127" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R4" gate="R" x="88.9" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="120.65" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="90.424" y="127" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="Q1" gate="Q" x="86.36" y="101.6" smashed="yes">
+<attribute name="NAME" x="91.44" y="104.14" size="1.778" layer="95"/>
+<attribute name="VALUE" x="91.44" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="R" x="88.9" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="90.424" y="73.66" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C4" gate="C" x="114.3" y="71.12" smashed="yes">
+<attribute name="NAME" x="116.84" y="72.39" size="1.778" layer="95"/>
+</instance>
+<instance part="GND6" gate="1" x="114.3" y="63.5" smashed="yes"/>
+<instance part="P+3" gate="1" x="60.96" y="134.62" smashed="yes">
+<attribute name="VALUE" x="58.42" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="R" x="88.9" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="90.424" y="88.9" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R2" gate="P" x="60.96" y="88.9" smashed="yes">
+<attribute name="NAME" x="57.15" y="91.44" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SHEET1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="190" y="16" size="5" layer="97" align="top-center"/>
+<attribute name="REVISION" x="232" y="16" size="5" layer="97" align="top-center"/>
+<attribute name="CIRCUIT_CATEGORY" x="148" y="35" size="3" layer="97" align="top-left"/>
+<attribute name="CIRCUIT_NAME" x="148" y="30" size="3" layer="97" align="top-left"/>
+<attribute name="CIRCUIT_VARIANT" x="148" y="25" size="3" layer="97" align="top-left"/>
+<attribute name="TITLE" x="148" y="47" size="3" layer="97" align="top-left"/>
+<attribute name="LAST_DATE_TIME" x="145" y="35" size="2.5" layer="97" rot="R180" align="center-left"/>
+<attribute name="SHEET" x="224" y="7" size="2.5" layer="97" align="center"/>
+<attribute name="DR" x="102" y="25" size="2.5" layer="97" align="center-left"/>
+<attribute name="ENG" x="102" y="16" size="2.5" layer="97" align="center-left"/>
+<attribute name="QA" x="102" y="7" size="2.5" layer="97" align="center-left"/>
+<attribute name="DR_DATE" x="145" y="25" size="2.5" layer="97" rot="R180" align="center-left"/>
+<attribute name="ENG_DATE" x="145" y="16" size="2.5" layer="97" rot="R180" align="center-left"/>
+<attribute name="QA_DATE" x="145" y="7" size="2.5" layer="97" rot="R180" align="center-left"/>
+<attribute name="REVA" x="177" y="188.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVA_ECO" x="221.5" y="188.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVA_DATE" x="236.5" y="188.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVB" x="177" y="183.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVB_DESCRIPTION" x="184" y="183.5" size="1.778" layer="94" align="center-left"/>
+<attribute name="REVB_ECO" x="221.5" y="183.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVB_DATE" x="236.5" y="183.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVC" x="177" y="178.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVC_DESCRIPTION" x="184" y="178.5" size="1.778" layer="94" align="center-left"/>
+<attribute name="REVC_ECO" x="221.5" y="178.5" size="1.778" layer="94" align="center"/>
+<attribute name="REVC_DATE" x="236.5" y="178.5" size="1.778" layer="94" align="center"/>
+</instance>
+<instance part="U$2" gate="G$12" x="7.62" y="17.78" smashed="yes"/>
+<instance part="R9" gate="P" x="101.6" y="71.12" smashed="yes">
+<attribute name="NAME" x="97.79" y="73.66" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="GND7" gate="1" x="101.6" y="63.5" smashed="yes"/>
+<instance part="R8" gate="R" x="101.6" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1014" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="103.124" y="119.38" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R7" gate="P" x="101.6" y="132.08" smashed="yes">
+<attribute name="NAME" x="97.79" y="134.62" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="TP1" gate="TP" x="35.56" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.56" y="106.68" size="1.778" layer="94" rot="R90" align="center-left"/>
+</instance>
+<instance part="TP2" gate="TP" x="55.88" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.88" y="106.68" size="1.778" layer="94" rot="R90" align="center-left"/>
+</instance>
+<instance part="TP6" gate="TP" x="63.5" y="81.28" smashed="yes">
+<attribute name="NAME" x="66.04" y="81.28" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="TP5" gate="TP" x="63.5" y="116.84" smashed="yes">
+<attribute name="NAME" x="66.04" y="116.84" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="TP10" gate="TP" x="114.3" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="114.3" y="114.3" size="1.778" layer="94" rot="R90" align="center-left"/>
+</instance>
+<instance part="TP8" gate="TP" x="116.84" y="78.74" smashed="yes">
+<attribute name="NAME" x="119.38" y="78.74" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="TP7" gate="TP" x="91.44" y="93.98" smashed="yes">
+<attribute name="NAME" x="93.98" y="93.98" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="GND8" gate="1" x="71.12" y="149.86" smashed="yes"/>
+<instance part="TP4" gate="TP" x="73.66" y="154.94" smashed="yes">
+<attribute name="NAME" x="76.2" y="154.94" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="P+4" gate="1" x="71.12" y="167.64" smashed="yes">
+<attribute name="VALUE" x="68.58" y="165.1" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="TP3" gate="TP" x="73.66" y="162.56" smashed="yes">
+<attribute name="NAME" x="76.2" y="162.56" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="TP9" gate="TP" x="104.14" y="124.46" smashed="yes">
+<attribute name="NAME" x="106.68" y="124.46" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="C5" gate="C" x="73.66" y="109.22" smashed="yes">
+<attribute name="NAME" x="76.2" y="110.49" size="1.778" layer="95"/>
+</instance>
+<instance part="R10" gate="R" x="81.28" y="116.84" smashed="yes">
+<attribute name="NAME" x="77.47" y="118.3386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="115.316" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="TP11" gate="TP" x="73.66" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.66" y="121.92" size="1.778" layer="94" rot="R90" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27138,6 +27245,16 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

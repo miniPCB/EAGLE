@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="SYMBOL" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="PCB15">
+<wire x1="0" y1="0" x2="15" y2="0" width="0" layer="48"/>
+<wire x1="15" y1="0" x2="15" y2="20" width="0" layer="48"/>
+<wire x1="15" y1="20" x2="0" y2="20" width="0" layer="48"/>
+<wire x1="0" y1="20" x2="0" y2="0" width="0" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="48"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<text x="2" y="4.5" size="1.5" layer="21" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="17.5" width="0.2" layer="21"/>
+<wire x1="1" y1="17.5" x2="14" y2="17.5" width="0.2" layer="21"/>
+<wire x1="14" y1="17.5" x2="14" y2="1" width="0.2" layer="21"/>
+<text x="1" y="18" size="1" layer="21" font="vector" ratio="12">&gt;TITLE</text>
+<text x="1" y="18" size="1" layer="1" font="vector" ratio="12">&gt;TITLE</text>
+<text x="13.5" y="18" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<text x="10.5" y="16.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="10.5" y="16.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="13.5" y="16.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="13.5" y="16.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="13.5" y="18" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<dimension x1="0" y1="20" x2="0" y2="0" x3="-10" y3="10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="15" y2="0" x3="7.5" y3="-10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="51" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="0" y1="20" x2="1" y2="20" x3="0.5" y3="25" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="15" y1="20" x2="14" y2="20" x3="14.5" y3="25" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<wire x1="-50" y1="-50" x2="70" y2="-50" width="0.2" layer="51"/>
+<wire x1="70" y1="-50" x2="70" y2="70" width="0.2" layer="51"/>
+<wire x1="70" y1="70" x2="-50" y2="70" width="0.2" layer="51"/>
+<wire x1="-50" y1="70" x2="-50" y2="-50" width="0.2" layer="51"/>
+</package>
+<package name="PCB20">
+<wire x1="0" y1="0" x2="20" y2="0" width="0" layer="48"/>
+<wire x1="20" y1="0" x2="20" y2="20" width="0" layer="48"/>
+<wire x1="20" y1="20" x2="0" y2="20" width="0" layer="48"/>
+<wire x1="0" y1="20" x2="0" y2="0" width="0" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="48"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<text x="2" y="4.5" size="1.5" layer="21" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="17.5" width="0.2" layer="21"/>
+<wire x1="1" y1="17.5" x2="19" y2="17.5" width="0.2" layer="21"/>
+<wire x1="19" y1="17.5" x2="19" y2="1" width="0.2" layer="21"/>
+<text x="1" y="18" size="1" layer="21" font="vector" ratio="12">&gt;TITLE</text>
+<text x="1" y="18" size="1" layer="1" font="vector" ratio="12">&gt;TITLE</text>
+<text x="18.5" y="18" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<text x="15.5" y="16.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="15.5" y="16.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="18.5" y="16.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="18.5" y="16.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="18.5" y="18" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<dimension x1="0" y1="20" x2="0" y2="0" x3="-10" y3="10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="20" y2="0" x3="10" y3="-10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="51" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="0" y1="20" x2="1" y2="20" x3="0.5" y3="25" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="20" y1="20" x2="19" y2="20" x3="19.5" y3="25" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<wire x1="-50" y1="-55" x2="70" y2="-55" width="0.2" layer="51"/>
+<wire x1="70" y1="-55" x2="70" y2="65" width="0.2" layer="51"/>
+<wire x1="70" y1="65" x2="-50" y2="65" width="0.2" layer="51"/>
+<wire x1="-50" y1="65" x2="-50" y2="-55" width="0.2" layer="51"/>
+</package>
+<package name="PCB25">
+<wire x1="0" y1="0" x2="25" y2="0" width="0" layer="48"/>
+<wire x1="25" y1="0" x2="25" y2="25" width="0" layer="48"/>
+<wire x1="25" y1="25" x2="0" y2="25" width="0" layer="48"/>
+<wire x1="0" y1="25" x2="0" y2="0" width="0" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="48"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<text x="2" y="4.5" size="1.5" layer="21" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="22.5" width="0.2" layer="21"/>
+<wire x1="1" y1="22.5" x2="24" y2="22.5" width="0.2" layer="21"/>
+<wire x1="24" y1="22.5" x2="24" y2="1" width="0.2" layer="21"/>
+<text x="1" y="23" size="1" layer="21" font="vector" ratio="12">&gt;TITLE</text>
+<text x="1" y="23" size="1" layer="1" font="vector" ratio="12">&gt;TITLE</text>
+<text x="23.5" y="23" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<text x="20.5" y="21.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="20.5" y="21.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="23.5" y="21.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="23.5" y="21.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="23.5" y="23" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<dimension x1="0" y1="25" x2="0" y2="0" x3="-10" y3="12.5" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="25" y2="0" x3="12.5" y3="-10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="51" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="0" y1="25" x2="1" y2="25" x3="0.5" y3="30" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="25" y1="25" x2="24" y2="25" x3="24.5" y3="30" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<wire x1="-45" y1="-50" x2="75" y2="-50" width="0.2" layer="51"/>
+<wire x1="75" y1="-50" x2="75" y2="70" width="0.2" layer="51"/>
+<wire x1="75" y1="70" x2="-45" y2="70" width="0.2" layer="51"/>
+<wire x1="-45" y1="70" x2="-45" y2="-50" width="0.2" layer="51"/>
+</package>
+<package name="PCB50">
+<wire x1="0" y1="0" x2="50" y2="0" width="0" layer="48"/>
+<wire x1="50" y1="0" x2="50" y2="50" width="0" layer="48"/>
+<wire x1="50" y1="50" x2="0" y2="50" width="0" layer="48"/>
+<wire x1="0" y1="50" x2="0" y2="0" width="0" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="48"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<text x="2" y="4.5" size="1.5" layer="21" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="47.5" width="0.2" layer="21"/>
+<wire x1="1" y1="47.5" x2="49" y2="47.5" width="0.2" layer="21"/>
+<wire x1="49" y1="47.5" x2="49" y2="1" width="0.2" layer="21"/>
+<text x="2" y="48" size="1" layer="21" font="vector" ratio="12">&gt;TITLE</text>
+<text x="2" y="48" size="1" layer="1" font="vector" ratio="12">&gt;TITLE</text>
+<text x="47.5" y="48" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<text x="44.5" y="46.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="44.5" y="46.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="47.5" y="46.5" size="1" layer="22" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="47.5" y="46.5" size="1" layer="16" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="47.5" y="48" size="1" layer="22" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<dimension x1="0" y1="50" x2="0" y2="0" x3="-10" y3="25" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="51" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="0" y1="50" x2="1" y2="50" x3="0.5" y3="55" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="50" y1="50" x2="49" y2="50" x3="49.5" y3="55" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<wire x1="-35" y1="-35" x2="85" y2="-35" width="0.2" layer="51"/>
+<wire x1="85" y1="-35" x2="85" y2="85" width="0.2" layer="51"/>
+<wire x1="85" y1="85" x2="-35" y2="85" width="0.2" layer="51"/>
+<wire x1="-35" y1="85" x2="-35" y2="-35" width="0.2" layer="51"/>
+</package>
+<package name="PCB100">
+<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="48"/>
+<wire x1="100" y1="0" x2="100" y2="100" width="0" layer="48"/>
+<wire x1="100" y1="100" x2="0" y2="100" width="0" layer="48"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="48"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<text x="2" y="4.5" size="1.5" layer="21" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="97" width="0.2" layer="21"/>
+<wire x1="1" y1="97" x2="99" y2="97" width="0.2" layer="21"/>
+<wire x1="99" y1="97" x2="99" y2="1" width="0.2" layer="21"/>
+<text x="2" y="97.5" size="1.5" layer="21" font="vector" ratio="12">&gt;TITLE</text>
+<text x="2" y="97.5" size="1.5" layer="1" font="vector" ratio="12">&gt;TITLE</text>
+<text x="94" y="97.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<text x="73" y="97.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="73" y="97.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="77" y="97.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="77" y="97.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="94" y="97.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<dimension x1="0" y1="100" x2="0" y2="0" x3="-10" y3="50" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="100" y2="0" x3="50" y3="-10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="51" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="0" y1="100" x2="1" y2="100" x3="0.5" y3="105" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="100" y1="100" x2="99" y2="100" x3="99.5" y3="105" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<text x="98" y="97.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">PN</text>
+<text x="98" y="97.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">PN</text>
+<wire x1="-20" y1="-20" x2="115" y2="-20" width="0.2" layer="51"/>
+<wire x1="115" y1="-20" x2="115" y2="115" width="0.2" layer="51"/>
+<wire x1="115" y1="115" x2="-20" y2="115" width="0.2" layer="51"/>
+<wire x1="-20" y1="115" x2="-20" y2="-20" width="0.2" layer="51"/>
+</package>
+<package name="PCB33">
+<wire x1="0" y1="0" x2="33" y2="0" width="0" layer="48"/>
+<wire x1="33" y1="0" x2="33" y2="33" width="0" layer="48"/>
+<wire x1="33" y1="33" x2="0" y2="33" width="0" layer="48"/>
+<wire x1="0" y1="33" x2="0" y2="0" width="0" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="48"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="48"/>
+<text x="2" y="4.5" size="1.5" layer="21" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="30" width="0.2" layer="21"/>
+<wire x1="1" y1="30" x2="32" y2="30" width="0.2" layer="21"/>
+<wire x1="32" y1="30" x2="32" y2="1" width="0.2" layer="21"/>
+<text x="2" y="30.5" size="1.5" layer="21" font="vector" ratio="12">&gt;TITLE</text>
+<text x="2" y="30.5" size="1.5" layer="1" font="vector" ratio="12">&gt;TITLE</text>
+<text x="27" y="30.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<text x="6" y="30.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="6" y="30.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">&gt;REVISION</text>
+<text x="10" y="30.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="10" y="30.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">REV</text>
+<text x="27" y="30.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">&gt;PART_NUMBER</text>
+<dimension x1="0" y1="33" x2="0" y2="0" x3="-10" y3="16.5" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="33" y2="0" x3="16.5" y3="-10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="51" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="0" y1="33" x2="1" y2="33" x3="0.5" y3="38" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="33" y1="33" x2="32" y2="33" x3="32.5" y3="38" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<text x="31" y="30.5" size="1.5" layer="22" font="vector" ratio="12" rot="MR0">PN</text>
+<text x="31" y="30.5" size="1.5" layer="16" font="vector" ratio="12" rot="MR0">PN</text>
+<wire x1="-49" y1="-57" x2="86" y2="-57" width="0.2" layer="51"/>
+<wire x1="86" y1="-57" x2="86" y2="78" width="0.2" layer="51"/>
+<wire x1="86" y1="78" x2="-49" y2="78" width="0.2" layer="51"/>
+<wire x1="-49" y1="78" x2="-49" y2="-57" width="0.2" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PCB33">
+<dimension x1="0" y1="33" x2="0" y2="0" x3="-10" y3="16.5" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="33" y2="0" x3="16.5" y3="-10" textsize="1" textratio="12" layer="51"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="51" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="0" y1="33" x2="1" y2="33" x3="0.5" y3="38" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<dimension x1="33" y1="33" x2="32" y2="33" x3="32.5" y3="38" textsize="1" textratio="12" layer="51" dtype="horizontal"/>
+<wire x1="0" y1="0" x2="33" y2="0" width="0" layer="94"/>
+<wire x1="33" y1="0" x2="33" y2="33" width="0" layer="94"/>
+<wire x1="33" y1="33" x2="0" y2="33" width="0" layer="94"/>
+<wire x1="0" y1="33" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<text x="2" y="4.5" size="1.5" layer="94" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="30" width="0.2" layer="94"/>
+<wire x1="1" y1="30" x2="32" y2="30" width="0.2" layer="94"/>
+<wire x1="32" y1="30" x2="32" y2="1" width="0.2" layer="94"/>
+<text x="2" y="30.5" size="1.5" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<text x="2" y="30.5" size="1.5" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<dimension x1="0" y1="33" x2="0" y2="0" x3="-10" y3="16.5" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="33" y2="0" x3="16.5" y3="-10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="33" x2="1" y2="33" x3="0.5" y3="38" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="33" y1="33" x2="32" y2="33" x3="32.5" y3="38" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+</symbol>
+<symbol name="PCB15">
+<dimension x1="-17.46" y1="32.54" x2="-17.46" y2="12.54" x3="-27.46" y3="22.54" textsize="1" textratio="12" layer="48"/>
+<dimension x1="-17.46" y1="12.54" x2="-2.46" y2="12.54" x3="-9.96" y3="2.54" textsize="1" textratio="12" layer="48"/>
+<dimension x1="-17.46" y1="12.54" x2="-14.96" y2="15.04" x3="-22.46" y3="13.79" textsize="1" textratio="12" layer="48" dtype="vertical"/>
+<dimension x1="-17.46" y1="12.54" x2="-14.96" y2="15.04" x3="-16.21" y3="7.54" textsize="1" textratio="12" layer="48" dtype="horizontal"/>
+<dimension x1="-17.46" y1="32.54" x2="-16.46" y2="32.54" x3="-16.96" y3="37.54" textsize="1" textratio="12" layer="48" dtype="horizontal"/>
+<dimension x1="-2.46" y1="32.54" x2="-3.46" y2="32.54" x3="-2.96" y3="37.54" textsize="1" textratio="12" layer="48" dtype="horizontal"/>
+<dimension x1="-20" y1="30" x2="-20" y2="10" x3="-30" y3="20" textsize="1" textratio="12" layer="48"/>
+<dimension x1="-20" y1="10" x2="-5" y2="10" x3="-12.5" y3="0" textsize="1" textratio="12" layer="48"/>
+<dimension x1="-20" y1="10" x2="-17.5" y2="12.5" x3="-25" y3="11.25" textsize="1" textratio="12" layer="48" dtype="vertical"/>
+<dimension x1="-20" y1="10" x2="-17.5" y2="12.5" x3="-18.75" y3="5" textsize="1" textratio="12" layer="48" dtype="horizontal"/>
+<dimension x1="-20" y1="30" x2="-19" y2="30" x3="-19.5" y3="35" textsize="1" textratio="12" layer="48" dtype="horizontal"/>
+<dimension x1="-5" y1="30" x2="-6" y2="30" x3="-5.5" y3="35" textsize="1" textratio="12" layer="48" dtype="horizontal"/>
+<wire x1="0" y1="0" x2="15" y2="0" width="0" layer="94"/>
+<wire x1="15" y1="0" x2="15" y2="20" width="0" layer="94"/>
+<wire x1="15" y1="20" x2="0" y2="20" width="0" layer="94"/>
+<wire x1="0" y1="20" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<text x="2" y="4.5" size="1.5" layer="94" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="17.5" width="0.2" layer="94"/>
+<wire x1="1" y1="17.5" x2="14" y2="17.5" width="0.2" layer="94"/>
+<wire x1="14" y1="17.5" x2="14" y2="1" width="0.2" layer="94"/>
+<text x="1" y="18" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<text x="1" y="18" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<dimension x1="0" y1="20" x2="0" y2="0" x3="-10" y3="10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="15" y2="0" x3="7.5" y3="-10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="20" x2="1" y2="20" x3="0.5" y3="25" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="15" y1="20" x2="14" y2="20" x3="14.5" y3="25" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+</symbol>
+<symbol name="PCB20">
+<wire x1="0" y1="0" x2="20" y2="0" width="0" layer="94"/>
+<wire x1="20" y1="0" x2="20" y2="20" width="0" layer="94"/>
+<wire x1="20" y1="20" x2="0" y2="20" width="0" layer="94"/>
+<wire x1="0" y1="20" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<text x="2" y="4.5" size="1.5" layer="94" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="17.5" width="0.2" layer="94"/>
+<wire x1="1" y1="17.5" x2="19" y2="17.5" width="0.2" layer="94"/>
+<wire x1="19" y1="17.5" x2="19" y2="1" width="0.2" layer="94"/>
+<text x="1" y="18" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<text x="1" y="18" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<dimension x1="0" y1="20" x2="0" y2="0" x3="-10" y3="10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="20" y2="0" x3="10" y3="-10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="20" x2="1" y2="20" x3="0.5" y3="25" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="20" y1="20" x2="19" y2="20" x3="19.5" y3="25" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+</symbol>
+<symbol name="PCB25">
+<wire x1="0" y1="0" x2="25" y2="0" width="0" layer="94"/>
+<wire x1="25" y1="0" x2="25" y2="25" width="0" layer="94"/>
+<wire x1="25" y1="25" x2="0" y2="25" width="0" layer="94"/>
+<wire x1="0" y1="25" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<text x="2" y="4.5" size="1.5" layer="94" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="22.5" width="0.2" layer="94"/>
+<wire x1="1" y1="22.5" x2="24" y2="22.5" width="0.2" layer="94"/>
+<wire x1="24" y1="22.5" x2="24" y2="1" width="0.2" layer="94"/>
+<text x="1" y="23" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<text x="1" y="23" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<dimension x1="0" y1="25" x2="0" y2="0" x3="-10" y3="12.5" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="25" y2="0" x3="12.5" y3="-10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="25" x2="1" y2="25" x3="0.5" y3="30" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="25" y1="25" x2="24" y2="25" x3="24.5" y3="30" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+</symbol>
+<symbol name="PCB50">
+<wire x1="0" y1="0" x2="50" y2="0" width="0" layer="94"/>
+<wire x1="50" y1="0" x2="50" y2="50" width="0" layer="94"/>
+<wire x1="50" y1="50" x2="0" y2="50" width="0" layer="94"/>
+<wire x1="0" y1="50" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<text x="2" y="4.5" size="1.5" layer="94" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="47.5" width="0.2" layer="94"/>
+<wire x1="1" y1="47.5" x2="49" y2="47.5" width="0.2" layer="94"/>
+<wire x1="49" y1="47.5" x2="49" y2="1" width="0.2" layer="94"/>
+<text x="2" y="48" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<text x="2" y="48" size="1" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<dimension x1="0" y1="50" x2="0" y2="0" x3="-10" y3="25" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="50" x2="1" y2="50" x3="0.5" y3="55" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="50" y1="50" x2="49" y2="50" x3="49.5" y3="55" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+</symbol>
+<symbol name="PCB100">
+<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="94"/>
+<wire x1="100" y1="0" x2="100" y2="100" width="0" layer="94"/>
+<wire x1="100" y1="100" x2="0" y2="100" width="0" layer="94"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="3.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="3.5" width="0.2" layer="94"/>
+<wire x1="1.5" y1="2.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="2.5" width="0.2" layer="94"/>
+<text x="2" y="4.5" size="1.5" layer="94" font="vector" ratio="12">P1</text>
+<wire x1="1" y1="4" x2="1" y2="97" width="0.2" layer="94"/>
+<wire x1="1" y1="97" x2="99" y2="97" width="0.2" layer="94"/>
+<wire x1="99" y1="97" x2="99" y2="1" width="0.2" layer="94"/>
+<text x="2" y="97.5" size="1.5" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<text x="2" y="97.5" size="1.5" layer="94" font="vector" ratio="12">&gt;TITLE</text>
+<dimension x1="0" y1="100" x2="0" y2="0" x3="-10" y3="50" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="100" y2="0" x3="50" y3="-10" textsize="1" textratio="12" layer="94"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="-5" y3="1.25" textsize="1" textratio="12" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="2.5" y2="2.5" x3="1.25" y3="-5" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="100" x2="1" y2="100" x3="0.5" y3="105" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+<dimension x1="100" y1="100" x2="99" y2="100" x3="99.5" y3="105" textsize="1" textratio="12" layer="94" dtype="horizontal"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CLASSIC">
+<gates>
+<gate name="G$1" symbol="PCB100" x="0" y="0"/>
+<gate name="G$2" symbol="PCB15" x="335.28" y="0"/>
+<gate name="G$3" symbol="PCB20" x="294.64" y="0"/>
+<gate name="G$4" symbol="PCB25" x="248.92" y="0"/>
+<gate name="G$5" symbol="PCB50" x="121.92" y="0"/>
+<gate name="G$6" symbol="PCB33" x="193.04" y="0"/>
+</gates>
+<devices>
+<device name="-15" package="PCB15">
+<technologies>
+<technology name="">
+<attribute name="PART_NUMBER" value="000-000" constant="no"/>
+<attribute name="REVISION" value="A1-01" constant="no"/>
+<attribute name="TITLE" value="TITLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-20" package="PCB20">
+<technologies>
+<technology name="">
+<attribute name="PART_NUMBER" value="000-000" constant="no"/>
+<attribute name="REVISION" value="A1-01" constant="no"/>
+<attribute name="TITLE" value="TITLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-25" package="PCB25">
+<technologies>
+<technology name="">
+<attribute name="PART_NUMBER" value="000-000" constant="no"/>
+<attribute name="REVISION" value="A1-01" constant="no"/>
+<attribute name="TITLE" value="TITLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-33" package="PCB33">
+<technologies>
+<technology name="">
+<attribute name="PART_NUMBER" value="000-000" constant="no"/>
+<attribute name="REVISION" value="A1-01" constant="no"/>
+<attribute name="TITLE" value="TITLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-50" package="PCB50">
+<technologies>
+<technology name="">
+<attribute name="PART_NUMBER" value="000-000" constant="no"/>
+<attribute name="REVISION" value="A1-01" constant="no"/>
+<attribute name="TITLE" value="TITLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-100" package="PCB100">
+<technologies>
+<technology name="">
+<attribute name="PART_NUMBER" value="000-000" constant="no"/>
+<attribute name="REVISION" value="A1-01" constant="no"/>
+<attribute name="TITLE" value="TITLE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
