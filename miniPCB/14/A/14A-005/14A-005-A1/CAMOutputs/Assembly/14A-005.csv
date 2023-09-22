@@ -1,0 +1,4 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DATASHEET-URL";"MFG1";"MFG1_PN";"MOUNT";"NAME1";"NAME2";"PART-NUMBER";"PART_NUMBER";"REVISION";"TYPE";"VALUE";"XPXC";
+"2";"";"SCREW-TERMINAL";"SCREW-TERMINAL-M3";"J1, J2";"";"";"";"";"";"";"";"";"";"A1";"";"";"";
+"16";"615008144221";"615008144221";"615008144221";"J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18";"WR-MJ Modular Jack Vertical Plastic 8P8C w. Ears";"https://www.we-online.com/redexpert/spec/615008144221?ae";"WURTH ELEKTRONIK";"61500814221";"THT";"";"";"615008144221";"";"";"Vertical";"615008144221";"8P8C";
+"1";"POWER INPUT";"MINIPCB_0P100X100";"MINIPCB_DOCK_100X100";"-";"";"";"";"";"";"RJ45 POWER DISTRIBUTION";"";"";"14A-005";"A1";"";"";"";

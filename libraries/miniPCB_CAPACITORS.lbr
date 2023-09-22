@@ -294,20 +294,21 @@ chip</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CV">
+<symbol name="V">
 <pin name="-" x="0" y="-5.08" visible="off" length="point" direction="pas" rot="R90"/>
 <pin name="+" x="0" y="5.08" visible="off" length="point" direction="pas" rot="R270"/>
-<text x="2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
 <rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
 <wire x1="0" y1="0.762" x2="0" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="0" y1="-0.762" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<text x="2.54" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="-3.81" size="1.778" layer="96">&gt;SIZE</text>
-<text x="2.54" y="-6.35" size="1.778" layer="96">&gt;TYPE</text>
+<text x="2.54" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="-3.81" size="1.778" layer="96">&gt;PACKAGE</text>
+<text x="2.54" y="-6.35" size="1.778" layer="96">&gt;VOL_TOL</text>
+<text x="2.54" y="-1.27" size="1.778" layer="96">&gt;TYPE</text>
 </symbol>
-<symbol name="CH">
+<symbol name="H">
 <pin name="-" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 <pin name="+" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
@@ -316,25 +317,43 @@ chip</description>
 <wire x1="-0.762" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.762" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="-7.62" size="1.778" layer="97">&gt;SIZE</text>
-<text x="-2.54" y="-10.16" size="1.778" layer="97">&gt;TYPE</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="97">&gt;TYPE</text>
+<text x="-2.54" y="-10.16" size="1.778" layer="97">&gt;PACKAGE</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="97">&gt;VOL_TOL</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
+<deviceset name="V" prefix="C" uservalue="yes">
 <gates>
-<gate name="C" symbol="CV" x="0" y="0"/>
+<gate name="C" symbol="V" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SMD" package="C0805">
+<device name="0805" package="C0805">
 <connects>
 <connect gate="C" pin="+" pad="1"/>
 <connect gate="C" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -345,20 +364,54 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="_10" package="C5MM">
+<device name="10MM" package="C5MM">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -369,8 +422,25 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -381,134 +451,235 @@ chip</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="3.5MM" package="C3-5MM">
+<device name="3MM5" package="C3-5MM">
 <connects>
 <connect gate="C" pin="+" pad="+"/>
 <connect gate="C" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CV0402">
+<deviceset name="H" prefix="C" uservalue="yes">
 <gates>
-<gate name="C" symbol="CV" x="0" y="0"/>
+<gate name="C" symbol="H" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="C0402">
+<device name="0805" package="C0805">
 <connects>
 <connect gate="C" pin="+" pad="1"/>
 <connect gate="C" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="CV0805">
-<gates>
-<gate name="C" symbol="CV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0805">
+<device name="THD" package="C050-024X044">
 <connects>
 <connect gate="C" pin="+" pad="1"/>
 <connect gate="C" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="CV1206">
-<gates>
-<gate name="C" symbol="CV" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C1206">
+<device name="10MM" package="C5MM">
+<connects>
+<connect gate="C" pin="+" pad="+"/>
+<connect gate="C" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0402" package="C0402">
 <connects>
 <connect gate="C" pin="+" pad="1"/>
 <connect gate="C" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="CH0402">
-<gates>
-<gate name="C" symbol="CH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0402">
+<device name="1206" package="C1206">
 <connects>
 <connect gate="C" pin="+" pad="1"/>
 <connect gate="C" pin="-" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="CH0805">
-<gates>
-<gate name="C" symbol="CH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0805">
+<device name="3MM5" package="C3-5MM">
 <connects>
-<connect gate="C" pin="+" pad="1"/>
-<connect gate="C" pin="-" pad="2"/>
+<connect gate="C" pin="+" pad="+"/>
+<connect gate="C" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CH1206">
-<gates>
-<gate name="C" symbol="CH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C1206">
-<connects>
-<connect gate="C" pin="+" pad="1"/>
-<connect gate="C" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFG1" value="-" constant="no"/>
-<attribute name="MFG1_PN" value="-" constant="no"/>
+<attribute name="MFG1" value="" constant="no"/>
+<attribute name="MFG1_PN" value="" constant="no"/>
+<attribute name="MFG2" value="" constant="no"/>
+<attribute name="MFG2_PN" value="" constant="no"/>
+<attribute name="MFG3" value="" constant="no"/>
+<attribute name="MFG3_PN" value="" constant="no"/>
+<attribute name="MFG4" value="" constant="no"/>
+<attribute name="MFG4_PN" value="" constant="no"/>
+<attribute name="MFG5" value="" constant="no"/>
+<attribute name="MFG5_PN" value="" constant="no"/>
+<attribute name="MFG6" value="" constant="no"/>
+<attribute name="MFG6_PN" value="" constant="no"/>
+<attribute name="MFG7" value="" constant="no"/>
+<attribute name="MFG7_PN" value="" constant="no"/>
+<attribute name="MFG8" value="" constant="no"/>
+<attribute name="MFG8_PN" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOL_TOL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>

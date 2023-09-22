@@ -113,6 +113,8 @@
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="161" name="tDoc" color="7" fill="1" visible="no" active="yes"/>
+<layer number="162" name="bDoc" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="1" fill="10" visible="yes" active="yes"/>
@@ -2267,10 +2269,10 @@ einem neuen Namen ab.</description>
 <element name="U$1" library="minipcb" package="MINIPCB_0P_50X50MM" value="MINIPCB_50X50" x="0" y="0" smashed="yes">
 <attribute name="CIRCUIT_CATEGORY" value="04A, OPERATIONAL AMPLIFIER" x="11" y="46.2" size="1.3" layer="1" font="vector" ratio="12" align="center-left"/>
 <attribute name="CIRCUIT_CATEGORY" value="04A, OPERATIONAL AMPLIFIER" x="11" y="46.2" size="1.3" layer="21" font="vector" ratio="12" align="center-left"/>
-<attribute name="PART_NUMBER" value="04A-010" x="43" y="48" size="1.3" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="PART_NUMBER" value="04A-010" x="43" y="48" size="1.3" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
-<attribute name="REVISION" value="A1-01" x="37" y="46" size="1.3" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
+<attribute name="PART_NUMBER" value="04A-010" x="43" y="48" size="1.3" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="REVISION" value="A1-01" x="37" y="46" size="1.3" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
+<attribute name="REVISION" value="A1-01" x="37" y="46" size="1.3" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="TITLE" value="NONINVERTING AMPLIFIER" x="11" y="48" size="1.3" layer="1" font="vector" ratio="12" align="center-left"/>
 <attribute name="TITLE" value="NONINVERTING AMPLIFIER" x="11" y="48" size="1.3" layer="21" font="vector" ratio="12" align="center-left"/>
 </element>
