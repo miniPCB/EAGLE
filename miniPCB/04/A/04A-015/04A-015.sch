@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="no" active="yes"/>
@@ -8539,6 +8539,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="PART_NUMBER" value="04A-015"/>
 <attribute name="TITLE" value="miniPCB, DIFFERENCE AMPLIFIER"/>
 </part>
+<part name="R12" library="minipcb" deviceset="RESISTOR" device="10MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -8665,9 +8666,9 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <instance part="GND8" gate="1" x="236.22" y="109.22" smashed="yes"/>
 <instance part="GND5" gate="1" x="129.54" y="66.04" smashed="yes"/>
 <instance part="GND7" gate="1" x="154.94" y="76.2" smashed="yes"/>
-<instance part="R8" gate="R" x="254" y="121.92" smashed="yes">
-<attribute name="NAME" x="250.19" y="123.4186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="256.54" y="120.396" size="1.778" layer="96" rot="R180"/>
+<instance part="R8" gate="R" x="259.08" y="121.92" smashed="yes">
+<attribute name="NAME" x="255.27" y="123.4186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="261.62" y="120.396" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="TP7" gate="TP" x="162.56" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="162.56" y="93.98" size="1.778" layer="94" rot="R90" align="center-left"/>
@@ -8697,8 +8698,8 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <instance part="TP4" gate="TP" x="132.08" y="81.28" smashed="yes">
 <attribute name="NAME" x="134.62" y="81.28" size="1.778" layer="94" align="center-left"/>
 </instance>
-<instance part="TP8" gate="TP" x="241.3" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="241.3" y="127" size="1.778" layer="94" rot="R90" align="center-left"/>
+<instance part="TP8" gate="TP" x="251.46" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="251.46" y="127" size="1.778" layer="94" rot="R90" align="center-left"/>
 </instance>
 <instance part="R6" gate="R" x="228.6" y="121.92" smashed="yes">
 <attribute name="NAME" x="224.79" y="123.4186" size="1.778" layer="95"/>
@@ -8714,8 +8715,8 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <instance part="TP6" gate="TP" x="208.28" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="208.28" y="127" size="1.778" layer="94" rot="R90" align="center-left"/>
 </instance>
-<instance part="TP12" gate="TP" x="261.62" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="261.62" y="127" size="1.778" layer="94" rot="R90" align="center-left"/>
+<instance part="TP12" gate="TP" x="266.7" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="266.7" y="127" size="1.778" layer="94" rot="R90" align="center-left"/>
 </instance>
 <instance part="SHEET2" gate="G$3" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="312.5" y="16" size="5" layer="97" align="top-left"/>
@@ -8756,6 +8757,10 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 </instance>
 <instance part="P2" gate="-7" x="281.94" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="288.29" y="121.92" size="1.778" layer="95" ratio="13" rot="MR180" align="center-left"/>
+</instance>
+<instance part="R12" gate="R" x="259.08" y="134.62" smashed="yes">
+<attribute name="NAME" x="255.27" y="136.1186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="261.62" y="133.096" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8840,7 +8845,6 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 </net>
 <net name="OUT" class="0">
 <segment>
-<wire x1="281.94" y1="134.62" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R7" gate="R" pin="2"/>
 <wire x1="251.46" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
@@ -8857,8 +8861,9 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <pinref part="R10" gate="R" pin="A"/>
 <wire x1="246.38" y1="160.02" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
 <junction x="246.38" y="157.48"/>
-<label x="266.7" y="134.62" size="1.778" layer="95"/>
-<pinref part="P2" gate="-5" pin="1"/>
+<wire x1="254" y1="134.62" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R12" gate="R" pin="1"/>
+<label x="238.76" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VFB" class="0">
@@ -8898,12 +8903,12 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <net name="VREF" class="0">
 <segment>
 <pinref part="R8" gate="R" pin="1"/>
-<wire x1="248.92" y1="121.92" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="254" y1="121.92" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C6" gate="C" pin="-"/>
-<wire x1="246.38" y1="121.92" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="121.92" x2="251.46" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="TP8" gate="TP" pin="1"/>
-<junction x="241.3" y="121.92"/>
+<junction x="251.46" y="121.92"/>
 <pinref part="R6" gate="R" pin="2"/>
 <wire x1="233.68" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
 <junction x="236.22" y="121.92"/>
@@ -8982,11 +8987,11 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <net name="OUTREF" class="0">
 <segment>
 <pinref part="R8" gate="R" pin="2"/>
-<wire x1="281.94" y1="121.92" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="121.92" x2="266.7" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="TP12" gate="TP" pin="1"/>
-<junction x="261.62" y="121.92"/>
-<wire x1="261.62" y1="121.92" x2="259.08" y2="121.92" width="0.1524" layer="91"/>
-<label x="266.7" y="121.92" size="1.778" layer="95"/>
+<junction x="266.7" y="121.92"/>
+<wire x1="266.7" y1="121.92" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
+<label x="269.24" y="121.92" size="1.778" layer="95"/>
 <pinref part="P2" gate="-7" pin="1"/>
 </segment>
 </net>
@@ -9010,6 +9015,14 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <pinref part="R11" gate="R" pin="2"/>
 <pinref part="R10" gate="R" pin="S"/>
 <wire x1="236.22" y1="165.1" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OUTPUT" class="0">
+<segment>
+<pinref part="P2" gate="-5" pin="1"/>
+<wire x1="281.94" y1="134.62" x2="264.16" y2="134.62" width="0.1524" layer="91"/>
+<label x="269.24" y="134.62" size="1.778" layer="95"/>
+<pinref part="R12" gate="R" pin="2"/>
 </segment>
 </net>
 </nets>
