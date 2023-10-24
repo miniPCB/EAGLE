@@ -2128,10 +2128,14 @@ einem neuen Namen ab.</description>
 </autorouter>
 <elements>
 <element name="P1-" library="minipcb" package="MINIPCB_5P_50X50MM" value="" x="0" y="0" smashed="yes">
+<attribute name="CIRCUIT_CATEGORY" value="TRANSISTOR AMPLIFIERS" x="10.5" y="46.4" size="1.5" layer="21" font="vector" ratio="12" align="center-left"/>
+<attribute name="CIRCUIT_CATEGORY" value="TRANSISTOR AMPLIFIERS" x="10.5" y="46.4" size="1.5" layer="1" font="vector" ratio="12" align="center-left"/>
 <attribute name="PART_NUMBER" value="04B-005" x="45" y="48" size="1.5" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="PART_NUMBER" value="04B-005" x="45" y="48" size="1.5" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="REVISION" value="A1" x="40" y="46" size="1.5" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
 <attribute name="REVISION" value="A1" x="40" y="46" size="1.5" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
+<attribute name="TITLE" value="COMMON EMITTER AMPLIFIER" x="10.5" y="48.2" size="1.5" layer="21" font="vector" ratio="12" align="center-left"/>
+<attribute name="TITLE" value="COMMON EMITTER AMPLIFIER" x="10.5" y="48.2" size="1.5" layer="1" font="vector" ratio="12" align="center-left"/>
 </element>
 <element name="C2" library="minipcb" package="C050-024X044" value="" x="18.5" y="8.5" smashed="yes">
 <attribute name="NAME" x="17.5" y="11" size="1.5" layer="25" font="vector" ratio="13"/>
