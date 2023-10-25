@@ -31426,6 +31426,8 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="CIRCUIT_VARIANT" value="ADJUSTABLE"/>
 <attribute name="DR" value="N. MANTEUFEL"/>
 <attribute name="DR_DATE" value="21OCT2023"/>
+<attribute name="REVA" value="A1"/>
+<attribute name="REVISION" value="A1"/>
 <attribute name="TITLE" value="COMMON EMITTER AMPLIFIER"/>
 </part>
 </parts>
