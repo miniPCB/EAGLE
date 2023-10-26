@@ -76,7 +76,7 @@
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
@@ -33879,11 +33879,12 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <wire x1="45.72" y1="172.72" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="INPUT" class="0">
 <segment>
 <pinref part="P1" gate="-4" pin="1"/>
 <pinref part="R1" gate="R" pin="1"/>
 <wire x1="43.18" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
+<label x="58.42" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -33897,7 +33898,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <junction x="86.36" y="116.84"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="OUTPUT" class="0">
 <segment>
 <pinref part="R2" gate="R" pin="2"/>
 <pinref part="C2" gate="C" pin="+"/>
@@ -33906,6 +33907,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <pinref part="P1" gate="-5" pin="1"/>
 <wire x1="106.68" y1="116.84" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
 <junction x="106.68" y="116.84"/>
+<label x="111.76" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
