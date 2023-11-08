@@ -1,0 +1,38 @@
+# Works for 33x50mm miniPCB on a 100x100mm panel.
+# The source board file must already be ready with _tNames and _bNames layers.
+# Nolan Manteufel
+# 05NOV2023
+
+#Deletes everything
+# Even the outline layer 20 and vScore layer 102
+ripup @;
+display all;
+group all;
+delete (>0 0);
+
+#Paste from board file in the same project, at the cordiantes shown
+grid mm;
+paste 00B-003 (0 0)
+paste 00B-003 (0 25)
+paste 00B-003 (0 50)
+paste 00B-003 (0 75)
+
+#Draw new outline on layer 20
+layer 20;
+wire 0 (0 0) (0 100)
+wire 0 (0 100) (83 100)
+wire 0 (83 100) (83 0)
+wire 0 (83 0) (0 0)
+
+#Draw board outline on layer 1100 for Gerber images
+layer 1100;
+wire 0 (0 0) (0 100)
+wire 0 (0 100) (83 100)
+wire 0 (83 100) (83 0)
+wire 0 (83 0) (0 0)
+
+#Draw new vScore lines on layer 102
+layer 102;
+wire 0 (0 25) (83 25)
+wire 0 (0 50) (83 50)
+wire 0 (0 75) (83 75)

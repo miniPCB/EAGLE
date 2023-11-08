@@ -6,7 +6,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Repos/Hardware/BBrepo_libraries/minipcb.lbr"
+UsedLibrary="C:/Repos/EAGLE/libraries/minipcb.lbr"
 
 [Win_1]
 Type="Control Panel"
