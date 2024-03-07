@@ -7,36 +7,36 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="no" active="yes"/>
@@ -32332,12 +32332,15 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="CIRCUIT_NAME" value="MICROCONTROLLER BOARD"/>
 <attribute name="CIRCUIT_VARIANT" value="PIC16F1829, ATmega328P-AU"/>
 <attribute name="DR" value="N. MANTEUFEL"/>
-<attribute name="DR_DATE" value="31JUL2023"/>
+<attribute name="DR_DATE" value="06MAR2024"/>
 <attribute name="ENG" value="P. MORTON"/>
-<attribute name="ENG_DATE" value="31JUL2023"/>
 <attribute name="REVA" value="A1"/>
+<attribute name="REVA_DATE" value="04NOV2023"/>
 <attribute name="REVA_ECO" value="1023"/>
-<attribute name="REVISION" value="A1"/>
+<attribute name="REVB" value="A2"/>
+<attribute name="REVB_DESCRIPTION" value="ADDED C24"/>
+<attribute name="REVB_ECO" value="1024"/>
+<attribute name="REVISION" value="A2"/>
 <attribute name="TITLE" value="VIVA UTSA BOARD"/>
 </part>
 <part name="SHEET2" library="minipcb" deviceset="SCHEMATIC" device="">
@@ -32348,7 +32351,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="DR_DATE" value="31JUL2023"/>
 <attribute name="ENG" value="P. MORTON"/>
 <attribute name="ENG_DATE" value="31JUL2023"/>
-<attribute name="REVISION" value="A1"/>
+<attribute name="REVISION" value="A2"/>
 <attribute name="TITLE" value="MECHANICAL DIMENSIONS"/>
 </part>
 <part name="SHEET3" library="minipcb" deviceset="SCHEMATIC" device="">
@@ -32359,7 +32362,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="DR_DATE" value="31JUL2023"/>
 <attribute name="ENG" value="P. MORTON"/>
 <attribute name="ENG_DATE" value="31JUL2023"/>
-<attribute name="REVISION" value="A1"/>
+<attribute name="REVISION" value="A2"/>
 <attribute name="TITLE" value="PIC MICROCONTROLLER"/>
 </part>
 <part name="SHEET4" library="minipcb" deviceset="SCHEMATIC" device="">
@@ -32370,7 +32373,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="DR_DATE" value="31JUL2023"/>
 <attribute name="ENG" value="P. MORTON"/>
 <attribute name="ENG_DATE" value="31JUL2023"/>
-<attribute name="REVISION" value="A1"/>
+<attribute name="REVISION" value="A2"/>
 <attribute name="TITLE" value="ATmega MICROCONTROLLER"/>
 </part>
 <part name="SHEET5" library="minipcb" deviceset="SCHEMATIC" device="">
@@ -32381,7 +32384,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="DR_DATE" value="31JUL2023"/>
 <attribute name="ENG" value="P. MORTON"/>
 <attribute name="ENG_DATE" value="31JUL2023"/>
-<attribute name="REVISION" value="A1"/>
+<attribute name="REVISION" value="A2"/>
 <attribute name="TITLE" value="POWER REGULATION"/>
 </part>
 <part name="R4" library="utsa" deviceset="R-EU_" device="_R0805" value="10k"/>
@@ -32413,6 +32416,8 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <part name="NC2" library="minipcb" deviceset="NC" device=""/>
 <part name="NC3" library="minipcb" deviceset="NC" device=""/>
 <part name="D6" library="utsa" deviceset="DIODE-" device="DO214AC"/>
+<part name="C24" library="utsa" deviceset="C-EU" device="_C0805" value="1u"/>
+<part name="GND46" library="utsa" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32438,7 +32443,7 @@ REPLACED ABC WITH UTSA FOR CAPACITANCE TOUCH BUTTONS
 
 v5.1, JAN.2022
 EXPANDED TO 100 x 100 mm
-ADDED ATmega328P
+ADDED ATmega328P-AU
 REMOVED HIGH-SIDE TRANSISTOR SWITCH
 
 
@@ -32450,8 +32455,11 @@ ADDED DTR CAPACITOR
 
 v5.3, JUNE.2023
 ADDED TO miniPCB PROJECT: PN 11A-001, REV A1
-UPDATED ATmega328P PIN BREAKOUTS
-UPDATED FOOTPRINTS AND SILKSCREEN FOR HIGHER DENSITY LAYOUT</text>
+UPDATED ATmega328P-AU PIN BREAKOUTS
+UPDATED FOOTPRINTS AND SILKSCREEN FOR HIGHER DENSITY LAYOUT
+
+REV A2, MARCH.2024
+ADDED BYPASS CAPACITOR TO AREF SIGNAL ON ATmega328P-AU</text>
 </plain>
 <instances>
 <instance part="SHEET1" gate="G$2" x="0" y="0" smashed="yes">
@@ -33417,6 +33425,11 @@ UPDATED FOOTPRINTS AND SILKSCREEN FOR HIGHER DENSITY LAYOUT</text>
 <instance part="NC1" gate="NC" x="83.82" y="119.38" smashed="yes"/>
 <instance part="NC2" gate="NC" x="83.82" y="116.84" smashed="yes"/>
 <instance part="NC3" gate="NC" x="83.82" y="114.3" smashed="yes"/>
+<instance part="C24" gate="C" x="266.68" y="152.4" smashed="yes">
+<attribute name="NAME" x="269.22" y="152.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="269.22" y="149.86" size="1.778" layer="96"/>
+</instance>
+<instance part="GND46" gate="1" x="266.68" y="142.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -33430,12 +33443,7 @@ UPDATED FOOTPRINTS AND SILKSCREEN FOR HIGHER DENSITY LAYOUT</text>
 <segment>
 <pinref part="U6" gate="A" pin="GND"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="205.74" y1="170.18" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="AREF"/>
-<wire x1="203.2" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="167.64" x2="203.2" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="167.64" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
-<junction x="203.2" y="170.18"/>
+<wire x1="205.74" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="GND_2"/>
@@ -33514,6 +33522,11 @@ UPDATED FOOTPRINTS AND SILKSCREEN FOR HIGHER DENSITY LAYOUT</text>
 <pinref part="J5" gate="J$1" pin="1.GND"/>
 <pinref part="GND45" gate="1" pin="GND"/>
 <wire x1="81.28" y1="132.08" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C24" gate="C" pin="2"/>
+<wire x1="266.68" y1="144.78" x2="266.68" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="GND46" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -33705,12 +33718,12 @@ UPDATED FOOTPRINTS AND SILKSCREEN FOR HIGHER DENSITY LAYOUT</text>
 <net name="ADC6" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="ADC6"/>
-<wire x1="200.66" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="165.1" x2="281.98" y2="165.1" width="0.1524" layer="91"/>
 <label x="203.2" y="165.1" size="1.778" layer="95"/>
 <label x="284.48" y="170.18" size="1.778" layer="95"/>
-<wire x1="220.98" y1="170.18" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="281.98" y1="170.18" x2="281.98" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="J6" gate="J$1" pin="8.ADC5"/>
-<wire x1="220.98" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="281.98" y1="170.18" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AVCC" class="0">
@@ -33951,6 +33964,15 @@ UPDATED FOOTPRINTS AND SILKSCREEN FOR HIGHER DENSITY LAYOUT</text>
 <pinref part="J6" gate="J$1" pin="5.ADC2"/>
 <label x="284.48" y="177.8" size="1.778" layer="95"/>
 <label x="203.2" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AREF" class="0">
+<segment>
+<pinref part="U6" gate="A" pin="AREF"/>
+<pinref part="C24" gate="C" pin="1"/>
+<wire x1="200.66" y1="167.64" x2="266.68" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="266.68" y1="167.64" x2="266.68" y2="154.94" width="0.1524" layer="91"/>
+<label x="213.36" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
