@@ -1,0 +1,43 @@
+Pinlist
+
+Exported from 02A-007 Input Switch.sch at 9/18/2021 9:50:58 AM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Part     Pad      Pin        Dir      Net
+
+D1       A        A          pas      N$1
+         C        C          pas      VCC
+
+D2       A        A          pas      GND
+         C        C          pas      N$4
+
+P1.      1        1          io       GND
+         2        1          io       VCC
+         3        1          io       N$2
+         4        1          io       INPUT
+         5        1          io       N$5
+
+Q1       1        B          pas      N$4
+         2        E          pas      GND
+         3        C          pas      N$3
+
+Q2       1        B          pas      N$1
+         2        E          pas      VCC
+         3        C          pas      N$5
+
+R1       1        1          pas      INPUT
+         2        2          pas      N$1
+
+R3       1        1          pas      VCC
+         2        2          pas      N$1
+
+R4       1        1          pas      N$4
+         2        2          pas      GND
+
+R5       1        1          pas      N$5
+         2        2          pas      N$3
+
+R6       1        1          pas      N$6
+         2        2          pas      N$4
+
