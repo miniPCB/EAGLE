@@ -32335,10 +32335,13 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="DR_DATE" value="06MAR2024"/>
 <attribute name="ENG" value="P. MORTON"/>
 <attribute name="ENG_DATE" value="24MAR2024"/>
+<attribute name="QA" value="N. MANTEUFEL"/>
+<attribute name="QA_DATE" value="21APR2024"/>
 <attribute name="REVA" value="A1"/>
 <attribute name="REVA_DATE" value="04NOV2023"/>
 <attribute name="REVA_ECO" value="1023"/>
 <attribute name="REVB" value="A2"/>
+<attribute name="REVB_DATE" value="21APR2024"/>
 <attribute name="REVB_DESCRIPTION" value="ADDED C24"/>
 <attribute name="REVB_ECO" value="1024"/>
 <attribute name="REVISION" value="A2"/>
@@ -32486,7 +32489,7 @@ ADDED BYPASS CAPACITOR TO AREF SIGNAL ON ATmega328P-AU</text>
 <attribute name="SHEET" x="374" y="7" size="2.5" layer="97" align="center"/>
 <attribute name="DR" x="244.38" y="25" size="2.5" layer="97" align="center-left"/>
 <attribute name="ENG" x="244.38" y="16" size="2.5" layer="97" align="center-left"/>
-<attribute name="QA" x="252" y="7" size="2.5" layer="97" align="center-left"/>
+<attribute name="QA" x="244.38" y="7" size="2.5" layer="97" align="center-left"/>
 <attribute name="DR_DATE" x="295" y="25" size="2.5" layer="97" rot="R180" align="center-left"/>
 <attribute name="ENG_DATE" x="295" y="16" size="2.5" layer="97" rot="R180" align="center-left"/>
 <attribute name="QA_DATE" x="295" y="7" size="2.5" layer="97" rot="R180" align="center-left"/>

@@ -393,9 +393,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.47757292"
-     inkscape:cx="-1701.8099"
-     inkscape:cy="52332.783"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="3463.0482"
+     inkscape:cy="10760.938"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -412,7 +412,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5085,208 +5085,6 @@
          x="370.48398"
          sodipodi:role="line"
          id="tspan2409">NUMBER</tspan></text>
-    <rect
-       y="-2080.4602"
-       x="735.25726"
-       height="100"
-       width="150"
-       id="rect2454"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       id="text2460"
-       y="-2064.3701"
-       x="824.92548"
-       style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         style="font-weight:bold;fill:#000000;stroke-width:0.26458332"
-         y="-2064.3701"
-         x="824.92548"
-         id="tspan2458"
-         sodipodi:role="line"><tspan
-           id="tspan2456"
-           style="fill:#000000">XXX-XXX-X</tspan></tspan></text>
-    <text
-       id="text2464"
-       y="-2041.984"
-       x="741.81671"
-       style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         style="stroke-width:0.26458332"
-         y="-2041.984"
-         x="741.81671"
-         id="tspan2462"
-         sodipodi:role="line">CATEGORY</tspan></text>
-    <text
-       id="text2468"
-       y="-2024.8302"
-       x="741.73822"
-       style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         style="stroke-width:0.26458332"
-         y="-2024.8302"
-         x="741.73822"
-         id="tspan2466"
-         sodipodi:role="line">SUBCATEGORY</tspan></text>
-    <text
-       id="text2472"
-       y="-2007.6847"
-       x="741.81671"
-       style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         style="stroke-width:0.26458332"
-         y="-2007.6847"
-         x="741.81671"
-         id="tspan2470"
-         sodipodi:role="line">PART</tspan></text>
-    <text
-       id="text2476"
-       y="-1990.5226"
-       x="741.46527"
-       style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         style="stroke-width:0.26458332"
-         y="-1990.5226"
-         x="741.46527"
-         id="tspan2474"
-         sodipodi:role="line">REVISION</tspan></text>
-    <g
-       style="fill:#b3b3b3"
-       id="g2484"
-       transform="translate(0,35.619941)"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300">
-      <rect
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.96174777;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2478"
-         width="5.5588789"
-         height="1.25"
-         x="838.35468"
-         y="-2099.2251" />
-      <rect
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:4.75045872;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2480"
-         width="32.596573"
-         height="1.25"
-         x="809.16742"
-         y="-2064.1531" />
-      <rect
-         y="840.53052"
-         x="2062.9026"
-         height="1.25"
-         width="35.072475"
-         id="rect2482"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:4.92756987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         transform="rotate(-90)" />
-    </g>
-    <g
-       style="fill:#b3b3b3"
-       id="g2492"
-       transform="translate(0,35.619941)"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300">
-      <rect
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:2.86755347;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2486"
-         width="11.877468"
-         height="1.25"
-         x="825.49512"
-         y="-2099.2251" />
-      <rect
-         y="-2081.3069"
-         x="790.97723"
-         height="1.25"
-         width="40.595577"
-         id="rect2488"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:5.30138016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         y="830.80878"
-         x="2080.0586"
-         height="1.25"
-         width="17.916416"
-         id="rect2490"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:3.52188468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         transform="rotate(-90)" />
-    </g>
-    <g
-       style="fill:#b3b3b3"
-       id="g2500"
-       transform="translate(0,35.619941)"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300">
-      <rect
-         y="-2099.2251"
-         x="849.00018"
-         height="1.25"
-         width="18.215097"
-         id="rect2494"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:3.5511198;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:7.92399073;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2496"
-         width="90.696121"
-         height="1.25"
-         x="768.00452"
-         y="-2047.0697" />
-      <rect
-         transform="rotate(-90)"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.00891352;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2498"
-         width="52.154617"
-         height="1.25"
-         x="2045.8204"
-         y="857.48273" />
-    </g>
-    <g
-       style="fill:#b3b3b3"
-       id="g2509"
-       transform="translate(0,35.619941)"
-       inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300">
-      <rect
-         y="-2099.2251"
-         x="872.67194"
-         height="1.25"
-         width="4.9715495"
-         id="rect2502"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.85522008;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         y="-2029.6704"
-         x="789.38971"
-         height="1.25"
-         width="86.252739"
-         id="rect2504"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:7.72744751;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         transform="rotate(-90)"
-         style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.93922424;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2506"
-         width="69.554092"
-         height="1.25"
-         x="2028.4209"
-         y="874.53271" />
-    </g>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.13221994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2810"
@@ -15806,5 +15604,442 @@
          x="-462.71341"
          y="-12990.691"
          style="font-weight:bold;font-size:25.39999962px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332">ECO #1016</tspan></text>
+    <g
+       id="g3300"
+       inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\graphics\PIN.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Repos\miniPCB\EAGLE\miniPCB\ENGDOC\Graphics\graphics\PIN.png"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.78453958;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2454"
+         width="199.30634"
+         height="185.29335"
+         x="732.17908"
+         y="-2117.5161" />
+      <g
+         transform="translate(-1.3150946,0.53997754)"
+         id="g3063">
+        <text
+           id="text2460"
+           y="-2064.6719"
+           x="827.94287"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             style="font-weight:bold;fill:#000000;stroke-width:0.26458332"
+             y="-2064.6719"
+             x="827.94287"
+             id="tspan2458"
+             sodipodi:role="line"><tspan
+               id="tspan2456"
+               style="fill:#000000">XXX-XXX-XX-XX-XX</tspan></tspan></text>
+        <text
+           id="text2464"
+           y="-2042.286"
+           x="744.83405"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             style="stroke-width:0.26458332"
+             y="-2042.286"
+             x="744.83405"
+             id="tspan2462"
+             sodipodi:role="line">CATEGORY</tspan></text>
+        <text
+           id="text2468"
+           y="-2025.6877"
+           x="744.75549"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             style="stroke-width:0.26458332"
+             y="-2025.6877"
+             x="744.75549"
+             id="tspan2466"
+             sodipodi:role="line">SUBCATEGORY</tspan></text>
+        <text
+           id="text2472"
+           y="-2009.2178"
+           x="744.48267"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             style="stroke-width:0.26458332"
+             y="-2009.2178"
+             x="744.48267"
+             id="tspan2470"
+             sodipodi:role="line">PART</tspan></text>
+        <text
+           id="text2476"
+           y="-1992.7477"
+           x="744.48267"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             style="stroke-width:0.26458332"
+             y="-1992.7477"
+             x="744.48267"
+             id="tspan2474"
+             sodipodi:role="line">DOCUMENT</tspan></text>
+        <rect
+           y="-2063.907"
+           x="841.37207"
+           height="1.25"
+           width="5.5588789"
+           id="rect2478"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.96174777;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="-2029.3906"
+           x="812.18481"
+           height="1.25"
+           width="32.596573"
+           id="rect2480"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:4.75045872;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           transform="rotate(-90)"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:4.91556501;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2482"
+           width="34.901794"
+           height="1.25"
+           x="2028.4773"
+           y="843.54791" />
+        <rect
+           y="-2063.907"
+           x="828.51251"
+           height="1.25"
+           width="11.877468"
+           id="rect2486"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:2.86755347;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:5.30138016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2488"
+           width="40.595577"
+           height="1.25"
+           x="793.99463"
+           y="-2045.9889" />
+        <rect
+           transform="rotate(-90)"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:3.58429241;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2490"
+           width="18.556997"
+           height="1.25"
+           x="2044.7404"
+           y="833.82617" />
+        <rect
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:2.84632611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2494"
+           width="11.702271"
+           height="1.25"
+           x="852.01758"
+           y="-2063.907" />
+        <rect
+           y="-2012.9207"
+           x="771.32336"
+           height="1.25"
+           width="87.17038"
+           id="rect2496"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:7.76844454;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="857.24371"
+           x="2011.6929"
+           height="1.25"
+           width="51.453678"
+           id="rect2498"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:5.96839809;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="rotate(-90)" />
+        <rect
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:1.78397477;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2502"
+           width="4.5970402"
+           height="1.25"
+           x="865.33972"
+           y="-2063.907" />
+        <rect
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.90818357;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2504"
+           width="68.933212"
+           height="1.25"
+           x="799.2829"
+           y="-1996.4506" />
+        <rect
+           y="867.0603"
+           x="1995.5258"
+           height="1.1558369"
+           width="67.581039"
+           id="rect2506"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.57741547;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="rotate(-90)" />
+        <text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="744.48267"
+           y="-1976.1494"
+           id="text6661"><tspan
+             sodipodi:role="line"
+             id="tspan6659"
+             x="744.48267"
+             y="-1976.1494"
+             style="stroke-width:0.26458332">VARIANT</tspan></text>
+        <rect
+           y="-2063.907"
+           x="875.52252"
+           height="1.25"
+           width="11.702271"
+           id="rect6731"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:2.84632611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:8.06438065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6733"
+           width="93.938332"
+           height="1.25"
+           x="788.0603"
+           y="-1979.8523" />
+        <rect
+           transform="rotate(-90)"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:7.65053225;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6735"
+           width="84.54425"
+           height="1.25"
+           x="1978.6023"
+           y="880.74866" />
+        <text
+           id="text6665"
+           y="-1959.5513"
+           x="744.48267"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           inkscape:export-xdpi="300"
+           inkscape:export-ydpi="300"><tspan
+             style="stroke-width:0.26458332"
+             y="-1959.5513"
+             x="744.48267"
+             id="tspan6663"
+             sodipodi:role="line">RELEASE REVISION</tspan></text>
+        <rect
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:2.84632611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect6747"
+           width="11.702271"
+           height="1.25"
+           x="892.28156"
+           y="-2063.907" />
+        <rect
+           y="-1963.2542"
+           x="834.27576"
+           height="1.25"
+           width="64.477333"
+           id="rect6749"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.68117952;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           y="897.50812"
+           x="1962.2078"
+           height="1.2491505"
+           width="100.93878"
+           id="rect6751"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:8.35662651;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="rotate(-90)" />
+        <text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="C:\Users\nolan\Videos\Design Standard Images\PIN.png"
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:8.46666622px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="744.48267"
+           y="-1942.953"
+           id="text3011"><tspan
+             sodipodi:role="line"
+             id="tspan3009"
+             x="744.48267"
+             y="-1942.953"
+             style="stroke-width:0.26458332">PROTOTYPE REVISION</tspan></text>
+        <rect
+           y="-2063.907"
+           x="909.47949"
+           height="1.25"
+           width="11.702271"
+           id="rect3019"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:2.84632611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           transform="rotate(-90)"
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:9.00727463;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3021"
+           width="117.26891"
+           height="1.2491505"
+           x="1945.8776"
+           y="914.70605" />
+        <rect
+           style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:6.93562508;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3023"
+           width="69.481956"
+           height="1.25"
+           x="846.47327"
+           y="-1946.6559" />
+      </g>
+      <g
+         transform="matrix(0.78125002,0,0,0.78125002,804.73511,-2021.304)"
+         id="g3109"
+         inkscape:export-xdpi="900"
+         inkscape:export-ydpi="900">
+        <rect
+           style="opacity:1;fill:#0066cc;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="rect3069"
+           width="100"
+           height="31.999998"
+           x="-15.315671"
+           y="-113.3539"
+           ry="6.3999996"
+           rx="6.3999996" />
+        <g
+           id="g3087"
+           transform="translate(-1.6020587,-56.810741)">
+          <text
+             id="text3073"
+             y="-35.143322"
+             x="-10.237556"
+             style="font-style:normal;font-weight:normal;font-size:19.7555542px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+               y="-35.143322"
+               x="-10.237556"
+               id="tspan3071"
+               sodipodi:role="line">miniPCB</tspan></text>
+          <circle
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             id="circle3075"
+             cx="14.051297"
+             cy="-48.161995"
+             r="3.4999995"
+             inkscape:transform-center-x="-3.5546849"
+             inkscape:transform-center-y="-4.0224066" />
+          <circle
+             inkscape:transform-center-y="-4.0224066"
+             inkscape:transform-center-x="-3.5546849"
+             r="3.4999995"
+             cy="-48.161995"
+             cx="34.886879"
+             id="circle3077"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <path
+             style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M -8.580395,-31.160341 H 9.8412194 l 4.6595126,-5.148787"
+             id="path3079"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccc" />
+          <path
+             sodipodi:nodetypes="ccc"
+             inkscape:connector-curvature="0"
+             id="path3081"
+             d="M 81.034566,-31.160341 H 39.098107 l -4.659512,-5.148787"
+             style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fffff1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             id="rect3083"
+             width="8.6411581"
+             height="3.4719992"
+             x="72.529305"
+             y="-32.896343" />
+          <rect
+             y="-32.896343"
+             x="-8.5976906"
+             height="3.4719992"
+             width="8.6411581"
+             id="rect3085"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+        </g>
+        <rect
+           rx="6.3999996"
+           ry="6.3999996"
+           y="-113.3539"
+           x="-15.315671"
+           height="31.999998"
+           width="100"
+           id="rect3089"
+           style="opacity:1;fill:#0066cc;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+        <g
+           transform="translate(-1.6020587,-56.810741)"
+           id="g3107">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:19.7555542px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             x="-10.237556"
+             y="-35.143322"
+             id="text3093"><tspan
+               sodipodi:role="line"
+               id="tspan3091"
+               x="-10.237556"
+               y="-35.143322"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">miniPCB</tspan></text>
+          <circle
+             inkscape:transform-center-y="-4.0224066"
+             inkscape:transform-center-x="-3.5546849"
+             r="3.4999995"
+             cy="-48.161995"
+             cx="14.051297"
+             id="circle3095"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <circle
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             id="circle3097"
+             cx="34.886879"
+             cy="-48.161995"
+             r="3.4999995"
+             inkscape:transform-center-x="-3.5546849"
+             inkscape:transform-center-y="-4.0224066" />
+          <path
+             sodipodi:nodetypes="ccc"
+             inkscape:connector-curvature="0"
+             id="path3099"
+             d="M -8.580395,-31.160341 H 9.8412194 l 4.6595126,-5.148787"
+             style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:none;stroke:#ffffff;stroke-width:3.47199988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 81.034566,-31.160341 H 39.098107 l -4.659512,-5.148787"
+             id="path3101"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccc" />
+          <rect
+             y="-32.896343"
+             x="72.529305"
+             height="3.4719992"
+             width="8.6411581"
+             id="rect3103"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fffff1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#fe0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             id="rect3105"
+             width="8.6411581"
+             height="3.4719992"
+             x="-8.5976906"
+             y="-32.896343" />
+        </g>
+      </g>
+      <text
+         id="text3175"
+         y="-1923.4722"
+         x="731.14209"
+         style="font-style:normal;font-weight:normal;font-size:6.60219193px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06877283"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.06877283"
+           y="-1923.4722"
+           x="731.14209"
+           id="tspan3173"
+           sodipodi:role="line">NOTE: VARIANT ID DOES NOT EXIST FOR ALL DOCUMENT TYPES. </tspan></text>
+    </g>
   </g>
 </svg>
