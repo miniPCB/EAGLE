@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -277,8 +277,6 @@
 <wire x1="16.492" y1="94.5" x2="17.508" y2="94.5" width="0.1016" layer="145"/>
 <wire x1="22" y1="90.008" x2="22" y2="88.992" width="0.1016" layer="145"/>
 <wire x1="21.492" y1="89.5" x2="22.508" y2="89.5" width="0.1016" layer="145"/>
-<wire x1="15" y1="65.008" x2="15" y2="63.992" width="0.1016" layer="145"/>
-<wire x1="14.492" y1="64.5" x2="15.508" y2="64.5" width="0.1016" layer="145"/>
 <wire x1="62.980759375" y1="74.488759375" x2="62.980759375" y2="73.472759375" width="0.1016" layer="145"/>
 <wire x1="62.472759375" y1="73.980759375" x2="63.488759375" y2="73.980759375" width="0.1016" layer="145"/>
 <wire x1="61" y1="74.008" x2="61" y2="72.992" width="0.1016" layer="145"/>
@@ -6354,7 +6352,7 @@ chip</description>
 <wire x1="2.2" y1="1.7" x2="2.2" y2="-1.7" width="0.2" layer="21"/>
 <wire x1="2.2" y1="-1.7" x2="-2.2" y2="-1.7" width="0.2" layer="21"/>
 <wire x1="-2.2" y1="-1.7" x2="-2.2" y2="1.7" width="0.2" layer="21"/>
-<circle x="-2.6" y="-1.4" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.8" y="-2.1" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="0805_RGB">
 <smd name="2" x="-0.7" y="0.6" dx="1" dy="0.7" layer="1" cream="no"/>
@@ -13308,7 +13306,7 @@ einem neuen Namen ab.</description>
 <attribute name="P8" value="PD7/D7" x="75.505" y="89.69" size="1.27" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="J5" library="utsa" package="VIVA-HEADER-ADC-8P" value="" x="96.52" y="83.82" smashed="yes" rot="R180">
-<attribute name="P3" value="PB0/D7" x="92.075" y="85.59" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
+<attribute name="P3" value="PB0/D8" x="92.075" y="85.59" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
 <attribute name="P4" value="PB1/D9" x="89.535" y="85.59" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
 <attribute name="P5" value="PB2/D10" x="86.995" y="85.59" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
 <attribute name="P6" value="A" x="84.455" y="85.59" size="1.27" layer="21" font="vector" ratio="15" rot="R90"/>
@@ -14149,7 +14147,7 @@ einem neuen Namen ab.</description>
 <contactref element="R13" pad="2"/>
 <contactref element="C15" pad="2"/>
 <contactref element="J3" pad="5"/>
-<wire x1="43.95" y1="73.5" x2="43.95" y2="75.5" width="0.5" layer="1"/>
+<wire x1="43.95" y1="73.5" x2="43.95" y2="75.5" width="0.3" layer="1"/>
 <wire x1="43.95" y1="72.4" x2="43.95" y2="73.5" width="0.3" layer="1"/>
 <wire x1="71.12" y1="71.46" x2="69.16" y2="69.5" width="0.3" layer="16"/>
 <wire x1="69.16" y1="69.5" x2="64.2" y2="69.5" width="0.3" layer="16"/>
@@ -14221,12 +14219,10 @@ einem neuen Namen ab.</description>
 <contactref element="C7" pad="2"/>
 <contactref element="Y1" pad="3"/>
 <contactref element="U6" pad="7"/>
-<wire x1="57.3" y1="63.1" x2="58" y2="63.1" width="0.3" layer="1"/>
-<wire x1="58" y1="63.1" x2="58.5" y2="63.6" width="0.3" layer="1"/>
-<wire x1="58.5" y1="63.6" x2="58.5" y2="65.3" width="0.3" layer="1"/>
-<wire x1="58.5" y1="65.3" x2="57.9" y2="65.9" width="0.3" layer="1"/>
-<wire x1="57.9" y1="65.9" x2="56.7" y2="65.9" width="0.3" layer="1"/>
-<wire x1="56.7" y1="65.9" x2="56" y2="66.6" width="0.3" layer="1"/>
+<wire x1="57.3" y1="63.1" x2="56.6" y2="63.1" width="0.3" layer="1"/>
+<wire x1="56.6" y1="63.1" x2="56.2" y2="63.5" width="0.3" layer="1"/>
+<wire x1="56.2" y1="66.4" x2="56.2" y2="63.5" width="0.3" layer="1"/>
+<wire x1="56.2" y1="66.4" x2="56" y2="66.6" width="0.3" layer="1"/>
 <wire x1="56" y1="66.6" x2="56" y2="67.75" width="0.3" layer="1"/>
 <wire x1="58.3" y1="61.3" x2="57.3" y2="62.3" width="0.25" layer="1"/>
 <wire x1="57.3" y1="62.3" x2="57.3" y2="63.1" width="0.25" layer="1"/>
@@ -14235,11 +14231,12 @@ einem neuen Namen ab.</description>
 <contactref element="C8" pad="2"/>
 <contactref element="Y1" pad="1"/>
 <contactref element="U6" pad="8"/>
-<wire x1="57.1" y1="66.5" x2="58.3" y2="66.5" width="0.3" layer="1"/>
-<wire x1="58.3" y1="66.5" x2="59.2" y2="65.6" width="0.3" layer="1"/>
-<wire x1="59.2" y1="65.6" x2="59.2" y2="65.2" width="0.3" layer="1"/>
-<wire x1="59.2" y1="65.2" x2="59.45" y2="64.95" width="0.3" layer="1"/>
-<wire x1="59.45" y1="64.95" x2="59.7" y2="64.7" width="0.3" layer="1"/>
+<wire x1="57.1" y1="66.5" x2="58.6" y2="66.5" width="0.3" layer="1"/>
+<wire x1="58.6" y1="66.5" x2="59.7" y2="65.4" width="0.3" layer="1"/>
+<wire x1="59.6" y1="64.8" x2="59.7" y2="64.9" width="0.3" layer="1"/>
+<wire x1="59.7" y1="65.4" x2="59.7" y2="64.9" width="0.3" layer="1"/>
+<wire x1="59.45" y1="64.95" x2="59.6" y2="64.8" width="0.3" layer="1"/>
+<wire x1="59.6" y1="64.8" x2="59.7" y2="64.7" width="0.3" layer="1"/>
 <wire x1="57.1" y1="66.5" x2="56.8" y2="66.8" width="0.3" layer="1"/>
 <wire x1="56.8" y1="66.8" x2="56.8" y2="67.75" width="0.3" layer="1"/>
 <wire x1="59.8" y1="64.8" x2="59.7" y2="64.7" width="0.3" layer="1"/>
@@ -14401,8 +14398,8 @@ einem neuen Namen ab.</description>
 <contactref element="C13" pad="1"/>
 <contactref element="R14" pad="2"/>
 <wire x1="42.05" y1="79.5" x2="41.000003125" y2="79.500003125" width="0.5" layer="1"/>
-<wire x1="42.05" y1="79.5" x2="42.05" y2="75.5" width="0.5" layer="1"/>
-<wire x1="42.05" y1="79.5" x2="42.05" y2="77.5" width="0.5" layer="1"/>
+<wire x1="42.05" y1="79.5" x2="42.05" y2="75.5" width="0.3" layer="1"/>
+<wire x1="42.05" y1="79.5" x2="42.05" y2="77.5" width="0.3" layer="1"/>
 <wire x1="41.000003125" y1="79.500003125" x2="39.499996875" y2="79.500003125" width="0.5" layer="1"/>
 <wire x1="39.499996875" y1="79.500003125" x2="37" y2="82" width="0.5" layer="1"/>
 <wire x1="37" y1="75.5" x2="37" y2="82" width="0.5" layer="1"/>
@@ -14935,13 +14932,11 @@ einem neuen Namen ab.</description>
 <signal name="AT_DTR_CAP">
 <contactref element="U7" pad="2.DTR"/>
 <contactref element="C15" pad="1"/>
-<wire x1="19" y1="61.96" x2="17.54" y2="61.96" width="0.5" layer="1"/>
-<wire x1="17.54" y1="61.96" x2="16.5" y2="63" width="0.5" layer="1"/>
-<wire x1="16.5" y1="63" x2="16.5" y2="66" width="0.5" layer="1"/>
-<wire x1="16.5" y1="66" x2="17.5" y2="67" width="0.5" layer="1"/>
-<wire x1="17.5" y1="67" x2="18.5" y2="67" width="0.5" layer="1"/>
-<wire x1="18.5" y1="67" x2="25" y2="73.5" width="0.5" layer="1"/>
-<wire x1="25" y1="73.5" x2="42.05" y2="73.5" width="0.5" layer="1"/>
+<wire x1="19" y1="61.96" x2="20.36" y2="61.96" width="0.3" layer="1"/>
+<wire x1="20.36" y1="61.96" x2="20.9" y2="62.5" width="0.3" layer="1"/>
+<wire x1="25.3" y1="73.5" x2="42.05" y2="73.5" width="0.3" layer="1"/>
+<wire x1="20.9" y1="62.5" x2="20.9" y2="69.1" width="0.3" layer="1"/>
+<wire x1="20.9" y1="69.1" x2="25.3" y2="73.5" width="0.3" layer="1"/>
 </signal>
 <signal name="3V3">
 <contactref element="U8" pad="4.TAB"/>
@@ -14975,9 +14970,7 @@ einem neuen Namen ab.</description>
 <wire x1="19" y1="43.55" x2="19" y2="45" width="0.5" layer="1"/>
 <wire x1="19" y1="45" x2="10" y2="54" width="0.5" layer="1"/>
 <wire x1="10" y1="63.5" x2="11" y2="64.5" width="0.5" layer="1"/>
-<wire x1="11" y1="64.5" x2="15" y2="64.5" width="0.5" layer="1"/>
-<via x="15" y="64.5" extent="1-16" drill="0.5" diameter="0.9"/>
-<wire x1="15" y1="64.5" x2="19" y2="64.5" width="0.5" layer="16"/>
+<wire x1="11" y1="64.5" x2="19" y2="64.5" width="0.5" layer="1"/>
 <wire x1="10" y1="54" x2="10" y2="63.5" width="0.5" layer="1"/>
 </signal>
 <signal name="5V0">
@@ -15089,6 +15082,11 @@ einem neuen Namen ab.</description>
 <wire x1="54.4" y1="76.25" x2="54.4" y2="77.4" width="0.3" layer="1"/>
 <wire x1="54.4" y1="77.4" x2="54.3" y2="77.5" width="0.3" layer="1"/>
 <wire x1="54.3" y1="77.5" x2="54.3" y2="78.55" width="0.3" layer="1"/>
+</signal>
+<signal name="N$16">
+<wire x1="59.2" y1="63.4" x2="59" y2="63.4" width="0.3" layer="1"/>
+<wire x1="59" y1="63.4" x2="58" y2="64.4" width="0.3" layer="1"/>
+<wire x1="58" y1="64.4" x2="57.7" y2="64.4" width="0.3" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

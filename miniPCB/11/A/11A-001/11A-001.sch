@@ -16699,7 +16699,7 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <wire x1="2.2" y1="1.7" x2="2.2" y2="-1.7" width="0.2" layer="21"/>
 <wire x1="2.2" y1="-1.7" x2="-2.2" y2="-1.7" width="0.2" layer="21"/>
 <wire x1="-2.2" y1="-1.7" x2="-2.2" y2="1.7" width="0.2" layer="21"/>
-<circle x="-2.6" y="-1.4" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.8" y="-2.1" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="VIVA-HEADER-ADC-8P">
 <pad name="1" x="0" y="0" drill="1" shape="square"/>
@@ -32407,7 +32407,7 @@ IS PROVIDED FOR EDUCATIONAL USE ONLY.</text>
 <attribute name="P8" value="PD7/D7"/>
 </part>
 <part name="J5" library="utsa" deviceset="VIVA-HEADER-ADC-8P" device="">
-<attribute name="P3" value="PB0/D7"/>
+<attribute name="P3" value="PB0/D8"/>
 <attribute name="P4" value="PB1/D9"/>
 <attribute name="P5" value="PB2/D10"/>
 <attribute name="P6" value="A"/>
