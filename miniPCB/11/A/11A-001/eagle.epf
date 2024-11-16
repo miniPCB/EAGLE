@@ -6,7 +6,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Repos/miniPCB/EAGLE/libraries/utsa.lbr"
 UsedLibrary="C:/Repos/SIGTRONIX/libraries/Eagle_WR-MJ (rev23a).lbr"
 UsedLibrary="C:/Repos/SIGTRONIX/libraries/SIG_BOARDS.lbr"
 UsedLibrary="C:/Repos/SIGTRONIX/libraries/SIG_CAPACITORS.lbr"
