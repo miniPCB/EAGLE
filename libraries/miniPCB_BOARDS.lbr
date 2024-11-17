@@ -57,7 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
@@ -113,8 +113,8 @@
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="SYMBOL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200dxf-0" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201dxf-1" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
@@ -610,6 +610,160 @@
 <wire x1="107.85" y1="43.2" x2="104.05" y2="43.2" width="2.4" layer="46"/>
 <wire x1="107.85" y1="42.4" x2="104.05" y2="42.4" width="2.4" layer="46"/>
 </package>
+<package name="HCS_HOUSING_SECOND">
+<wire x1="53.45" y1="0" x2="9.45" y2="0" width="0.1" layer="51"/>
+<wire x1="53.45" y1="4.8" x2="53.45" y2="0" width="0.1" layer="51"/>
+<wire x1="9.45" y1="0" x2="9.45" y2="4.8" width="0.1" layer="51"/>
+<wire x1="0" y1="8.8" x2="0" y2="91.8" width="0.1" layer="51"/>
+<wire x1="0" y1="8.8" x2="5.45" y2="8.8" width="0.1" layer="51"/>
+<wire x1="0" y1="91.8" x2="5.45" y2="91.8" width="0.1" layer="51"/>
+<wire x1="9.45" y1="95.8" x2="9.45" y2="100.6" width="0.1" layer="51"/>
+<wire x1="57.45" y1="8.8" x2="62.9" y2="8.8" width="0.1" layer="51"/>
+<wire x1="62.9" y1="91.8" x2="62.9" y2="8.8" width="0.1" layer="51"/>
+<wire x1="57.45" y1="91.8" x2="62.9" y2="91.8" width="0.1" layer="51"/>
+<wire x1="9.45" y1="100.6" x2="53.45" y2="100.6" width="0.1" layer="51"/>
+<wire x1="53.45" y1="100.6" x2="53.45" y2="95.8" width="0.1" layer="51"/>
+<wire x1="57.45" y1="65.82035" x2="55.03" y2="65.82035" width="0.1" layer="50"/>
+<wire x1="17.87" y1="95.8" x2="15.45" y2="95.8" width="0.1" layer="50"/>
+<wire x1="15.45" y1="95.8" x2="15.45" y2="93.38" width="0.1" layer="50"/>
+<wire x1="33.87" y1="95.8" x2="29.03" y2="95.8" width="0.1" layer="50"/>
+<wire x1="31.45" y1="98.22" x2="31.45" y2="93.38" width="0.1" layer="50"/>
+<wire x1="17.87" y1="4.8" x2="15.45" y2="4.8" width="0.1" layer="50"/>
+<wire x1="15.45" y1="7.22" x2="15.45" y2="4.8" width="0.1" layer="50"/>
+<wire x1="49.87" y1="95.8" x2="47.45" y2="95.8" width="0.1" layer="50"/>
+<wire x1="47.45" y1="95.8" x2="45.03" y2="95.8" width="0.1" layer="50"/>
+<wire x1="47.45" y1="95.8" x2="47.45" y2="93.38" width="0.1" layer="50"/>
+<wire x1="33.87" y1="4.8" x2="29.03" y2="4.8" width="0.1" layer="50"/>
+<wire x1="31.45" y1="7.22" x2="31.45" y2="2.38" width="0.1" layer="50"/>
+<wire x1="7.87" y1="65.82035" x2="5.45" y2="65.82035" width="0.1" layer="50"/>
+<wire x1="5.45" y1="65.82035" x2="3.03" y2="65.82035" width="0.1" layer="50"/>
+<wire x1="5.45" y1="68.24035" x2="5.45" y2="65.82035" width="0.1" layer="50"/>
+<wire x1="47.45" y1="4.8" x2="45.03" y2="4.8" width="0.1" layer="50"/>
+<wire x1="47.45" y1="7.22" x2="47.45" y2="4.8" width="0.1" layer="50"/>
+<wire x1="53.45" y1="4.8" x2="53.05" y2="4.8" width="0.1" layer="50"/>
+<wire x1="57.45" y1="9.2" x2="57.45" y2="8.8" width="0.1" layer="50"/>
+<wire x1="9.85" y1="95.8" x2="9.45" y2="95.8" width="0.1" layer="50"/>
+<wire x1="5.45" y1="91.8" x2="5.45" y2="91.4" width="0.1" layer="50"/>
+<wire x1="53.45" y1="95.8" x2="53.05" y2="95.8" width="0.1" layer="50"/>
+<wire x1="57.45" y1="91.8" x2="57.45" y2="91.4" width="0.1" layer="50"/>
+<wire x1="5.45" y1="91.8" x2="9.45" y2="95.8" width="0.1" layer="51" curve="90"/>
+<wire x1="9.45" y1="4.8" x2="5.45" y2="8.8" width="0.1" layer="51" curve="90"/>
+<wire x1="57.45" y1="8.8" x2="53.45" y2="4.8" width="0.1" layer="51" curve="90"/>
+<wire x1="53.45" y1="95.8" x2="57.45" y2="91.8" width="0.1" layer="51" curve="90"/>
+<circle x="31.45" y="4.8" radius="2.2" width="0.1" layer="41"/>
+<circle x="31.45" y="4.8" radius="1.2" width="0.1" layer="50"/>
+<circle x="57.45" y="65.82035" radius="2.2" width="0.1" layer="50"/>
+<circle x="5.45" y="65.82035" radius="2.2" width="0.1" layer="50"/>
+<circle x="15.45" y="95.8" radius="2.2" width="0.1" layer="41"/>
+<circle x="5.45" y="50.32035" radius="2.2" width="0.1" layer="41"/>
+<circle x="15.45" y="4.8" radius="2.2" width="0.1" layer="41"/>
+<circle x="15.45" y="4.8" radius="1.2" width="0.1" layer="50"/>
+<circle x="47.45" y="4.8" radius="1.2" width="0.1" layer="50"/>
+<circle x="47.45" y="4.8" radius="2.2" width="0.1" layer="41"/>
+<circle x="18.95" y="93.62035" radius="1.2" width="0.1" layer="41"/>
+<circle x="15.45" y="95.8" radius="1.2" width="0.1" layer="50"/>
+<circle x="47.45" y="95.8" radius="1.2" width="0.1" layer="50"/>
+<circle x="47.45" y="95.8" radius="2.2" width="0.1" layer="41"/>
+<circle x="31.45" y="95.8" radius="2.2" width="0.1" layer="41"/>
+<circle x="31.45" y="95.8" radius="1.2" width="0.1" layer="50"/>
+<circle x="43.95" y="93.62035" radius="1.2" width="0.1" layer="41"/>
+<circle x="57.45" y="50.32035" radius="2.2" width="0.1" layer="41"/>
+<wire x1="15.45" y1="95.8" x2="13.25" y2="95.8" width="0.1" layer="50"/>
+<hole x="15.45" y="95.8" drill="2.5"/>
+<hole x="31.45" y="95.8" drill="2.5"/>
+<hole x="47.45" y="95.8" drill="2.5"/>
+<hole x="15.45" y="4.8" drill="2.5"/>
+<hole x="31.45" y="4.8" drill="2.5"/>
+<hole x="47.45" y="4.8" drill="2.5"/>
+<hole x="5.45" y="65.8" drill="4.4"/>
+<hole x="57.45" y="65.8" drill="4.4"/>
+</package>
+<package name="HCS_HOUSING_SECOND_LYR200">
+<wire x1="53.45" y1="0" x2="9.45" y2="0" width="0.1" layer="200"/>
+<wire x1="53.45" y1="4.8" x2="53.45" y2="0" width="0.1" layer="200"/>
+<wire x1="9.45" y1="0" x2="9.45" y2="4.8" width="0.1" layer="200"/>
+<wire x1="0" y1="8.8" x2="0" y2="91.8" width="0.1" layer="200"/>
+<wire x1="0" y1="8.8" x2="5.45" y2="8.8" width="0.1" layer="200"/>
+<wire x1="0" y1="91.8" x2="5.45" y2="91.8" width="0.1" layer="200"/>
+<wire x1="9.45" y1="95.8" x2="9.45" y2="100.6" width="0.1" layer="200"/>
+<wire x1="57.45" y1="8.8" x2="62.9" y2="8.8" width="0.1" layer="200"/>
+<wire x1="62.9" y1="91.8" x2="62.9" y2="8.8" width="0.1" layer="200"/>
+<wire x1="57.45" y1="91.8" x2="62.9" y2="91.8" width="0.1" layer="200"/>
+<wire x1="9.45" y1="100.6" x2="53.45" y2="100.6" width="0.1" layer="200"/>
+<wire x1="53.45" y1="100.6" x2="53.45" y2="95.8" width="0.1" layer="200"/>
+<wire x1="57.45" y1="65.82035" x2="55.03" y2="65.82035" width="0.1" layer="200"/>
+<wire x1="17.87" y1="95.8" x2="15.45" y2="95.8" width="0.1" layer="200"/>
+<wire x1="15.45" y1="95.8" x2="15.45" y2="93.38" width="0.1" layer="200"/>
+<wire x1="33.87" y1="95.8" x2="29.03" y2="95.8" width="0.1" layer="200"/>
+<wire x1="31.45" y1="98.22" x2="31.45" y2="93.38" width="0.1" layer="200"/>
+<wire x1="17.87" y1="4.8" x2="15.45" y2="4.8" width="0.1" layer="200"/>
+<wire x1="15.45" y1="7.22" x2="15.45" y2="4.8" width="0.1" layer="200"/>
+<wire x1="49.87" y1="95.8" x2="47.45" y2="95.8" width="0.1" layer="200"/>
+<wire x1="47.45" y1="95.8" x2="45.03" y2="95.8" width="0.1" layer="200"/>
+<wire x1="47.45" y1="95.8" x2="47.45" y2="93.38" width="0.1" layer="200"/>
+<wire x1="33.87" y1="4.8" x2="29.03" y2="4.8" width="0.1" layer="200"/>
+<wire x1="31.45" y1="7.22" x2="31.45" y2="2.38" width="0.1" layer="200"/>
+<wire x1="7.87" y1="65.82035" x2="5.45" y2="65.82035" width="0.1" layer="200"/>
+<wire x1="5.45" y1="65.82035" x2="3.03" y2="65.82035" width="0.1" layer="200"/>
+<wire x1="5.45" y1="68.24035" x2="5.45" y2="65.82035" width="0.1" layer="200"/>
+<wire x1="47.45" y1="4.8" x2="45.03" y2="4.8" width="0.1" layer="200"/>
+<wire x1="47.45" y1="7.22" x2="47.45" y2="4.8" width="0.1" layer="200"/>
+<wire x1="53.45" y1="4.8" x2="53.05" y2="4.8" width="0.1" layer="200"/>
+<wire x1="57.45" y1="9.2" x2="57.45" y2="8.8" width="0.1" layer="200"/>
+<wire x1="9.85" y1="95.8" x2="9.45" y2="95.8" width="0.1" layer="200"/>
+<wire x1="5.45" y1="91.8" x2="5.45" y2="91.4" width="0.1" layer="200"/>
+<wire x1="53.45" y1="95.8" x2="53.05" y2="95.8" width="0.1" layer="200"/>
+<wire x1="57.45" y1="91.8" x2="57.45" y2="91.4" width="0.1" layer="200"/>
+<wire x1="5.45" y1="91.8" x2="9.45" y2="95.8" width="0.1" layer="200" curve="90"/>
+<wire x1="9.45" y1="4.8" x2="5.45" y2="8.8" width="0.1" layer="200" curve="90"/>
+<wire x1="57.45" y1="8.8" x2="53.45" y2="4.8" width="0.1" layer="200" curve="90"/>
+<wire x1="53.45" y1="95.8" x2="57.45" y2="91.8" width="0.1" layer="200" curve="90"/>
+<circle x="31.45" y="4.8" radius="2.2" width="0.1" layer="200"/>
+<circle x="31.45" y="4.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="57.45" y="65.82035" radius="2.2" width="0.1" layer="200"/>
+<circle x="5.45" y="65.82035" radius="2.2" width="0.1" layer="200"/>
+<circle x="15.45" y="95.8" radius="2.2" width="0.1" layer="200"/>
+<circle x="5.45" y="50.32035" radius="2.2" width="0.1" layer="200"/>
+<circle x="15.45" y="4.8" radius="2.2" width="0.1" layer="200"/>
+<circle x="15.45" y="4.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="47.45" y="4.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="47.45" y="4.8" radius="2.2" width="0.1" layer="200"/>
+<circle x="18.95" y="93.62035" radius="1.2" width="0.1" layer="200"/>
+<circle x="15.45" y="95.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="47.45" y="95.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="47.45" y="95.8" radius="2.2" width="0.1" layer="200"/>
+<circle x="31.45" y="95.8" radius="2.2" width="0.1" layer="200"/>
+<circle x="31.45" y="95.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="43.95" y="93.62035" radius="1.2" width="0.1" layer="200"/>
+<circle x="57.45" y="50.32035" radius="2.2" width="0.1" layer="200"/>
+<wire x1="15.45" y1="95.8" x2="13.25" y2="95.8" width="0.1" layer="200"/>
+<hole x="15.45" y="95.8" drill="2.5"/>
+<hole x="31.45" y="95.8" drill="2.5"/>
+<hole x="47.45" y="95.8" drill="2.5"/>
+<hole x="15.45" y="4.8" drill="2.5"/>
+<hole x="31.45" y="4.8" drill="2.5"/>
+<hole x="47.45" y="4.8" drill="2.5"/>
+<hole x="5.45" y="65.8" drill="4.4"/>
+<hole x="57.45" y="65.8" drill="4.4"/>
+</package>
+<package name="HCS_HOUSING_SECOND_LRYDIM">
+<wire x1="53.45" y1="0" x2="9.45" y2="0" width="0.1" layer="20"/>
+<wire x1="53.45" y1="4.8" x2="53.45" y2="0" width="0.1" layer="20"/>
+<wire x1="9.45" y1="0" x2="9.45" y2="4.8" width="0.1" layer="20"/>
+<wire x1="0" y1="8.8" x2="0" y2="91.8" width="0.1" layer="20"/>
+<wire x1="0" y1="8.8" x2="5.45" y2="8.8" width="0.1" layer="20"/>
+<wire x1="0" y1="91.8" x2="5.45" y2="91.8" width="0.1" layer="20"/>
+<wire x1="9.45" y1="95.8" x2="9.45" y2="100.6" width="0.1" layer="20"/>
+<wire x1="57.45" y1="8.8" x2="62.9" y2="8.8" width="0.1" layer="20"/>
+<wire x1="62.9" y1="91.8" x2="62.9" y2="8.8" width="0.1" layer="20"/>
+<wire x1="57.45" y1="91.8" x2="62.9" y2="91.8" width="0.1" layer="20"/>
+<wire x1="9.45" y1="100.6" x2="53.45" y2="100.6" width="0.1" layer="20"/>
+<wire x1="53.45" y1="100.6" x2="53.45" y2="95.8" width="0.1" layer="20"/>
+<wire x1="5.45" y1="91.8" x2="9.45" y2="95.8" width="0.1" layer="20" curve="90"/>
+<wire x1="9.45" y1="4.8" x2="5.45" y2="8.8" width="0.1" layer="20" curve="90"/>
+<wire x1="57.45" y1="8.8" x2="53.45" y2="4.8" width="0.1" layer="20" curve="90"/>
+<wire x1="53.45" y1="95.8" x2="57.45" y2="91.8" width="0.1" layer="20" curve="90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PCB33">
@@ -842,6 +996,32 @@
 <text x="0" y="3.81" size="1.778" layer="104">&gt;NAME</text>
 <text x="10.16" y="-46.99" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
 </symbol>
+<symbol name="HCS_HOUSING_SECOND">
+<wire x1="53.45" y1="0" x2="9.45" y2="0" width="0.1" layer="200"/>
+<wire x1="53.45" y1="4.8" x2="53.45" y2="0" width="0.1" layer="200"/>
+<wire x1="9.45" y1="0" x2="9.45" y2="4.8" width="0.1" layer="200"/>
+<wire x1="0" y1="8.8" x2="0" y2="91.8" width="0.1" layer="200"/>
+<wire x1="0" y1="8.8" x2="5.45" y2="8.8" width="0.1" layer="200"/>
+<wire x1="0" y1="91.8" x2="5.45" y2="91.8" width="0.1" layer="200"/>
+<wire x1="9.45" y1="95.8" x2="9.45" y2="100.6" width="0.1" layer="200"/>
+<wire x1="57.45" y1="8.8" x2="62.9" y2="8.8" width="0.1" layer="200"/>
+<wire x1="62.9" y1="91.8" x2="62.9" y2="8.8" width="0.1" layer="200"/>
+<wire x1="57.45" y1="91.8" x2="62.9" y2="91.8" width="0.1" layer="200"/>
+<wire x1="9.45" y1="100.6" x2="53.45" y2="100.6" width="0.1" layer="200"/>
+<wire x1="53.45" y1="100.6" x2="53.45" y2="95.8" width="0.1" layer="200"/>
+<wire x1="5.45" y1="91.8" x2="9.45" y2="95.8" width="0.1" layer="200" curve="90"/>
+<wire x1="9.45" y1="4.8" x2="5.45" y2="8.8" width="0.1" layer="200" curve="90"/>
+<wire x1="57.45" y1="8.8" x2="53.45" y2="4.8" width="0.1" layer="200" curve="90"/>
+<wire x1="53.45" y1="95.8" x2="57.45" y2="91.8" width="0.1" layer="200" curve="90"/>
+<circle x="31.45" y="4.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="57.45" y="65.82035" radius="2.2" width="0.1" layer="200"/>
+<circle x="5.45" y="65.82035" radius="2.2" width="0.1" layer="200"/>
+<circle x="15.45" y="4.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="47.45" y="4.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="15.45" y="95.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="47.45" y="95.8" radius="1.2" width="0.1" layer="200"/>
+<circle x="31.45" y="95.8" radius="1.2" width="0.1" layer="200"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CLASSIC">
@@ -1068,6 +1248,18 @@
 <connect gate="J$1" pin="8" pad="8"/>
 <connect gate="J$1" pin="9" pad="9"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HCS_HOUSING">
+<gates>
+<gate name="G$1" symbol="HCS_HOUSING_SECOND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HCS_HOUSING_SECOND">
 <technologies>
 <technology name=""/>
 </technologies>
