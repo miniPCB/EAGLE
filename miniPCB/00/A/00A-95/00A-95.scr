@@ -2,6 +2,7 @@
 # The source board file must already be ready with _tNames and _bNames layers.
 # Nolan Manteufel
 # 30JAN2023
+# 17NOV2024, renumered board
 
 #Deletes everything
 # Even the outline layer 20 and vScore layer 102
@@ -12,11 +13,11 @@ delete (>0 0);
 
 #Paste from board file in the same project, at the cordiantes shown
 grid mm;
-paste 00A-095 (0 0)
-paste 00A-095 (0 50)
+paste 00A-95 (0 0)
+paste 00A-95 (0 50)
 
-paste 00A-095 (50 0)
-paste 00A-095 (50 50)
+paste 00A-95 (50 0)
+paste 00A-95 (50 50)
 
 #Draw new outline on layer 20
 layer 20;
