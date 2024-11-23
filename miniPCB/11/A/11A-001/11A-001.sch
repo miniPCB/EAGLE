@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -16796,10 +16795,10 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <circle x="95" y="5" radius="1.6" width="0.1524" layer="94"/>
 <circle x="5" y="5" radius="1.6" width="0.1524" layer="94"/>
 <text x="0" y="101.6" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
-<dimension x1="93.4" y1="95" x2="96.6" y2="95" x3="95" y3="110" textsize="1.778" layer="94" dtype="diameter"/>
-<dimension x1="0" y1="0" x2="100" y2="0" x3="50" y3="-30" textsize="1.778" layer="94" dtype="horizontal"/>
-<dimension x1="0" y1="0" x2="5" y2="5" x3="2.5" y3="-10" textsize="1.778" layer="94" dtype="horizontal"/>
-<dimension x1="0" y1="0" x2="5" y2="5" x3="-10" y3="2.5" textsize="1.778" layer="94" dtype="vertical"/>
+<dimension x1="93.4" y1="95" x2="96.6" y2="95" x3="95" y3="110" layer="94" dtype="diameter"/>
+<dimension x1="0" y1="0" x2="100" y2="0" x3="50" y3="-30" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="5" y2="5" x3="2.5" y3="-10" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="5" y2="5" x3="-10" y3="2.5" layer="94" dtype="vertical"/>
 <wire x1="5" y1="5" x2="8" y2="5" width="0.2" layer="94" style="dashdot"/>
 <wire x1="8" y1="5" x2="92" y2="5" width="0.2" layer="94" style="dashdot"/>
 <wire x1="92" y1="5" x2="95" y2="5" width="0.2" layer="94" style="dashdot"/>
@@ -16820,9 +16819,9 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <wire x1="92" y1="5" x2="98" y2="5" width="0.2" layer="94"/>
 <wire x1="2" y1="5" x2="8" y2="5" width="0.2" layer="94"/>
 <wire x1="5" y1="8" x2="5" y2="2" width="0.2" layer="94"/>
-<dimension x1="0" y1="0" x2="0" y2="100" x3="-30" y3="50" textsize="1.778" layer="94" dtype="vertical"/>
-<dimension x1="0" y1="0" x2="95" y2="5" x3="47.5" y3="-20" textsize="1.778" layer="94" dtype="horizontal"/>
-<dimension x1="0" y1="0" x2="5" y2="95" x3="-20" y3="47.5" textsize="1.778" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="0" y2="100" x3="-30" y3="50" layer="94" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="95" y2="5" x3="47.5" y3="-20" layer="94" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="5" y2="95" x3="-20" y3="47.5" layer="94" dtype="vertical"/>
 </symbol>
 <symbol name="FIDUCIAL">
 <circle x="0" y="0" radius="1.27" width="0" layer="94"/>

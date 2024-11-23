@@ -1,16 +1,17 @@
 [Eagle]
-Version="09 06 02"
+Version="06 03 00"
 Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
 Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.3.0/lbr/nolan-utsa.lbr"
-UsedLibrary="C:/Repos/Hardware/BBrepo_libraries/minipcb.lbr"
 
 [Win_1]
 Type="Control Panel"
+Loc="652 321 1251 720"
+State=1
 Number=0
 
 [Desktop]

@@ -1,0 +1,53 @@
+Partlist
+
+Exported from 11A-01.brd at 11/18/2024 8:29:31 PM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Package                      Library            Position (mm)         Orientation
+
+B1                          PUSHBUTTON-6MM-SMD           minipcb            (47 91)               R180
+C1       22uF               C3-5MM                       minipcb            (73.55 93.94)         R90
+C2       4u7                C0805                        minipcb            (67.5 95.5)           R90
+C3       100n               C0805                        minipcb            (65.5 95.5)           R90
+C4       100n               C0805                        minipcb            (65.5 91)             R270
+C5       4u7                C0805                        minipcb            (67.5 91)             R270
+C6       100n               C0805                        minipcb            (53 92)               R270
+D1       ES1D-E3/61T        DO214AC                      minipcb            (79.13 87.56)         R0
+D2       ES1D-E3/61T        DO214AC                      minipcb            (22 59)               R0
+D3       ES1D-E3/61T        DO214AC                      minipcb            (41 59)               R0
+D4       ES1D-E3/61T        DO214AC                      minipcb            (34.17 69.88)         R90
+D5       ES1D-E3/61T        DO214AC                      minipcb            (34 22)               R90
+J1       2.1mm JACK         PJ-102A                      utsa               (87.64 97.84)         R0
+J2       SJ-3566AN          CUI_SJ-3566AN                SJ-3566AN          (42.5 10)             R90
+J3       SJ-3566AN          CUI_SJ-3566AN                SJ-3566AN          (57.5 10)             R90
+J4       SJ-3566AN          CUI_SJ-3566AN                SJ-3566AN          (72.5 10)             R90
+J5       SJ-3566AN          CUI_SJ-3566AN                SJ-3566AN          (87.5 10)             R90
+J6       UART               PINS_2                       minipcb            (57 35)               R90
+J7       105309-1103        PINS_3-NANOFIT               minipcb            (10 52)               R270
+J8       105309-1103        PINS_3-NANOFIT               minipcb            (30 52)               R270
+J9                          SCREW-TERMINAL-M3            minipcb            (10 67.5)             R0
+J10                         SCREW-TERMINAL-M3            minipcb            (10 85)               R0
+J11                         SCREW-TERMINAL-M3            minipcb            (10 20)               R0
+J12                         SCREW-TERMINAL-M3            minipcb            (10 37.5)             R0
+K1       IM03GR             RELAY_IM03GR                 IM03GR             (20 51)               R0
+K2       IM03GR             RELAY_IM03GR                 IM03GR             (39 51)               R0
+K3       RZ03-1A4-D005      RELAY_RZ03-1A4-D005          RZ03-1A4-D005      (25 77.5)             R90
+K4       RZ03-1A4-D005      RELAY_RZ03-1A4-D005          RZ03-1A4-D005      (25 30)               R90
+Q1       2N7002             SOT23                        minipcb            (27 60)               R90
+Q2       2N7002             SOT23                        minipcb            (46 60)               R90
+Q3       2N7002             SOT23                        minipcb            (37 73)               R90
+Q4       2N7002             SOT23                        minipcb            (37 24)               R90
+R1       10k                R0805                        minipcb            (53 96)               R90
+R2       100                R0805                        minipcb            (34 60)               R270
+R3       100                R0805                        minipcb            (53 60)               R270
+R4       10k                R0805                        minipcb            (30 60)               R270
+R5       10k                R0805                        minipcb            (49 60)               R270
+R6       100                R0805                        minipcb            (44 73)               R270
+R7       100                R0805                        minipcb            (44 24)               R270
+R8       10k                R0805                        minipcb            (40 73)               R270
+R9       10k                R0805                        minipcb            (40 24)               R270
+U1       LM1117             SOT223                       utsa               (59.5 92)             R90
+U2       ESP32-DEVKITC-32UE ESPRESSIF_ESP32-DEVKITC-32UE ESP32-DEVKITC-32UE (75 50)               R180
