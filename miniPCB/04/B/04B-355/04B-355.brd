@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -66,9 +66,9 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -79,57 +79,57 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -138,85 +138,58 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="notBonded" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="230" name="Bonded" color="7" fill="8" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="notBonded" color="7" fill="10" visible="no" active="yes"/>
+<layer number="230" name="Bonded" color="7" fill="8" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="3" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
+<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
+<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
+<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="minipcb">
 <packages>
-<package name="C050-024X044">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5 mm, outline 2.4 x 4.4 mm</description>
-<wire x1="-0.3048" y1="0.762" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.762" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0.762" x2="0.3302" y2="0" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
-<wire x1="0.7" y1="0" x2="0.3302" y2="0" width="0.3048" layer="21"/>
-<wire x1="-0.7" y1="0" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
-<pad name="1" x="-2.5" y="0" drill="1.1" diameter="2" shape="square"/>
-<pad name="2" x="2.5" y="0" drill="1.1" diameter="2"/>
-<text x="-4.5" y="2.5" size="1.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<text x="4.5" y="-2.5" size="1.5" layer="27" font="vector" ratio="13" rot="R180">&gt;VALUE</text>
-<wire x1="-2.9" y1="2" x2="2.6" y2="2" width="0.3" layer="21"/>
-<wire x1="2.6" y1="-2" x2="-2.9" y2="-2" width="0.3" layer="21"/>
-<wire x1="2.6" y1="2" x2="2.6" y2="-2" width="0.3" layer="21" curve="-180"/>
-<wire x1="-2.9" y1="-2" x2="-2.9" y2="2" width="0.3" layer="21" curve="-180"/>
+<package name="TO92-EBC-OVAL">
+<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
+grid 5.08 mm</description>
+<wire x1="-2.1" y1="-3" x2="2.1" y2="-3" width="0.3048" layer="21"/>
+<pad name="E" x="-2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="C" x="2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="B" x="0" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<text x="-2.5" y="2" size="1.5" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="2.5" y="-3.5" size="1.5" layer="27" font="vector" ratio="12" rot="R180">&gt;VALUE</text>
+<wire x1="-2.1" y1="0.4" x2="2.1" y2="0.4" width="0.3048" layer="21" curve="-90"/>
+<wire x1="-2.1" y1="-3" x2="-2.2" y2="-2.9" width="0.3048" layer="21"/>
+<wire x1="2.1" y1="-3" x2="2.2" y2="-2.9" width="0.3048" layer="21"/>
+<wire x1="-1.5" y1="-1.9" x2="-1" y2="-1.9" width="0.3048" layer="21"/>
+<wire x1="1" y1="-1.9" x2="1.5" y2="-1.9" width="0.3048" layer="21"/>
 </package>
-<package name="C5MM">
-<pad name="+" x="-2.5" y="0" drill="1" shape="square"/>
-<pad name="-" x="2.5" y="0" drill="1"/>
-<circle x="0" y="0" radius="5.1" width="0.254" layer="21"/>
-<wire x1="0" y1="5.1" x2="0" y2="-5.1" width="0.6096" layer="21" curve="-180"/>
-<wire x1="-6.5" y1="0" x2="-5.5" y2="0" width="0.254" layer="21"/>
-<wire x1="-6" y1="0.5" x2="-6" y2="-0.5" width="0.254" layer="21"/>
-<text x="-5.5" y="1.5" size="1.5" layer="25" font="vector" ratio="12" rot="R90">&gt;NAME</text>
-<polygon width="0.254" layer="21">
-<vertex x="3.8" y="-3.5"/>
-<vertex x="3.5" y="-3.5"/>
-<vertex x="3.5" y="-3.8"/>
-<vertex x="3.2" y="-3.8"/>
-<vertex x="3.2" y="-4.1"/>
-<vertex x="2.8" y="-4.1"/>
-<vertex x="2.8" y="-4.4"/>
-<vertex x="2.3" y="-4.4"/>
-<vertex x="1.6" y="-4.7"/>
-<vertex x="1.6" y="-1.5"/>
-<vertex x="4" y="-1.5"/>
-<vertex x="4" y="1.5"/>
-<vertex x="1.6" y="1.5"/>
-<vertex x="1.6" y="4.7"/>
-<vertex x="2.7" y="4.5"/>
-<vertex x="3.8" y="3.5"/>
-<vertex x="4.5" y="2.5"/>
-<vertex x="5" y="1.5"/>
-<vertex x="5" y="-1.5"/>
-<vertex x="4.5" y="-2.5"/>
-</polygon>
-</package>
-<package name="PINS_1X7">
-<pad name="1" x="0" y="0" drill="1" shape="square"/>
-<pad name="2" x="2.5" y="0" drill="1"/>
-<pad name="3" x="5" y="0" drill="1"/>
-<pad name="4" x="7.5" y="0" drill="1"/>
-<pad name="5" x="10" y="0" drill="1"/>
-<pad name="6" x="12.5" y="0" drill="1"/>
-<pad name="7" x="15" y="0" drill="1"/>
+<package name="0204/10">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0204, grid 7.5 mm</description>
+<pad name="1" x="-5" y="0" drill="0.9" diameter="1.75"/>
+<pad name="2" x="5" y="0" drill="0.9" diameter="1.75"/>
+<text x="-3.5" y="2" size="1.5" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="0" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center">&gt;VALUE</text>
+<wire x1="-3.5" y1="1.5" x2="3.5" y2="1.5" width="0.3" layer="21"/>
+<wire x1="3.5" y1="1.5" x2="3.5" y2="-1.5" width="0.3" layer="21"/>
+<wire x1="3.5" y1="-1.5" x2="-3.5" y2="-1.5" width="0.3" layer="21"/>
+<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="1.5" width="0.3" layer="21"/>
 </package>
 <package name="MINIPCB_0P_50X75">
 <hole x="72.5" y="47.5" drill="2.4"/>
@@ -1894,32 +1867,63 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <text x="65" y="46" size="1.5" layer="22" font="vector" ratio="13" rot="MR180" align="center-right">&gt;REVISION</text>
 <text x="2.5" y="7" size="1.778" layer="21" font="vector" ratio="12" align="center-left">P1</text>
 </package>
-<package name="TO92-EBC-OVAL">
-<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm</description>
-<wire x1="-2.1" y1="-3" x2="2.1" y2="-3" width="0.3048" layer="21"/>
-<pad name="E" x="-2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
-<pad name="C" x="2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
-<pad name="B" x="0" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
-<text x="-2.5" y="2" size="1.5" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="2.5" y="-3.5" size="1.5" layer="27" font="vector" ratio="12" rot="R180">&gt;VALUE</text>
-<wire x1="-2.1" y1="0.4" x2="2.1" y2="0.4" width="0.3048" layer="21" curve="-90"/>
-<wire x1="-2.1" y1="-3" x2="-2.2" y2="-2.9" width="0.3048" layer="21"/>
-<wire x1="2.1" y1="-3" x2="2.2" y2="-2.9" width="0.3048" layer="21"/>
-<wire x1="-1.5" y1="-1.9" x2="-1" y2="-1.9" width="0.3048" layer="21"/>
-<wire x1="1" y1="-1.9" x2="1.5" y2="-1.9" width="0.3048" layer="21"/>
+<package name="PINS_1X7">
+<pad name="1" x="0" y="0" drill="1" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1"/>
+<pad name="3" x="5" y="0" drill="1"/>
+<pad name="4" x="7.5" y="0" drill="1"/>
+<pad name="5" x="10" y="0" drill="1"/>
+<pad name="6" x="12.5" y="0" drill="1"/>
+<pad name="7" x="15" y="0" drill="1"/>
 </package>
-<package name="0204/10">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-type 0204, grid 7.5 mm</description>
-<pad name="1" x="-5" y="0" drill="0.9" diameter="1.75"/>
-<pad name="2" x="5" y="0" drill="0.9" diameter="1.75"/>
-<text x="-3.5" y="2" size="1.5" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="0" y="0" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center">&gt;VALUE</text>
-<wire x1="-3.5" y1="1.5" x2="3.5" y2="1.5" width="0.3" layer="21"/>
-<wire x1="3.5" y1="1.5" x2="3.5" y2="-1.5" width="0.3" layer="21"/>
-<wire x1="3.5" y1="-1.5" x2="-3.5" y2="-1.5" width="0.3" layer="21"/>
-<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="1.5" width="0.3" layer="21"/>
+<package name="C050-024X044">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5 mm, outline 2.4 x 4.4 mm</description>
+<wire x1="-0.3048" y1="0.762" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.762" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0.762" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
+<wire x1="0.7" y1="0" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.7" y1="0" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="1.1" diameter="2" shape="square"/>
+<pad name="2" x="2.5" y="0" drill="1.1" diameter="2"/>
+<text x="-4.5" y="2.5" size="1.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
+<text x="4.5" y="-2.5" size="1.5" layer="27" font="vector" ratio="13" rot="R180">&gt;VALUE</text>
+<wire x1="-2.9" y1="2" x2="2.6" y2="2" width="0.3" layer="21"/>
+<wire x1="2.6" y1="-2" x2="-2.9" y2="-2" width="0.3" layer="21"/>
+<wire x1="2.6" y1="2" x2="2.6" y2="-2" width="0.3" layer="21" curve="-180"/>
+<wire x1="-2.9" y1="-2" x2="-2.9" y2="2" width="0.3" layer="21" curve="-180"/>
+</package>
+<package name="C5MM">
+<pad name="+" x="-2.5" y="0" drill="1" shape="square"/>
+<pad name="-" x="2.5" y="0" drill="1"/>
+<circle x="0" y="0" radius="5.1" width="0.254" layer="21"/>
+<wire x1="0" y1="5.1" x2="0" y2="-5.1" width="0.6096" layer="21" curve="-180"/>
+<wire x1="-6.5" y1="0" x2="-5.5" y2="0" width="0.254" layer="21"/>
+<wire x1="-6" y1="0.5" x2="-6" y2="-0.5" width="0.254" layer="21"/>
+<text x="-5.5" y="1.5" size="1.5" layer="25" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<polygon width="0.254" layer="21">
+<vertex x="3.8" y="-3.5"/>
+<vertex x="3.5" y="-3.5"/>
+<vertex x="3.5" y="-3.8"/>
+<vertex x="3.2" y="-3.8"/>
+<vertex x="3.2" y="-4.1"/>
+<vertex x="2.8" y="-4.1"/>
+<vertex x="2.8" y="-4.4"/>
+<vertex x="2.3" y="-4.4"/>
+<vertex x="1.6" y="-4.7"/>
+<vertex x="1.6" y="-1.5"/>
+<vertex x="4" y="-1.5"/>
+<vertex x="4" y="1.5"/>
+<vertex x="1.6" y="1.5"/>
+<vertex x="1.6" y="4.7"/>
+<vertex x="2.7" y="4.5"/>
+<vertex x="3.8" y="3.5"/>
+<vertex x="4.5" y="2.5"/>
+<vertex x="5" y="1.5"/>
+<vertex x="5" y="-1.5"/>
+<vertex x="4.5" y="-2.5"/>
+</polygon>
 </package>
 <package name="TRIM_0100">
 <pad name="1" x="0" y="0" drill="1.1" diameter="1.9304" shape="square"/>
@@ -1948,39 +1952,33 @@ type 0204, grid 7.5 mm</description>
 </class>
 </classes>
 <designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
 a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
-design rules under a new name.</description>
+design rules under a new name.
+</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="0.6mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -2023,25 +2021,18 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
-<param name="maxErrors" value="50"/>
+<param name="maxErrors" value="999999"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -2056,7 +2047,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="-"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -2131,228 +2122,120 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="minipcb" package="C050-024X044" value="" x="7" y="21" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.5" y="18.5" size="1.5" layer="25" font="vector" ratio="13" rot="R180"/>
-<attribute name="VALUE" x="2.5" y="23.5" size="1.5" layer="27" font="vector" ratio="13"/>
+<element name="Q1" library="minipcb" package="TO92-EBC-OVAL" value="" x="-86.36" y="54.61">
+<attribute name="MFG_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="minipcb" package="C5MM" value="" x="7" y="13" smashed="yes" rot="R180">
-<attribute name="MFG1" value="" x="-12.05" y="70.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG1_PN" value="" x="-12.05" y="70.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.5" y="11.5" size="1.5" layer="25" font="vector" ratio="12" rot="R270"/>
+<element name="Q3" library="minipcb" package="TO92-EBC-OVAL" value="" x="-16.51" y="67.31">
+<attribute name="MFG_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="minipcb" package="C050-024X044" value="" x="-27.94" y="64.77" smashed="yes">
-<attribute name="NAME" x="-32.44" y="67.27" size="1.5" layer="25" font="vector" ratio="13"/>
-<attribute name="VALUE" x="-23.44" y="62.27" size="1.5" layer="27" font="vector" ratio="13" rot="R180"/>
+<element name="Q2" library="minipcb" package="TO92-EBC-OVAL" value="" x="-93.98" y="54.61">
+<attribute name="MFG_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="minipcb" package="C5MM" value="" x="56.98" y="31.15" smashed="yes">
-<attribute name="MFG1" value="" x="90" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="MFG1_PN" value="" x="90" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51.48" y="32.65" size="1.5" layer="25" font="vector" ratio="12" rot="R90"/>
+<element name="R8" library="minipcb" package="0204/10" value="" x="-44.45" y="80.01"/>
+<element name="R12" library="minipcb" package="0204/10" value="" x="-19.05" y="86.36"/>
+<element name="R9" library="minipcb" package="0204/10" value="" x="-57.15" y="80.01"/>
+<element name="R13" library="minipcb" package="0204/10" value="" x="-31.75" y="86.36"/>
+<element name="R11" library="minipcb" package="0204/10" value="" x="-82.55" y="80.01"/>
+<element name="R1" library="minipcb" package="0204/10" value="" x="-59.69" y="73.66"/>
+<element name="R3" library="minipcb" package="0204/10" value="" x="-72.39" y="73.66"/>
+<element name="PCB1" library="minipcb" package="MINIPCB_0P_50X75" value="" x="-88.9" y="1.27">
+<attribute name="TITLE" value="TITLE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="CIRCUIT_CATEGORY" value="CIRCUIT CATEGORY" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="REVISION" value="A1" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="minipcb" package="C050-024X044" value="" x="45" y="15" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.5" y="19.5" size="1.5" layer="25" font="vector" ratio="13" rot="R270"/>
-<attribute name="VALUE" x="42.5" y="10.5" size="1.5" layer="27" font="vector" ratio="13" rot="R90"/>
+<element name="P1" library="minipcb" package="PINS_1X7" value="" x="-29.21" y="97.79"/>
+<element name="R14" library="minipcb" package="0204/10" value="" x="-44.45" y="86.36"/>
+<element name="R7" library="minipcb" package="0204/10" value="" x="-31.75" y="80.01"/>
+<element name="C2" library="minipcb" package="C050-024X044" value="" x="-73.66" y="66.04"/>
+<element name="C4" library="minipcb" package="C5MM" value="" x="-46.99" y="57.15">
+<attribute name="MFG1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MFG1_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="minipcb" package="C5MM" value="" x="54" y="15" smashed="yes" rot="R270">
-<attribute name="MFG1" value="" x="-3.15" y="-31.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFG1_PN" value="" x="-3.15" y="-31.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="55.5" y="20.5" size="1.5" layer="25" font="vector" ratio="12"/>
+<element name="C1" library="minipcb" package="C050-024X044" value="" x="-63.5" y="66.04"/>
+<element name="C3" library="minipcb" package="C5MM" value="" x="-33.02" y="57.15">
+<attribute name="MFG1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MFG1_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="P1" library="minipcb" package="PINS_1X7" value="" x="2.5" y="2.5" smashed="yes"/>
-<element name="PCB1" library="minipcb" package="MINIPCB_0P_50X75" value="" x="0" y="0" smashed="yes">
-<attribute name="CIRCUIT_CATEGORY" value="CIRCUIT CATEGORY" x="10.5" y="46.2" size="1.5" layer="21" font="vector" ratio="12" align="center-left"/>
-<attribute name="CIRCUIT_CATEGORY" value="CIRCUIT CATEGORY" x="10.5" y="46.2" size="1.5" layer="1" font="vector" ratio="12" align="center-left"/>
-<attribute name="PART_NUMBER" value="" x="70" y="48" size="1.5" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
-<attribute name="PART_NUMBER" value="" x="70" y="48" size="1.5" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
-<attribute name="REVISION" value="A1" x="65" y="46" size="1.5" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
-<attribute name="REVISION" value="A1" x="65" y="46" size="1.5" layer="22" font="vector" ratio="13" rot="MR180" align="center-right"/>
-<attribute name="TITLE" value="TITLE" x="10.5" y="48" size="1.5" layer="1" font="vector" ratio="12" align="center-left"/>
-<attribute name="TITLE" value="TITLE" x="10.5" y="48" size="1.5" layer="21" font="vector" ratio="12" align="center-left"/>
+<element name="R2" library="minipcb" package="TRIM_0100" value="" x="-27.94" y="66.04"/>
+<element name="C5" library="minipcb" package="C050-024X044" value="" x="-83.82" y="66.04"/>
+<element name="C6" library="minipcb" package="C5MM" value="" x="-60.96" y="57.15">
+<attribute name="MFG1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MFG1_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q1" library="minipcb" package="TO92-EBC-OVAL" value="" x="33" y="28" smashed="yes" rot="R90">
-<attribute name="MFG_PN" value="" x="87.61" y="86.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31" y="25.5" size="1.5" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="36.5" y="30.5" size="1.5" layer="27" font="vector" ratio="12" rot="R270"/>
+<element name="TP2" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-35.56" y="91.44"/>
+<element name="TP1" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-29.21" y="91.44"/>
+<element name="TP7" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-67.31" y="91.44"/>
+<element name="TP6" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-60.96" y="91.44"/>
+<element name="TP5" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-54.61" y="91.44"/>
+<element name="TP3" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-41.91" y="91.44"/>
+<element name="TP4" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-48.26" y="91.44"/>
+<element name="R4" library="minipcb" package="0204/10" value="" x="-85.09" y="73.66"/>
+<element name="R5" library="minipcb" package="0204/10" value="" x="-19.05" y="80.01"/>
+<element name="C7" library="minipcb" package="C050-024X044" value="" x="-17.78" y="73.66"/>
+<element name="C8" library="minipcb" package="C5MM" value="" x="-74.93" y="57.15">
+<attribute name="MFG1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MFG1_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q3" library="minipcb" package="TO92-EBC-OVAL" value="" x="40" y="28" smashed="yes" rot="R90">
-<attribute name="MFG_PN" value="" x="94.61" y="94.04" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38" y="25.5" size="1.5" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="43.5" y="30.5" size="1.5" layer="27" font="vector" ratio="12" rot="R270"/>
+<element name="R6" library="minipcb" package="TRIM_0100" value="" x="-40.64" y="66.04"/>
+<element name="TP8" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-73.66" y="91.44"/>
+<element name="R10" library="minipcb" package="0204/10" value="" x="-69.85" y="80.01"/>
+<element name="R15" library="minipcb" package="0204/10" value="" x="-57.15" y="86.36"/>
+<element name="C9" library="minipcb" package="C050-024X044" value="" x="-27.94" y="73.66"/>
+<element name="C10" library="minipcb" package="C5MM" value="" x="-19.05" y="57.15">
+<attribute name="MFG1" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MFG1_PN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q2" library="minipcb" package="TO92-EBC-OVAL" value="" x="36" y="18" smashed="yes" rot="R90">
-<attribute name="MFG_PN" value="" x="90.61" y="91.66" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34" y="15.5" size="1.5" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="39.5" y="20.5" size="1.5" layer="27" font="vector" ratio="12" rot="R270"/>
-</element>
-<element name="R8" library="minipcb" package="0204/10" value="" x="-49.53" y="64.77" smashed="yes">
-<attribute name="NAME" x="-53.03" y="66.77" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-49.53" y="64.77" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R14" library="minipcb" package="0204/10" value="" x="-31.75" y="77.47" smashed="yes">
-<attribute name="NAME" x="-35.25" y="79.47" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-31.75" y="77.47" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R7" library="minipcb" package="0204/10" value="" x="-44.45" y="77.47" smashed="yes">
-<attribute name="NAME" x="-47.95" y="79.47" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-44.45" y="77.47" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R2" library="minipcb" package="TRIM_0100" value="" x="-85.09" y="54.61" smashed="yes">
-<attribute name="NAME" x="-87.09" y="57.11" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="R12" library="minipcb" package="0204/10" value="" x="-62.23" y="64.77" smashed="yes">
-<attribute name="NAME" x="-65.73" y="66.77" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-62.23" y="64.77" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R9" library="minipcb" package="0204/10" value="" x="-74.93" y="64.77" smashed="yes">
-<attribute name="NAME" x="-78.43" y="66.77" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-74.93" y="64.77" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R13" library="minipcb" package="0204/10" value="" x="-19.05" y="71.12" smashed="yes">
-<attribute name="NAME" x="-22.55" y="73.12" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-19.05" y="71.12" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R11" library="minipcb" package="0204/10" value="" x="-31.75" y="71.12" smashed="yes">
-<attribute name="NAME" x="-35.25" y="73.12" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-31.75" y="71.12" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R1" library="minipcb" package="0204/10" value="" x="-44.45" y="71.12" smashed="yes">
-<attribute name="NAME" x="-47.95" y="73.12" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-44.45" y="71.12" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R3" library="minipcb" package="0204/10" value="" x="-57.15" y="71.12" smashed="yes">
-<attribute name="NAME" x="-60.65" y="73.12" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-57.15" y="71.12" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="TP2" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-87" y="-5" smashed="yes">
-<attribute name="NAME" x="-88.5" y="-3.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP1" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-87" y="-10" smashed="yes">
-<attribute name="NAME" x="-88.5" y="-8.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP7" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-87" y="-15" smashed="yes">
-<attribute name="NAME" x="-88.5" y="-13.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP6" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-87" y="-20" smashed="yes">
-<attribute name="NAME" x="-88.5" y="-18.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP5" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-87" y="-25" smashed="yes">
-<attribute name="NAME" x="-88.5" y="-23.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP3" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-87" y="-30" smashed="yes">
-<attribute name="NAME" x="-88.5" y="-28.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP4" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-87" y="-35" smashed="yes">
-<attribute name="NAME" x="-88.5" y="-33.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="R4" library="minipcb" package="0204/10" value="" x="-83" y="-58.5" smashed="yes">
-<attribute name="NAME" x="-86.5" y="-56.5" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-83" y="-58.5" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R5" library="minipcb" package="0204/10" value="" x="-83" y="-64.5" smashed="yes">
-<attribute name="NAME" x="-86.5" y="-62.5" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-83" y="-64.5" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="C7" library="minipcb" package="C050-024X044" value="" x="-72.5" y="-52" smashed="yes">
-<attribute name="NAME" x="-77" y="-49.5" size="1.5" layer="25" font="vector" ratio="13"/>
-<attribute name="VALUE" x="-68" y="-54.5" size="1.5" layer="27" font="vector" ratio="13" rot="R180"/>
-</element>
-<element name="C8" library="minipcb" package="C5MM" value="" x="-81" y="-41.5" smashed="yes">
-<attribute name="MFG1" value="" x="-94.5" y="-49.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFG1_PN" value="" x="-94.5" y="-49.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-86.5" y="-40" size="1.5" layer="25" font="vector" ratio="12" rot="R90"/>
-</element>
-<element name="R6" library="minipcb" package="TRIM_0100" value="" x="-85" y="-52" smashed="yes">
-<attribute name="NAME" x="-87" y="-49.5" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP8" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-75" y="-64" smashed="yes">
-<attribute name="NAME" x="-76.5" y="-62.73" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="R10" library="minipcb" package="0204/10" value="" x="-83" y="-89" smashed="yes">
-<attribute name="NAME" x="-86.5" y="-87" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-83" y="-89" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R15" library="minipcb" package="0204/10" value="" x="-83" y="-95" smashed="yes">
-<attribute name="NAME" x="-86.5" y="-93" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-83" y="-95" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="C9" library="minipcb" package="C050-024X044" value="" x="-72.5" y="-82.5" smashed="yes">
-<attribute name="NAME" x="-77" y="-80" size="1.5" layer="25" font="vector" ratio="13"/>
-<attribute name="VALUE" x="-68" y="-85" size="1.5" layer="27" font="vector" ratio="13" rot="R180"/>
-</element>
-<element name="C10" library="minipcb" package="C5MM" value="" x="-81" y="-72" smashed="yes">
-<attribute name="MFG1" value="" x="-94.5" y="-79.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFG1_PN" value="" x="-94.5" y="-79.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-86.5" y="-70.5" size="1.5" layer="25" font="vector" ratio="12" rot="R90"/>
-</element>
-<element name="R16" library="minipcb" package="TRIM_0100" value="" x="-85" y="-82.5" smashed="yes">
-<attribute name="NAME" x="-87" y="-80" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="TP9" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-75" y="-94.5" smashed="yes">
-<attribute name="NAME" x="-76.5" y="-93.23" size="1.5" layer="25" font="vector" ratio="12"/>
-</element>
-<element name="C11" library="minipcb" package="C050-024X044" value="" x="-83.5" y="-101.5" smashed="yes">
-<attribute name="NAME" x="-88" y="-99" size="1.5" layer="25" font="vector" ratio="13"/>
-<attribute name="VALUE" x="-79" y="-104" size="1.5" layer="27" font="vector" ratio="13" rot="R180"/>
-</element>
-<element name="C12" library="minipcb" package="C050-024X044" value="" x="-83.5" y="-108.5" smashed="yes">
-<attribute name="NAME" x="-88" y="-106" size="1.5" layer="25" font="vector" ratio="13"/>
-<attribute name="VALUE" x="-79" y="-111" size="1.5" layer="27" font="vector" ratio="13" rot="R180"/>
-</element>
-<element name="R17" library="minipcb" package="0204/10" value="" x="-83" y="-115" smashed="yes">
-<attribute name="NAME" x="-86.5" y="-113" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-83" y="-115" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R18" library="minipcb" package="0204/10" value="" x="-83" y="-121" smashed="yes">
-<attribute name="NAME" x="-86.5" y="-119" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-83" y="-121" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
-<element name="R19" library="minipcb" package="0204/10" value="" x="-83" y="-127" smashed="yes">
-<attribute name="NAME" x="-86.5" y="-125" size="1.5" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="-83" y="-127" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
-</element>
+<element name="R16" library="minipcb" package="TRIM_0100" value="" x="-53.34" y="66.04"/>
+<element name="TP9" library="minipcb" package="PINS_1_TESTPOINT_KE5000_NOTEXT" value="" x="-80.01" y="91.44"/>
+<element name="C11" library="minipcb" package="C050-024X044" value="" x="-38.1" y="73.66"/>
+<element name="C12" library="minipcb" package="C050-024X044" value="" x="-48.26" y="73.66"/>
+<element name="R17" library="minipcb" package="0204/10" value="" x="-69.85" y="86.36"/>
+<element name="R18" library="minipcb" package="0204/10" value="" x="-82.55" y="86.36"/>
+<element name="R19" library="minipcb" package="0204/10" value="" x="-19.05" y="92.71"/>
 </elements>
 <signals>
 <signal name="N$2">
 <contactref element="Q1" pad="E"/>
 <contactref element="R9" pad="2"/>
-<wire x1="-69.93" y1="64.77" x2="34.27" y2="25.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.15" y1="80.01" x2="-88.9" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R8" pad="1"/>
 <contactref element="Q1" pad="C"/>
 <contactref element="P1" pad="7"/>
 <contactref element="TP7" pad="1"/>
-<wire x1="-54.53" y1="64.77" x2="-87" y2="-15" width="0" layer="19" extent="1-1"/>
-<wire x1="17.5" y1="2.5" x2="-54.53" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="34.27" y1="30.54" x2="-54.53" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.45" y1="80.01" x2="-14.21" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.31" y1="91.44" x2="-49.45" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.82" y1="53.34" x2="-67.31" y2="91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R12" pad="1"/>
 <contactref element="Q3" pad="C"/>
 <contactref element="P1" pad="6"/>
 <contactref element="TP6" pad="1"/>
-<wire x1="-67.23" y1="64.77" x2="-87" y2="-20" width="0" layer="19" extent="1-1"/>
-<wire x1="15" y1="2.5" x2="-67.23" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="41.27" y1="30.54" x2="-67.23" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.05" y1="86.36" x2="-16.71" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.97" y1="66.04" x2="-24.05" y2="86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.96" y1="91.44" x2="-24.05" y2="86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="Q3" pad="E"/>
 <contactref element="R13" pad="2"/>
-<wire x1="-14.05" y1="71.12" x2="41.27" y2="25.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="66.04" x2="-26.75" y2="86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R13" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="Q2" pad="C"/>
 <contactref element="TP5" pad="1"/>
-<wire x1="-79.93" y1="64.77" x2="-87" y2="-25" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.05" y1="71.12" x2="-79.93" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="37.27" y1="20.54" x2="-24.05" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="91.44" x2="-36.75" y2="86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.15" y1="80.01" x2="-54.61" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.44" y1="53.34" x2="-62.15" y2="80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="Q2" pad="E"/>
 <contactref element="R11" pad="2"/>
-<wire x1="-26.75" y1="71.12" x2="37.27" y2="15.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.55" y1="80.01" x2="-96.52" y2="53.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="R11" pad="1"/>
@@ -2370,40 +2253,40 @@ design rules under a new name.</description>
 <contactref element="R15" pad="1"/>
 <contactref element="C9" pad="2"/>
 <contactref element="C10" pad="-"/>
-<wire x1="-70" y1="-82.5" x2="-88" y2="-95" width="0" layer="19" extent="1-1"/>
-<wire x1="-78.5" y1="-72" x2="-70" y2="-82.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-88" y1="-64.5" x2="-78.5" y2="-72" width="0" layer="19" extent="1-1"/>
-<wire x1="-70" y1="-52" x2="-78.5" y2="-72" width="0" layer="19" extent="1-1"/>
-<wire x1="-78.5" y1="-41.5" x2="-70" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="2.5" y1="2.5" x2="-70" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="13" x2="2.5" y2="2.5" width="0" layer="19" extent="1-1"/>
-<wire x1="4.5" y1="21" x2="4.5" y2="13" width="0" layer="19" extent="1-1"/>
-<wire x1="45" y1="12.5" x2="4.5" y2="13" width="0" layer="19" extent="1-1"/>
-<wire x1="54" y1="12.5" x2="45" y2="12.5" width="0" layer="19" extent="1-1"/>
-<wire x1="59.48" y1="31.15" x2="54" y2="12.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.44" y1="64.77" x2="4.5" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.75" y1="71.12" x2="-25.44" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.15" y1="71.12" x2="-36.75" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.05" y1="80.01" x2="-29.21" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.44" y1="73.66" x2="-24.05" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.28" y1="73.66" x2="-25.44" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.55" y1="57.15" x2="-15.28" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.52" y1="57.15" x2="-16.55" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.49" y1="57.15" x2="-30.52" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.46" y1="57.15" x2="-44.49" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-61" y1="66.04" x2="-58.46" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.16" y1="66.04" x2="-61" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.43" y1="57.15" x2="-71.16" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.39" y1="73.66" x2="-71.16" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.32" y1="66.04" x2="-77.39" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.55" y1="80.01" x2="-77.39" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.15" y1="86.36" x2="-77.39" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R7" pad="2"/>
 <contactref element="C12" pad="2"/>
-<wire x1="-39.45" y1="77.47" x2="-81" y2="-108.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.76" y1="73.66" x2="-26.75" y2="80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R14" pad="1"/>
 <contactref element="C11" pad="2"/>
-<wire x1="-36.75" y1="77.47" x2="-81" y2="-101.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.6" y1="73.66" x2="-49.45" y2="86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="Q3" pad="B"/>
 <contactref element="R14" pad="2"/>
-<wire x1="-26.75" y1="77.47" x2="41.27" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.45" y1="86.36" x2="-16.51" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="Q1" pad="B"/>
 <contactref element="R7" pad="1"/>
-<wire x1="-49.45" y1="77.47" x2="34.27" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.36" y1="53.34" x2="-36.75" y2="80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+">
 <contactref element="R8" pad="2"/>
@@ -2414,32 +2297,32 @@ design rules under a new name.</description>
 <contactref element="P1" pad="2"/>
 <contactref element="R4" pad="2"/>
 <contactref element="R10" pad="2"/>
-<wire x1="-78" y1="-58.5" x2="-78" y2="-89" width="0" layer="19" extent="1-1"/>
-<wire x1="5" y1="2.5" x2="-78" y2="-58.5" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="13" x2="5" y2="2.5" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="21" x2="9.5" y2="13" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.53" y1="64.77" x2="9.5" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="-39.45" y1="71.12" x2="-44.53" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-57.23" y1="64.77" x2="-44.53" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.71" y1="97.79" x2="-14.05" y2="86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.45" y1="80.01" x2="-26.71" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.69" y1="73.66" x2="-39.45" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.85" y1="80.01" x2="-54.69" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.09" y1="73.66" x2="-64.85" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.16" y1="66.04" x2="-80.09" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.49" y1="57.15" x2="-54.69" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="Q2" pad="B"/>
 <contactref element="C6" pad="+"/>
 <contactref element="C5" pad="1"/>
 <contactref element="TP4" pad="1"/>
-<wire x1="37.27" y1="18" x2="-87" y2="-35" width="0" layer="19" extent="1-1"/>
-<wire x1="45" y1="17.5" x2="37.27" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="54" y1="17.5" x2="45" y2="17.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.46" y1="57.15" x2="-48.26" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.32" y1="66.04" x2="-63.46" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.98" y1="53.34" x2="-86.32" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="3"/>
-<wire x1="-49.45" y1="71.12" x2="-80.09" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.69" y1="73.66" x2="-22.94" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R3" pad="2"/>
 <contactref element="R2" pad="1"/>
-<wire x1="-52.15" y1="71.12" x2="-85.09" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.39" y1="73.66" x2="-27.94" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="R2" pad="2"/>
@@ -2447,20 +2330,20 @@ design rules under a new name.</description>
 <contactref element="C3" pad="+"/>
 <contactref element="TP3" pad="1"/>
 <contactref element="R17" pad="1"/>
-<wire x1="-87" y1="-30" x2="-88" y2="-115" width="0" layer="19" extent="1-1"/>
-<wire x1="-82.59" y1="54.61" x2="-87" y2="-30" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.44" y1="64.77" x2="-82.59" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="54.48" y1="31.15" x2="-30.44" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.44" y1="66.04" x2="-41.91" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.52" y1="57.15" x2="-25.44" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-66" y1="66.04" x2="-35.52" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.85" y1="86.36" x2="-66" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R4" pad="1"/>
 <contactref element="R6" pad="3"/>
-<wire x1="-80" y1="-52" x2="-88" y2="-58.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.09" y1="73.66" x2="-35.64" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R5" pad="2"/>
 <contactref element="R6" pad="1"/>
-<wire x1="-85" y1="-52" x2="-78" y2="-64.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.64" y1="66.04" x2="-14.05" y2="80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R6" pad="2"/>
@@ -2468,20 +2351,20 @@ design rules under a new name.</description>
 <contactref element="C8" pad="+"/>
 <contactref element="TP8" pad="1"/>
 <contactref element="R18" pad="1"/>
-<wire x1="-75" y1="-64" x2="-88" y2="-121" width="0" layer="19" extent="1-1"/>
-<wire x1="-75" y1="-52" x2="-75" y2="-64" width="0" layer="19" extent="1-1"/>
-<wire x1="-82.5" y1="-52" x2="-75" y2="-52" width="0" layer="19" extent="1-1"/>
-<wire x1="-83.5" y1="-41.5" x2="-82.5" y2="-52" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.14" y1="66.04" x2="-20.28" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.43" y1="57.15" x2="-38.14" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.55" y1="86.36" x2="-77.43" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.66" y1="91.44" x2="-87.55" y2="86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="R10" pad="1"/>
 <contactref element="R16" pad="3"/>
-<wire x1="-80" y1="-82.5" x2="-88" y2="-89" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.85" y1="80.01" x2="-48.34" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R15" pad="2"/>
 <contactref element="R16" pad="1"/>
-<wire x1="-85" y1="-82.5" x2="-78" y2="-95" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.34" y1="66.04" x2="-52.15" y2="86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="R16" pad="2"/>
@@ -2489,33 +2372,26 @@ design rules under a new name.</description>
 <contactref element="C10" pad="+"/>
 <contactref element="TP9" pad="1"/>
 <contactref element="R19" pad="1"/>
-<wire x1="-75" y1="-94.5" x2="-88" y2="-127" width="0" layer="19" extent="1-1"/>
-<wire x1="-75" y1="-82.5" x2="-75" y2="-94.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-82.5" y1="-82.5" x2="-75" y2="-82.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-83.5" y1="-72" x2="-82.5" y2="-82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.44" y1="73.66" x2="-24.05" y2="92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.55" y1="57.15" x2="-30.44" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.84" y1="66.04" x2="-30.44" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.01" y1="91.44" x2="-50.84" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
-<contactref element="P1" pad="5"/>
 <contactref element="TP2" pad="1"/>
+<contactref element="P1" pad="5"/>
 <contactref element="C11" pad="1"/>
-<wire x1="-87" y1="-5" x2="-86" y2="-101.5" width="0" layer="19" extent="1-1"/>
-<wire x1="12.5" y1="2.5" x2="-87" y2="-5" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.56" y1="91.44" x2="-19.21" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.6" y1="73.66" x2="-35.56" y2="91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="P1" pad="4"/>
 <contactref element="TP1" pad="1"/>
 <contactref element="C12" pad="1"/>
-<wire x1="-87" y1="-10" x2="-86" y2="-108.5" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="2.5" x2="-87" y2="-10" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.21" y1="91.44" x2="-21.71" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.76" y1="73.66" x2="-29.21" y2="91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>

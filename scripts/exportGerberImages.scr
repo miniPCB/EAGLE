@@ -2,11 +2,12 @@
 # Nolan Manteufel
 # 25AUG2022
 # 30AUG2022
+# 26NOV2024 Commented out DRC load.
 
 # INSERT PICTURE FRAME PRIOR TO RUNNING THIS SCRIPT.
 # RUN FROM PANEL BOARD
 
-drc load minipcb-THD.dru;
+#drc load minipcb-THD.dru;
 set palette white;
 
 display none;

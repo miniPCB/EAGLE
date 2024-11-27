@@ -155,7 +155,6 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTE3NGFm" projecturn="a.cGVyc29uYWw6dWUyYTE3NGFmIzIwMjMwMTIzNjAwOTI1NDUx" f3durn="urn:adsk.wipprod:dm.lineage:8F-dwzJJS3-J1EJKGrBEVg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3a7591c4-de92-4145-851f-6bdf0c000477" lastsyncedrevisionid="3a7591c4-de92-4145-851f-6bdf0c000477" lastboardhashguid="51ed9cf1-2ef0-75af-49c9-db2a46c9702f" lastpushedtime="2023-01-23T02:27:52Z" linktopcb3d="true"/>
 <plain>
 <text x="60.00000625" y="13.81000625" size="0.9" layer="122" font="vector" ratio="12" rot="MR0">BT1</text>
 <wire x1="0" y1="0" x2="100" y2="0" width="0.1524" layer="20"/>
@@ -3089,22 +3088,13 @@ einem neuen Namen ab.</description>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -3119,7 +3109,6 @@ einem neuen Namen ab.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -3441,7 +3430,6 @@ einem neuen Namen ab.</description>
 </element>
 <element name="PCB" library="minipcb" package="MINIPCB_0P_50X100MM" value="PCB-50/100-0" x="0" y="0" smashed="yes">
 <attribute name="PART_NUMBER" value="13A-777-A-XB" x="94.5" y="47.5" size="1.5" layer="16" font="vector" ratio="13" rot="MR180" align="center-right"/>
-<attribute name="PART_NUMBER" value="13A-777-A-XA" x="94.5" y="47.5" size="1.5" layer="22" font="vector" ratio="13" rot="MR180" align="center-right" display="off"/>
 <attribute name="REVISION" value="A" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 </elements>

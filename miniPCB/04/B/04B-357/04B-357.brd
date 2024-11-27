@@ -408,22 +408,13 @@ einem neuen Namen ab.</description>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -438,7 +429,6 @@ einem neuen Namen ab.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -546,13 +536,9 @@ einem neuen Namen ab.</description>
 <element name="P1" library="minipcb" package="PINS_1X7" value="" x="47.5" y="2.5" smashed="yes" rot="R90"/>
 <element name="PCB1" library="minipcb" package="MINIPCB_0P_25X50" value="" x="0" y="0" smashed="yes">
 <attribute name="CIRCUIT_CATEGORY" value="" x="3" y="21" size="1.5" layer="1" font="vector" ratio="13" rot="R180" align="center-right"/>
-<attribute name="CIRCUIT_CATEGORY" value="" x="3" y="21" size="1.5" layer="21" font="vector" ratio="13" rot="R180" align="center-right"/>
-<attribute name="PART_NUMBER" value="04B-357" x="4" y="6" size="1.5" layer="22" font="vector" ratio="13" rot="MR270" align="center-right"/>
 <attribute name="PART_NUMBER" value="04B-357" x="4" y="6" size="1.5" layer="16" font="vector" ratio="13" rot="MR270" align="center-right"/>
-<attribute name="REVISION" value="A1" x="2" y="11" size="1.5" layer="22" font="vector" ratio="13" rot="MR270" align="center-right"/>
 <attribute name="REVISION" value="A1" x="2" y="11" size="1.5" layer="16" font="vector" ratio="13" rot="MR270" align="center-right"/>
 <attribute name="TITLE" value="DIFFERENTIAL AMPLIFIER" x="3" y="23" size="1.5" layer="1" font="vector" ratio="13" rot="R180" align="center-right"/>
-<attribute name="TITLE" value="DIFFERENTIAL AMPLIFIER" x="3" y="23" size="1.5" layer="21" font="vector" ratio="13" rot="R180" align="center-right"/>
 </element>
 <element name="Q1" library="minipcb" package="SOT23" value="" x="28.5" y="15" smashed="yes">
 <attribute name="NAME" x="29.1" y="16" size="0.9" layer="25" font="vector" ratio="12"/>
